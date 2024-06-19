@@ -1,5 +1,6 @@
 import React from 'react';
 import SkillCarousel from '../SkillCarousel/SkillCarousel';
+import LandingPageNav from '../LandingPageNav/LandingPageNav';
 
 function LandingPageIntro() {
     return (
