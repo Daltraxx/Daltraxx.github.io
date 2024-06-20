@@ -20,13 +20,13 @@ function SkillCarousel() {
     return (
         <section className={styles.skillsSection}>
             <div className={styles.container}>
-                <p>Proficient in:</p>
+                <h2>Proficient in:</h2>
                 <div className={styles.iconDisplay}>
                     {skillIconsDisplay}
                 </div>
             </div>
             <div className={styles.container}>
-                <p>Experience with:</p>
+                <h2>Experience with:</h2>
                 <div className={styles.iconDisplay}>
                     {experienceIconsDisplay}
                 </div>

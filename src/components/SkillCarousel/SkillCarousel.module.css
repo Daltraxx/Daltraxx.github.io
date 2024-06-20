@@ -3,7 +3,7 @@
     justify-content: space-around;
 }
 
-.container p {
+.container h2 {
     text-align: center;
 }
 
@@ -18,5 +18,9 @@
 .iconContainer {
     width: 7rem;
     text-align: center;
+}
+
+.iconContainer img {
+    padding: 1rem 1.5rem;
 }
 
