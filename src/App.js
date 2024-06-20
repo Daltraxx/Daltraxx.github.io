@@ -1,13 +1,17 @@
 import React from 'react';
 import styles from './App.module.css';
-import LandingPage from './components/LandingPage/LandingPageIntro';
+import LandingPageIntro from './components/LandingPage/LandingPageIntro';
+import SkillCarousel from './components/SkillCarousel/SkillCarousel';
 
 function App() {
   return (
-    <div className={styles.main}>
-      <header className="App-header">
-        <LandingPage />
+    <div className={styles.body}>
+      <header className={styles.header}>
+        <LandingPageIntro />
       </header>
+      <main>
+        <SkillCarousel />
+      </main>
     </div>
   );
 }

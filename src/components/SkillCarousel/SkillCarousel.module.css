@@ -1,0 +1,22 @@
+.skillsSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container p {
+    text-align: center;
+}
+
+.iconDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 28rem;
+}
+
+.iconContainer {
+    width: 7rem;
+    text-align: center;
+}
+
