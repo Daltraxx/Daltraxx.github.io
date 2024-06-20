@@ -1,0 +1,10 @@
+h1 {
+    font-size: 4.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 65%;
+    margin: 0 auto;
+}

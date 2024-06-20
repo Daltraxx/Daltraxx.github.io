@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './LandingPageNav.module.css';
+import './LandingPageNav.module.css';
 
 function LandingPageNav() {
     return (
-        <nav className={styles.nav}>
+        <nav>
             <ul>
                 <li key="about">About</li>
                 <li key="resume">Resume</li>
