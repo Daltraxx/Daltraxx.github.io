@@ -26,9 +26,11 @@ function App() {
     );
   } 
 
+
+  //merge at least these
   if (page === 'about') {
     return (
-      <Header />
+      <Header handlePageChange={handlePageChange}/>
     );
   }
 
