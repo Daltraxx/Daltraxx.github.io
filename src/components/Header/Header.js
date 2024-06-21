@@ -1,11 +1,21 @@
 import React from 'react';
 import Nav from './Nav/Nav';
+import SocialLinks from './SocialLinks/SocialLinks';
 import styles from './Header.module.css';
 
 function Header({handlePageChange}) {
     return (
         <header>
-            <h1 className={styles.heading}>Dalton Pettus</h1>
+            <div className={styles.heading}>
+                <div className={styles.headingSideDiv}>
+                </div>
+                <div>
+                    <h1>Dalton Pettus</h1>
+                </div>
+                <div className={styles.headingSideDiv}>
+                    <SocialLinks />
+                </div>
+            </div>
             <Nav handlePageChange={handlePageChange} />
         </header>
     )

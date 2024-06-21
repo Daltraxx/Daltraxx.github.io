@@ -1,3 +1,11 @@
 .heading {
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headingSideDiv {
+    width: 10%;
+    text-align: right;
+    padding: 0 3rem;
 }
