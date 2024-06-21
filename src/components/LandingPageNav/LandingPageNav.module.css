@@ -8,5 +8,32 @@ nav ul {
     justify-content: space-around;
 }
 
+ul li {
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: 1px solid var(--main-background-color);
+}
+
+ul li:hover {
+    color: var(--accent-color-3);
+    background-color: hsla(213, 24%, 25%, 1);
+    border: 1px solid hsla(356, 96%, 75%, 1);
+    border-radius: 3px;
+}
+
+ul li:nth-child(-n + 2):hover {
+    filter: drop-shadow(15px 15px 1px var(--accent-color-3));
+}
+
+ul li:nth-last-child(-n + 2):hover {
+    filter: drop-shadow(-15px 15px 1px var(--accent-color-3));
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 
 

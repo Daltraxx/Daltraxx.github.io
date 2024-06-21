@@ -5,10 +5,10 @@ function LandingPageNav() {
     return (
         <nav>
             <ul>
-                <li key="about">About</li>
-                <li key="resume">Resume</li>
-                <li key="projects">Projects</li>
-                <li key="contact">Contact</li>
+                <li key="about"><a href="#">About</a></li>
+                <li key="resume"><a href="#">Resume</a></li>
+                <li key="projects"><a href="#">Projects</a></li>
+                <li key="contact"><a href="#">Contact</a></li>
             </ul>
         </nav>
     )
