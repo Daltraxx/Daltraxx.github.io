@@ -19,7 +19,7 @@ a {
 a:hover {
     color: var(--accent-color-3);
     background-color: hsla(213, 24%, 22%, 1);
-    border: 2px solid var(--accent-color-3);
+    border: 2px solid var(--accent-color-1);
     border-radius: 3px;
 }
 
