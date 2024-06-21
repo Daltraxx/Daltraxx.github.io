@@ -1,8 +1,8 @@
-h1 {
+.heading {
     font-size: 4.5rem;
 }
 
-p {
+.shortDescription {
     text-align: center;
     font-size: 1.5rem;
     width: 65%;

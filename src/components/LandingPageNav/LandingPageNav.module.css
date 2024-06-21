@@ -1,14 +1,14 @@
-nav {
+.nav {
     padding: 1.5rem 0 1rem 0;
 }
 
-nav ul {
+.nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
 
-a {
+.nav a {
     padding: .5rem;
     font-size: 1.5rem;
     border: 2px solid var(--main-background-color);
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.nav a:hover {
     color: var(--accent-color-3);
     background-color: hsla(213, 24%, 22%, 1);
     border: 2px solid var(--accent-color-1);
@@ -32,11 +32,11 @@ a:hover {
     filter: drop-shadow(-15px 15px 1px var(--accent-color-3));
 }
 
-a:focus {
+.nav a:focus {
     background-color: green;
 }
 
-a:active {
+.nav a:active {
     background-color: orange;
 }
 
