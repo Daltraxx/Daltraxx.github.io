@@ -1,8 +1,8 @@
 :root {
   --main-background-color: hsla(213, 24%, 16%, 1); /*#1f2833*/
-  --accent-color-1: hsla(176, 96%, 69%, 1); /*#66fcf1*/
-  --accent-color-2: hsla(210, 2%, 78%, 1); /*#c6c7c8*/
-  --accent-color-3: hsla(356, 96%, 69%, 1); /*FC6671*/
+  --accent-color-blue: hsla(176, 96%, 69%, 1); /*#66fcf1*/
+  --accent-color-gray: hsla(210, 2%, 78%, 1); /*#c6c7c8*/
+  --accent-color-red: hsla(356, 96%, 69%, 1); /*FC6671*/
 }
 
 * {
@@ -22,15 +22,15 @@ body {
 }
 
 h1 {
-  color: var(--accent-color-1);
+  color: var(--accent-color-blue);
 }
 
 li {
-  color: var(--accent-color-3);
+  color: var(--accent-color-red);
 }
 
 h2, p {
-  color: var(--accent-color-2);
+  color: var(--accent-color-gray);
 }
 
 code {

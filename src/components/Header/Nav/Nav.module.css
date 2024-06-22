@@ -1,5 +1,6 @@
 .nav {
     padding: 1.5rem 0 1rem 0;
+    background-color: var(--accent-color-red);
 }
 
 .nav ul {
@@ -17,19 +18,19 @@
 }
 
 .nav a:hover {
-    color: var(--accent-color-3);
+    color: var(--accent-color-red);
     background-color: hsla(213, 24%, 22%, 1);
-    border: 2px solid var(--accent-color-1);
+    border: 2px solid var(--accent-color-blue);
     border-radius: 3px;
 }
 
 
 .leftNavButton:hover {
-    filter: drop-shadow(15px 15px 1px var(--accent-color-2));
+    filter: drop-shadow(15px 15px 1px var(--accent-color-gray));
 }
 
 .rightNavButton:hover {
-    filter: drop-shadow(-15px 15px 1px var(--accent-color-3));
+    filter: drop-shadow(-15px 15px 1px var(--accent-color-red));
 }
 
 .nav a:focus {
