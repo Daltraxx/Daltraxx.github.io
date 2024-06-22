@@ -27,6 +27,7 @@ h1 {
 
 li {
   color: var(--accent-color-red);
+  list-style: none;
 }
 
 h2, p {

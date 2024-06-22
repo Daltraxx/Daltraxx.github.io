@@ -1,0 +1,9 @@
+
+.socialLinksContainer a {
+    color: var(--accent-color-gray);
+    text-decoration: none;
+}
+
+.socialLinksContainer a:hover {
+    
+}
