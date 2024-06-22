@@ -8,6 +8,11 @@ function App() {
   const [page, setPage] = useState('landing');
 
   const handlePageChange = ({target}) => {
+    let body = document.querySelector('body');
+    if (body.style.backgroundColor != 'white') {
+      body.style.backgroundColor = 'white';
+    }
+
     setPage(prevPage => target.name);
     console.log(target.name);
   }
