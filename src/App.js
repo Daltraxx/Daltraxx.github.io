@@ -14,7 +14,6 @@ function App() {
     }
 
     setPage(prevPage => target.name);
-    console.log(target.name);
   }
 
   const getBody = (page) => {
