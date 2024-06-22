@@ -2,11 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--main-background-color);
+    height: 6rem;
 }
 
 .headingSideDiv {
     width: 10%;
     text-align: right;
     padding: 0 3rem;
+}
+
+.heading h1 {
+    margin: 0;
 }
