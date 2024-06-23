@@ -8,9 +8,10 @@
 .nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     height: 100%;
+    padding-inline-start: 0;
 }
 
 .nav ul li {
@@ -18,23 +19,39 @@
     width: 25%;
     justify-content: center;
     align-items: center;
+    
 }
 
-.nav a {
-    color: inherit;
+.navButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-background-color);
+    font-weight: 600;
+    font-size: 1.3rem;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--main-background-color);
 }
 
-/*
-.nav a:hover {
-
+.nav ul li:not(:last-child) a {
+    border-right: 2px solid var(--main-background-color);
 }
+
+
+.navButton:hover {
+    background-color: var(--accent-color-red);
+    color: white;
+}
+
 
 .nav a:focus {
-    background-color: green;
+    background-color: var(--accent-color-red);
+    color: white;
 }
 
 .nav a:active {
-    background-color: orange;
+    background-color: hsla(356, 96%, 59%, 1);
 }
-    */
+    
