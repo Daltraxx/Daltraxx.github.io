@@ -44,7 +44,7 @@ function App() {
   } else {
     return (
       <>
-        <Header handlePageChange={handlePageChange}/>
+        <Header handlePageChange={handlePageChange} currentPage={page}/>
         {getBody(page)}
       </>
     )

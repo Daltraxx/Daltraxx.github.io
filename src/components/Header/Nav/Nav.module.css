@@ -45,13 +45,16 @@
     color: white;
 }
 
-
+/*
 .nav a:focus {
-    background-color: var(--accent-color-red);
     color: white;
 }
+*/
 
 .nav a:active {
     background-color: hsla(356, 96%, 59%, 1);
 }
-    
+
+.active {
+    background-color: orange;
+}

@@ -3,7 +3,7 @@ import Nav from './Nav/Nav';
 import SocialLinks from './SocialLinks/SocialLinks';
 import styles from './Header.module.css';
 
-function Header({handlePageChange}) {
+function Header({handlePageChange, currentPage}) {
     return (
         <header>
             <div className={styles.heading}>
@@ -16,7 +16,7 @@ function Header({handlePageChange}) {
                     <SocialLinks />
                 </div>
             </div>
-            <Nav handlePageChange={handlePageChange} />
+            <Nav handlePageChange={handlePageChange} currentPage={currentPage}/>
         </header>
     )
 }
