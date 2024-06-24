@@ -3,6 +3,7 @@ import styles from './App.module.css';
 import LandingPageIntro from './components/LandingPage/LandingPageIntro';
 import SkillCarousel from './components/SkillCarousel/SkillCarousel';
 import Header from './components/Header/Header';
+import About from './components/Body/About/About';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -19,7 +20,7 @@ function App() {
   const getBody = (page) => {
     switch (page) {
       case 'about':
-        return <h1>About</h1>;
+        return <About />;
       case 'resume':
         return <h1>Resume</h1>;
       case 'projects':
