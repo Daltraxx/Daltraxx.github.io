@@ -9,14 +9,16 @@ function App() {
   const [page, setPage] = useState('landing');
 
   const handlePageChange = ({target}) => {
+    //Change site background color when leaving landing page
     let body = document.querySelector('body');
-    if (body.style.backgroundColor != 'white') {
+    if (body.style.backgroundColor !== 'white') {
       body.style.backgroundColor = 'white';
     }
 
     setPage(prevPage => target.name);
   }
 
+  //render correct page
   const getBody = (page) => {
     switch (page) {
       case 'about':
@@ -27,6 +29,8 @@ function App() {
         return <h1>Projects</h1>;
       case 'contact':
         return <h1>Contact</h1>;
+      default:
+        return <h2>You found a page that shouldn't exist. Good for you.</h2>
     }
   }
 
