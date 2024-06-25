@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './About.module.css';
 
 function About() {
-    const [hover, setHover] = useState(false);
+    const [hover, setHover] = useState(null);
 
     const handleHover = ({ target }) => {
         setHover(prev => target.id);
