@@ -5,4 +5,32 @@
 
 .aboutContainer h2 {
     text-align: center;
+    color: var(--main-background-color);
+}
+
+.factsContainer {
+    display: inline-flex;
+}
+
+.half {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.factsExtraInfo {
+    background-color: var(--main-background-color);
+    border-radius: 20px;
+    width: 80%;
+}
+
+.factsExtraInfo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.factsExtraInfo h3, p {
+    color: white;
+    text-align: center;
 }
