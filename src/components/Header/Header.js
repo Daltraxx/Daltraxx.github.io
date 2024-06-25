@@ -9,7 +9,7 @@ function Header({handlePageChange, currentPage}) {
             <div className={styles.heading}>
                 <div className={styles.headingSideDiv}>
                 </div>
-                <div>
+                <div className={styles.headingText}>
                     <h1>Dalton Pettus</h1>
                 </div>
                 <div className={styles.headingSideDiv}>

@@ -8,11 +8,12 @@
 }
 
 .headingSideDiv {
+    display: flex;
+    justify-content: flex-end;
     width: 10%;
-    text-align: right;
-    padding: 0 3rem;
+    padding: 0 1.5rem;
 }
 
-.heading h1 {
+.headingText {
     margin: 0;
 }
