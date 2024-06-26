@@ -30,7 +30,7 @@ function QuickFacts() {
         <section className={styles.factsContainer}>
             <div className={styles.half}>
                 <div>
-                    <h3>Quick Facts</h3>
+                    <h3>The Bullet Points</h3>
                     <ul>
                         <li id='01' onMouseOver={handleHover}>Began learning first program language, Python, in May of 2020.</li>
                         <li id='02' onMouseOver={handleHover}>Started studying programming in earnest* while working in QA from 2021 to 2024.</li>
