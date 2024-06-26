@@ -8,20 +8,6 @@
     text-align: center;
 }
 
-.lifeStoryContainer h3 {
-    text-align: center;
-}
 
-.lifeStoryText {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.lifeStoryText p {
-    text-align: center;
-    max-width: 29.33%;
-    margin: 2rem 2%;
-}
 
 
