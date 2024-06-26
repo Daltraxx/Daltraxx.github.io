@@ -39,7 +39,7 @@ function App() {
     return (
       <div className={styles.body}>
         <header className={styles.header}>
-          <LandingPageIntro handlePageChange={handlePageChange}/>
+          <LandingPageIntro handlePageChange={handlePageChange} />
         </header>
         <main>
           <SkillCarousel />

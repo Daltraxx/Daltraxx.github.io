@@ -36,8 +36,8 @@ li {
   list-style: none;
 }
 
-h2, p {
-  color: var(--accent-color-gray);
+h2, h3, p {
+  color: var(--main-background-color);
 }
 
 code {

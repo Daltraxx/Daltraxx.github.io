@@ -23,7 +23,7 @@
     width: 80%;
 }
 
-.factsExtraInfo h3, p {
+.factsExtraInfo h3, .factsExtraInfo p {
     color: white;
     text-align: center;
 }
