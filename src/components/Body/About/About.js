@@ -6,7 +6,6 @@ function About() {
 
     const handleHover = ({ target }) => {
         setHover(prev => target.id);
-        console.log(target.id);
     }
 
     const getExtraInfo = () => {
