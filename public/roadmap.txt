@@ -2,3 +2,4 @@
 
 - add transition animation when leaving landing page
 - turn skill icon containers into carousel
+- verbosity scale to reveal longer bio on About page?
