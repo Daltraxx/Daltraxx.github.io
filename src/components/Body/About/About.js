@@ -17,7 +17,7 @@ function About() {
     return (
         <section className={styles.aboutContainer}>
             <h2>About</h2>
-            <VerbositySlider handleChange={handleChange} />
+            <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
             {verbosity <= 0 ? emojiImg : ''}
             <QuickFacts verbosity={verbosity} />
             <Bio verbosity={verbosity} />
