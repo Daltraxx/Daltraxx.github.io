@@ -8,6 +8,15 @@
     text-align: center;
 }
 
+.emoji {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 5% auto;
+    height: 32rem;
+    width: 32rem;
+}
+
 
 
 

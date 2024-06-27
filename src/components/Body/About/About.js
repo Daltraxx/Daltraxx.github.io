@@ -12,10 +12,13 @@ function About() {
         setVerbosity(prev => target.value);
     }
 
+    const emojiImg = <img src="/assets/images/zipper-mouth-emoji.png" className={styles.emoji} name="zipped mouth emoji" alt="zipped mouth emoji"/>;
+
     return (
         <section className={styles.aboutContainer}>
             <h2>About</h2>
             <VerbositySlider handleChange={handleChange} />
+            {verbosity <= 0 ? emojiImg : ''}
             <QuickFacts verbosity={verbosity} />
             <Bio verbosity={verbosity} />
         </section>
