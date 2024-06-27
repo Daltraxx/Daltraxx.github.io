@@ -9,10 +9,8 @@
 }
 
 .emoji {
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin: 20vh auto;
+    text-align: center;
+    margin: 0 auto;
     height: 32rem;
     width: 32rem;
 }

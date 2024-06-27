@@ -13,16 +13,41 @@ function About() {
     }
 
     const emojiImg = <img src="/assets/images/zipper-mouth-emoji.png" className={styles.emoji} name="zipped mouth emoji" alt="zipped mouth emoji"/>;
+    if (verbosity < 2) {
+        return (
+            <section className={styles.aboutContainer}>
+                <h2>About</h2>
+                <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
+                {emojiImg}
+            </section>
+        );
+    } else if (verbosity < 25) {
+        return (
+            <section className={styles.aboutContainer}>
+                <h2>About</h2>
+                <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
+            </section>
+        );
+    } else if (verbosity < 60) {
+        return (
+            <section className={styles.aboutContainer}>
+                <h2>About</h2>
+                <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
+                <QuickFacts verbosity={verbosity} />
+            </section>
+        );
+    } else if (verbosity >= 60) {
+        return (
+            <section className={styles.aboutContainer}>
+                <h2>About</h2>
+                <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
+                <QuickFacts verbosity={verbosity} />
+                <Bio verbosity={verbosity} />
+            </section>
+        );
+    }
 
-    return (
-        <section className={styles.aboutContainer}>
-            <h2>About</h2>
-            <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
-            {verbosity <= 0 ? emojiImg : ''}
-            <QuickFacts verbosity={verbosity} />
-            <Bio verbosity={verbosity} />
-        </section>
-    );
+    
 }
 
 export default About;
