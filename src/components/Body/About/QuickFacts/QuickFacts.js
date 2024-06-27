@@ -28,7 +28,7 @@ function QuickFacts({ verbosity }) {
 
     return (
         <section className={styles.factsContainer}>
-            <div className={verbosity >= 10 ? styles.half : styles.hide}>
+            <div className={verbosity >= 25 ? styles.half : styles.hide}>
                 <div>
                     <h3>The Bullet Points</h3>
                     <ul>
@@ -40,7 +40,7 @@ function QuickFacts({ verbosity }) {
                     </ul>
                 </div>
             </div>
-            <div className={verbosity >= 30 ? styles.half : styles.hide}>
+            <div className={verbosity >= 50 ? styles.half : styles.hide}>
                 <div className={styles.factsExtraInfo}>
                     <h3>More Information</h3>
                     {getExtraInfo()}
