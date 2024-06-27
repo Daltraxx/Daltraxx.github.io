@@ -4,6 +4,7 @@ import LandingPageIntro from './components/LandingPage/LandingPageIntro';
 import SkillCarousel from './components/SkillCarousel/SkillCarousel';
 import Header from './components/Header/Header';
 import About from './components/Body/About/About';
+import Resume from './components/Body/Resume/Resume';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -24,7 +25,7 @@ function App() {
       case 'about':
         return <About />;
       case 'resume':
-        return <h1>Resume</h1>;
+        return <Resume />;
       case 'projects':
         return <h1>Projects</h1>;
       case 'contact':
@@ -50,7 +51,9 @@ function App() {
     return (
       <>
         <Header handlePageChange={handlePageChange} currentPage={page}/>
-        {getBody(page)}
+        <main className={styles.main}>
+          {getBody(page)}
+        </main>
       </>
     )
   }

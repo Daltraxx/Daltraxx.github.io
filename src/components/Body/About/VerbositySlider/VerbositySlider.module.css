@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+.verbosity label {
+    font-style: italic;
+}
+
 .verbosity input {
     width: 40%;
     cursor: pointer;
