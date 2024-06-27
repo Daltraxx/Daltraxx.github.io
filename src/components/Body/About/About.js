@@ -16,7 +16,7 @@ function About() {
     if (verbosity < 2) {
         return (
             <section className={styles.aboutContainer}>
-                <h2>About</h2>
+                <h2 className='page-header'>About</h2>
                 <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
                 {emojiImg}
             </section>
@@ -24,14 +24,14 @@ function About() {
     } else if (verbosity < 25) {
         return (
             <section className={styles.aboutContainer}>
-                <h2>About</h2>
+                <h2 className='page-header'>About</h2>
                 <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
             </section>
         );
     } else if (verbosity < 60) {
         return (
             <section className={styles.aboutContainer}>
-                <h2>About</h2>
+                <h2 className='page-header'>About</h2>
                 <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
                 <QuickFacts verbosity={verbosity} />
             </section>
@@ -39,7 +39,7 @@ function About() {
     } else if (verbosity >= 60) {
         return (
             <section className={styles.aboutContainer}>
-                <h2>About</h2>
+                <h2 className='page-header'>About</h2>
                 <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
                 <QuickFacts verbosity={verbosity} />
                 <Bio verbosity={verbosity} />

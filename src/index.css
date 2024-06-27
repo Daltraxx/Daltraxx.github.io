@@ -44,3 +44,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*All main h2 page headers*/
+.page-header {
+  text-align: center;
+  color: var(--main-background-color);
+}

@@ -3,7 +3,9 @@ import styles from './Resume.module.css';
 
 function Resume() {
     return (
-        <h2>Resume</h2>
+        <section>
+            <h2 className='page-header'>Resume</h2>
+        </section>
     );
 }
 
