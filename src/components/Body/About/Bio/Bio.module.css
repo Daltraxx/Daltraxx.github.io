@@ -1,7 +1,3 @@
-.verbosity input {
-    width: 40%;
-}
-
 .lifeStoryContainer h3 {
     text-align: center;
 }
@@ -16,4 +12,8 @@
     text-align: center;
     max-width: 29.33%;
     margin: 2rem 2%;
+}
+
+.hide {
+    opacity: 0;
 }

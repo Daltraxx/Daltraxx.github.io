@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './QuickFacts.module.css';
 
-function QuickFacts() {
+function QuickFacts({ verbosity }) {
     const [hoverFact, setHoverFact] = useState(null);
 
     const handleHover = ({ target }) => {
@@ -28,7 +28,7 @@ function QuickFacts() {
 
     return (
         <section className={styles.factsContainer}>
-            <div className={styles.half}>
+            <div className={verbosity >= 10 ? styles.half : styles.hide}>
                 <div>
                     <h3>The Bullet Points</h3>
                     <ul>
@@ -40,7 +40,7 @@ function QuickFacts() {
                     </ul>
                 </div>
             </div>
-            <div className={styles.half}>
+            <div className={verbosity >= 30 ? styles.half : styles.hide}>
                 <div className={styles.factsExtraInfo}>
                     <h3>More Information</h3>
                     {getExtraInfo()}
