@@ -5,6 +5,8 @@ import SkillCarousel from './components/SkillCarousel/SkillCarousel';
 import Header from './components/Header/Header';
 import About from './components/Body/About/About';
 import Resume from './components/Body/Resume/Resume';
+import Projects from './components/Body/Projects/Projects';
+import Contact from './components/Body/Contact/Contact';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -27,9 +29,9 @@ function App() {
       case 'resume':
         return <Resume />;
       case 'projects':
-        return <h1>Projects</h1>;
+        return <Projects />;
       case 'contact':
-        return <h1>Contact</h1>;
+        return <Contact />;
       default:
         return <h2>You found a page that shouldn't exist. Good for you.</h2>
     }
