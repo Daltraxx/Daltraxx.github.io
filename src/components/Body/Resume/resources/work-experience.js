@@ -5,19 +5,19 @@ const workExperience = [
         title: 'QA Lead',
         company: 'Robot Cache',
         dates: 'Jul 2021 - Jan 2024',
-        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
+        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
     },
     {
         title: 'QA Lead',
         company: 'Robot Cache',
         dates: 'Jul 2021 - Jan 2024',
-        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
+        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
     },
     {
         title: 'QA Lead',
         company: 'Robot Cache',
         dates: 'Jul 2021 - Jan 2024',
-        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
+        description: 'Plaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaceholder'
     }
 ];
 
