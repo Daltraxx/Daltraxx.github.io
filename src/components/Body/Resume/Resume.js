@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Resume.module.css';
+
 import workExperience from './resources/work-experience';
+import skills from './resources/skills';
 
 
 
@@ -15,7 +17,17 @@ function Resume() {
             </section>
         );
     });
-    console.log(workExperienceJSX);
+
+    const skillsJSX = skills.map(skill => {
+        return (
+            <section>
+                <h4>{skill.name}</h4>
+                <p>{skill.description}</p>
+            </section>
+        );
+    });
+    
+    
 
     return (
         <section>
@@ -27,6 +39,10 @@ function Resume() {
                     On and off the clock I labor to consume information that will aid my propensity for growth and contribution, 
                     as well as my understanding of how my impact may best be felt by any organization I service.
                 </p>
+            </section>
+            <section>
+                <h3>Skills</h3>
+                {skillsJSX}
             </section>
             <section>
                 <h3>Work Experience</h3>
