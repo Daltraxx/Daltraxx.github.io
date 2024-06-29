@@ -1,0 +1,31 @@
+.projectContainer {
+    
+    
+}
+
+.imageContainer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 800px;
+    height: 600px;
+}
+
+.shader {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, .5);
+    backdrop-filter: blur(1px) saturate(100%);
+    z-index: 1;
+}
+
+.titleInfo {
+    z-index: 2;
+    /*text-shadow: #FFF 1px 1px 6px;*/
+}
+
+.titleInfo h3 {
+    color: #FFF;
+    font-size: 2rem;
+}
+
