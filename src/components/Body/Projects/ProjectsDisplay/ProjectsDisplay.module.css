@@ -16,11 +16,13 @@
     width: 100%;
     background-color: hsla(0, 0%, 0%, .5);
     backdrop-filter: blur(1px) saturate(100%);
-    z-index: 1;
+    position: relative;
+    z-index: 5;
 }
 
 .titleInfo {
-    z-index: 2;
+    z-index: 10;
+    position: relative;
     /*text-shadow: #FFF 1px 1px 6px;*/
 }
 

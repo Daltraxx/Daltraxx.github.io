@@ -4,14 +4,14 @@ import styles from './ProjectsDisplay.module.css';
 function ProjectsDisplay({ projectsData }) {
     const projectsJSX = projectsData.map(project => {
         return (
-            <section className={styles.projectContainer}>
+            <section className={styles.projectContainer} key={`project` + projectsData.indexOf(project)}>
                 <div className={styles.imageContainer} style={{backgroundImage: 'url' + `(${project.image})`}}>
                     <div className={styles.shader}>
                         <div className={styles.titleInfo}>
                             <h3>{project.name}</h3>
                             <h4>Technologies Used:</h4>
                             <ul>
-                                {project.technologies.map(tech => <li>{tech}</li>)}
+                                {project.technologies.map(tech => <li key={`${tech}`}>{tech}</li>)}
                             </ul>
                             <a href={project.github} target="_blank">Github Link</a>
                         </div>
