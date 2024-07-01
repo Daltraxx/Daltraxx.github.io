@@ -1,33 +1,89 @@
 .projectContainer {
-    
+    display: flex;
+    flex-wrap: wrap;
     
 }
+
+.projectInfoHalf {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Title and important information overlaid on background image styles*/
 
 .imageContainer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 800px;
-    height: 600px;
+    border-radius: .4rem;
+    width: 50rem;
+    height: 37.5rem;
+    margin: 2rem auto;
 }
 
 .shader {
     height: 100%;
     width: 100%;
-    background-color: hsla(0, 0%, 0%, .5);
+    border-radius: .4rem;
+    background-color: hsla(0, 0%, 0%, .7);
     backdrop-filter: blur(1px) saturate(100%);
     position: relative;
     z-index: 5;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .titleInfo {
     z-index: 10;
     position: relative;
-    /*text-shadow: #FFF 1px 1px 6px;*/
+    /*text-shadow: var(--accent-color-blue) 1px 0 3px;*/
 }
 
 .titleInfo h3 {
     color: #FFF;
-    font-size: 2rem;
+    font-size: 3.2rem;
 }
+
+.titleInfo h4 {
+    color: #FFF;
+    font-size: 1.8rem;
+}
+
+.titleInfo ul {
+    padding-left: 0;
+    height: 28%;
+    margin-bottom: 2.4rem;
+}
+
+.titleInfo ul li {
+    color: #FFF;
+    font-size: 1.4rem;
+}
+
+.titleInfo a {
+    border: 1px solid hsla(360, 100%, 100%, .9);
+    background-color: hsla(360, 100%, 100%, .6);
+    text-shadow: none;
+    color: black;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+.titleInfo a:hover {
+    background-color: hsla(360, 100%, 100%, .9);
+}
+
+.titleInfo a:active {
+    background-color: hsla(360, 100%, 100%, .4);
+}
+
+/*Project details/description styles*/
+.projectDetails {
+    width: 80%;
+    text-align: center;
+}
+
 
