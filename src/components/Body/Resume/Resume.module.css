@@ -1,0 +1,19 @@
+.resumeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.flexRow {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexRow h3 {
+    width: 100%;
+}

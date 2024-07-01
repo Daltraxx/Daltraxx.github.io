@@ -8,6 +8,7 @@ import certifications from './resources/certifications';
 
 
 function Resume() {
+    //map workExperience object array to JSX
     const workExperienceJSX = workExperience.map(job => {
         return (
             <section>
@@ -19,6 +20,7 @@ function Resume() {
         );
     });
 
+    //map skills object array to JSX
     const skillsJSX = skills.map(skill => {
         return (
             <section>
@@ -28,6 +30,7 @@ function Resume() {
         );
     });
 
+    //map certification object array to JSX
     const certificationsJSX = certifications.map(certification => {
         return (
             <li><a href={certification.url} target="_blank">{certification.title}</a></li>
@@ -39,7 +42,7 @@ function Resume() {
     return (
         <section>
             <h2 className='page-header'>Resume</h2>
-            <section>
+            <section className={`${styles.resumeSection} ${styles.flexColumn}`}>
                 <h3>Statement</h3>
                 <p>
                     I believe in an eclectic approach to both life and work that always strives for mastery. 
@@ -47,11 +50,11 @@ function Resume() {
                     as well as my understanding of how my impact may best be felt by any organization I service.
                 </p>
             </section>
-            <section>
+            <section className={`${styles.resumeSection} ${styles.flexRow}`}>
                 <h3>Skills</h3>
                 {skillsJSX}
             </section>
-            <section>
+            <section className={`${styles.resumeSection}`}>
                 <h3>Education</h3>
                 <section>
                     <h4>Codecademy</h4>
@@ -76,7 +79,7 @@ function Resume() {
                     </p>
                 </section>
             </section>
-            <section>
+            <section className={`${styles.resumeSection}`}>
                 <h3>Work Experience</h3>
                 {workExperienceJSX}
             </section>
