@@ -6,7 +6,7 @@ function VerbositySlider({ handleChange, verbosity }) {
         <section className={styles.verbosity}>
             <form>
                 <label htmlFor="verbosity">Verbosity Slider : {`${verbosity}%`}</label>
-                <input id="verbosity" name="verbosity" type="range" min="0" max="100" step="2" onChange={handleChange} />
+                <input id="verbosity" name="verbosity" type="range" min="0" max="100" step="1" onChange={handleChange} />
             </form>
         </section>
     );
