@@ -9,10 +9,15 @@
 }
 
 .half li {
-    cursor: pointer;
     margin: .7rem 0;
     list-style-type: disc;
     color: var(--main-background-color);
+    line-height: 2rem;
+}
+
+.half span:hover {
+    background-color: hsla(0, 0%, 0%, .3);
+    cursor: pointer;
 }
 
 .factsExtraInfo {
