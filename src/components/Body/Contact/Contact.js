@@ -9,7 +9,7 @@ function Contact() {
     const handleEmail = ({ target }) => {
         const email = getEmail().join('');
         target.href = 'mailto:' + email;
-        setTimeout(obfuscateEmail, 50);
+        setTimeout(obfuscateEmail, 5);
     }
 
     return (
