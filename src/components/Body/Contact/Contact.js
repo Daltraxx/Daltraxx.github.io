@@ -18,7 +18,7 @@ function Contact() {
             <p>I am open to inquiries regarding anything from individual projects up to full-time employment. Relocation can be discussed if necessary.</p>
             <p>Please</p>
             <a href="https://www.linkedin.com/in/dalton-pettus/">message me on LinkedIn</a>
-            <p>OR</p>
+            <p>or</p>
             <a href='#!' onClick={handleEmail} id='contact-link'>send me an email</a>
             <p>*Measures are being taken against bots, and a proper, more fleshed-out Contact form is coming soon.</p>
         </section>
