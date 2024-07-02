@@ -12,7 +12,7 @@ function Resume() {
     //map skills object array to JSX
     const skillsJSX = skills.map(skill => {
         return (
-            <section className={styles.skill}>
+            <section className={styles.skill} key={`skill${skills.indexOf(skill)}`}>
                 <h4>{skill.name}</h4>
                 <p>{skill.description}</p>
             </section>
@@ -22,14 +22,14 @@ function Resume() {
     //map certification object array to JSX
     const certificationsJSX = certifications.map(certification => {
         return (
-            <li><a href={certification.url} target="_blank">{certification.title}</a></li>
+            <li key={`certification${certifications.indexOf(certification)}`}><a href={certification.url} target="_blank">{certification.title}</a></li>
         )
     });
     
     //map workExperience object array to JSX
     const workExperienceJSX = workExperience.map(job => {
         return (
-            <section className={styles.job}>
+            <section className={styles.job} key={`job${workExperience.indexOf(job)}`}>
                 <h4>{job.title}</h4>
                 <p>{job.company}</p>
                 <p>{job.dates}</p>
