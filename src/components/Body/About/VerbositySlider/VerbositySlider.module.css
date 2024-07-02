@@ -16,7 +16,7 @@
 }
 
 .verbosity input[type=range] {
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
     margin: 18px auto;
     width: 70%;
 }
