@@ -8,7 +8,7 @@ import projectsData from './resources/projects-data';
 function Projects() {
 
     return (
-        <section>
+        <section className={styles.projectsPage}>
             <h2 className='page-header'>Projects</h2>
             <ProjectsDisplay projectsData={projectsData} />
             
