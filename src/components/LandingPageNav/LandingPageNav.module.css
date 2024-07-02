@@ -23,13 +23,12 @@
     border-radius: 3px;
 }
 
-
 .leftNavButton:hover {
     filter: drop-shadow(15px 15px 1px var(--accent-color-gray));
 }
 
 .rightNavButton:hover {
-    filter: drop-shadow(-15px 15px 1px var(--accent-color-red));
+    filter: drop-shadow(-15px 15px 1px var(--accent-color-gray));
 }
 
 .nav a:focus {
