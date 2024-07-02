@@ -1,3 +1,18 @@
+/*General page styles*/
+.flexColumn {
+    flex-direction: column;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexRow h3 {
+    width: 100%;
+}
+
 .resumeSection {
     display: flex;
     justify-content: center;
@@ -5,15 +20,46 @@
     text-align: center;
 }
 
-.flexColumn {
-    flex-direction: column;
-}
-
-.flexRow {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flexRow h3 {
+.resumeSection h3 {
     width: 100%;
+    background-color: var(--main-background-color);
+    color: #FFF;
+}
+
+/*Skills section*/
+.skill {
+    min-width: 20%;
+}
+
+/*Education section*/
+.educationThird {
+    min-width: 30%;
+    width: 35rem;
+}
+
+.universitySanDiego {
+    margin: 0 auto;
+}
+
+.codecademyDescription {
+
+}
+
+.codecademyCertifications {
+    margin: 0 auto;
+}
+
+.codecademyCertifications ul {
+    padding-left: 0;
+}
+
+.codecademyCertifications ul li {
+    margin: .5rem 0;
+}
+
+/*Work Experience section*/
+
+.job {
+    width: 30rem;
+    margin: 0 3rem;
 }
