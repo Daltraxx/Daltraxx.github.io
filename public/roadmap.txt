@@ -4,3 +4,4 @@
 - turn skill icon containers into carousel
 - browser backbutton compatibility
 - Download resume document functionality
+- Email form and CAPTCHA
