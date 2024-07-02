@@ -1,7 +1,7 @@
 //create function to retrieve email for mailto link
 
 const getEmail = () => {
-    let prepend = 'daltpettus';
+    let prepend = 'daltpettusinquiries';
     let symbol = '@';
     let provider = 'gmail';
     let dot = '.';
