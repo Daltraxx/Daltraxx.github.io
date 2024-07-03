@@ -4,17 +4,17 @@
     align-items: center;
 }
 
-
+/*Contact link styles*/
 .contact a {
     padding: 0.6em 2em;
     border: none;
     outline: none;
-    color: rgb(255, 255, 255);
-    background: #111;
+    color: #FFF;
+    background: var(--main-background-color);
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
+    border-radius: 4px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -26,15 +26,13 @@
     content: "";
     background: linear-gradient(
         45deg,
-        #ff0000,
+        var(--accent-color-red),
         #ff7300,
         #fffb00,
-        #48ff00,
-        #00ffd5,
+        var(--accent-color-blue),
         #002bff,
         #7a00ff,
-        #ff00c8,
-        #ff0000
+        var(--accent-color-red)
     );
     position: absolute;
     top: -2px;
@@ -45,9 +43,9 @@
     -webkit-filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    animation: contact-button 20s linear infinite;
+    animation: contact-button 10s linear infinite;
     transition: opacity 0.3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 @keyframes contact-button {
@@ -68,12 +66,44 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #222;
+    background: var(--main-background-color);
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 4px;
+}
+
+.contact a:focus {
+    color: gold;
+}
+
+.contact a:focus:before {
+    background: gold;
+}
+
+.contact a:focus:after {
+    background: hsla(213, 24%, 20%, 1);
+}
+
+.contact a:hover {
+    color: gold;
 }
 
 .contact a:hover:before {
     background: gold;
+}
+
+.contact a:hover:after {
+    background: hsla(213, 24%, 20%, 1);
+}
+
+.contact a:active {
+    color: var(--accent-color-blue);
+}
+
+.contact a:active:before {
+    background: var(--accent-color-blue);
+}
+
+.contact a:active:after {
+    background: hsla(213, 10%, 20%, 1);
 }
