@@ -7,6 +7,7 @@ import About from './components/Body/About/About';
 import Resume from './components/Body/Resume/Resume';
 import Projects from './components/Body/Projects/Projects';
 import Contact from './components/Body/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -56,6 +57,7 @@ function App() {
         <main className={styles.main}>
           {getBody(page)}
         </main>
+        <Footer />
       </>
     )
   }
