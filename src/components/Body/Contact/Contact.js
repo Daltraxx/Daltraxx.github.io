@@ -9,7 +9,7 @@ function Contact() {
 
     const linkTransform = ({ key }) => {
         if (key === ' ') {
-            console.log('works!');
+            //console.log('works!');
             transform ? setTransform(prev => false) : setTransform(prev => true);
         }
     }
