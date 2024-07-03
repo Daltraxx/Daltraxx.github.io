@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
-import LandingPageIntro from './components/LandingPage/LandingPageIntro';
+import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
 import Header from './components/Header/Header';
 import About from './components/Body/About/About';
@@ -42,7 +42,7 @@ function App() {
     return (
       <div className={styles.body}>
         <header className={styles.header}>
-          <LandingPageIntro handlePageChange={handlePageChange} />
+          <LandingPage handlePageChange={handlePageChange} />
         </header>
         <main>
           <SkillCarousel />

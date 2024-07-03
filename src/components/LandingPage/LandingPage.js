@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from "./LandingPageIntro.module.css"
+import styles from "./LandingPage.module.css"
 import LandingPageNav from './LandingPageNav/LandingPageNav';
 
 
-function LandingPageIntro({handlePageChange}) {
+function LandingPage({handlePageChange}) {
     return (
         <>
             <h1 className={styles.heading}>Dalton Pettus</h1>
@@ -13,4 +13,4 @@ function LandingPageIntro({handlePageChange}) {
     )
 }
 
-export default LandingPageIntro;
+export default LandingPage;
