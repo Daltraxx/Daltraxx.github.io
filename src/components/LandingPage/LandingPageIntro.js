@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./LandingPageIntro.module.css"
-import LandingPageNav from '../LandingPageNav/LandingPageNav';
+import LandingPageNav from './LandingPageNav/LandingPageNav';
 
 
 function LandingPageIntro({handlePageChange}) {

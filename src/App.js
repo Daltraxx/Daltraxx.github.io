@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
 import LandingPageIntro from './components/LandingPage/LandingPageIntro';
-import SkillCarousel from './components/SkillCarousel/SkillCarousel';
+import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
 import Header from './components/Header/Header';
 import About from './components/Body/About/About';
 import Resume from './components/Body/Resume/Resume';
