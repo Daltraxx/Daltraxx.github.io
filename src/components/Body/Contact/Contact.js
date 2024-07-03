@@ -7,14 +7,14 @@ import obfuscateEmail from './resources/obfuscateEmail';
 function Contact() {
     const [transform, setTransform] = useState(false);
 
-    const linkTransform = ({ key }) => {
-        if (key === ' ') {
-            //console.log('works!');
-            transform ? setTransform(prev => false) : setTransform(prev => true);
-        }
-    }
-
     useEffect(() => {
+        const linkTransform = ({ key }) => {
+            if (key === ' ') {
+                //console.log('works!');
+                transform ? setTransform(prev => false) : setTransform(prev => true);
+            }
+        }
+
         document.addEventListener('keyup', linkTransform);
 
         return () => {
@@ -36,7 +36,7 @@ function Contact() {
         <section className={styles.contact}>
             <h2 className='page-header'>Contact</h2>
             <p>I am open to inquiries regarding anything from individual projects up to full-time employment. Relocation can be discussed if necessary.</p>
-            <aside>(pressing the spacebar will make the below buttons look much cooler)</aside>
+            <aside>(press the spacebar for cooler buttons)</aside>
             <p>Please</p>
             <a className={`${transform ? `${styles.coolLink}` : ''}`} href="https://www.linkedin.com/in/dalton-pettus/" aria-label="LinkedIn link">message me on LinkedIn</a>
             <p>or</p>
