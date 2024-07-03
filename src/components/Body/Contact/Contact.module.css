@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.contact aside {
+    font-size: .8rem;
+}
+
 /*Contact link styles*/
 .contact a {
     padding: 0.6em 2em;
@@ -70,6 +74,10 @@
     left: 0;
     top: 0;
     border-radius: 4px;
+}
+
+.coolLink:after {
+    background: none !important;
 }
 
 .contact a:focus {
