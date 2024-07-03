@@ -23,7 +23,6 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .contact a:before {

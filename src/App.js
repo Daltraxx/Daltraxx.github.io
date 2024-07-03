@@ -41,7 +41,7 @@ function App() {
 
   if (page === 'landing') {
     return (
-      <div className={styles.body}>
+      <div className={styles.landingPageBody}>
         <header className={styles.header}>
           <LandingPage handlePageChange={handlePageChange} />
         </header>
@@ -57,7 +57,7 @@ function App() {
         <main className={styles.main}>
           {getBody(page)}
         </main>
-        <Footer />
+        <Footer currentPage={page}/>
       </>
     )
   }

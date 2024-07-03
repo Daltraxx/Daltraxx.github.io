@@ -13,7 +13,6 @@
     font-size: 1.5rem;
     border: 2px solid var(--main-background-color);
     color: inherit;
-    text-decoration: none;
 }
 
 .nav a:hover {
