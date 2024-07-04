@@ -31,7 +31,7 @@ function Contact() {
             <p>Please</p>
             <a className={`${transform ? `${styles.coolLink}` : ''}`} href="https://www.linkedin.com/in/dalton-pettus/" aria-label="LinkedIn link">message me on LinkedIn</a>
             <p>or</p>
-            <a className={`${transform ? `${styles.coolLink}` : ''}`} href='#!' onClick={handleEmail} id='contact-link' aria-label="email button">send me an email</a>
+            <a className={`${transform ? `${styles.coolLink}` : ''}`} href='#!' onClick={handleEmail} id='contact-link-header' aria-label="email button">send me an email</a>
             <p>*Measures are being taken against bots and a proper, more fleshed-out Contact form is coming soon.</p>
         </section>
     );

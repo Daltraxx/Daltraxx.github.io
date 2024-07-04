@@ -1,7 +1,7 @@
 //create function to obfuscate email after contact-link is clicked
 
-const obfuscateEmail = () => {
-    const link = document.getElementById('contact-link');
+const obfuscateEmail = (targetID) => {
+    const link = document.getElementById(targetID);
     const email = link.href.replace('mailto:', '');
     let obfuscated = '';
 

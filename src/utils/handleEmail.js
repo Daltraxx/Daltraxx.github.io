@@ -6,7 +6,7 @@ const handleEmail = ({ target }) => {
     const email = getEmail().join('');
     console.log(target.id);
     target.href = 'mailto:' + email;
-    setTimeout(obfuscateEmail, 5);
+    setTimeout(obfuscateEmail, 5, target.id);
 }
 
 export default handleEmail;
