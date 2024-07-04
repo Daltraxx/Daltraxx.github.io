@@ -4,8 +4,6 @@ import styles from './Footer.module.css';
 import ContactLinks from './ContactLinks/ContactLinks';
 
 function Footer({ currentPage }) {
-    console.log(currentPage);
-    
 
     return (
         <footer className={currentPage === 'contact' ? `${styles.footer} ${styles.absolute}` : `${styles.footer}`}>

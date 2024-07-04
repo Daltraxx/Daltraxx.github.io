@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Contact.module.css';
 
-import getEmail from './resources/getEmail';
-import obfuscateEmail from './resources/obfuscateEmail';
+import handleEmail from '../../../utils/handleEmail';
 
 function Contact() {
     const [transform, setTransform] = useState(false);
@@ -21,14 +20,6 @@ function Contact() {
             document.removeEventListener('keyup', linkTransform);
         }
     }, [transform]);
-
-
-    //click event for adding email to href to activate mailto then obfuscate the email
-    const handleEmail = ({ target }) => {
-        const email = getEmail().join('');
-        target.href = 'mailto:' + email;
-        setTimeout(obfuscateEmail, 5);
-    }
 
     
 
