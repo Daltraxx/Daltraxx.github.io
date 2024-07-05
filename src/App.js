@@ -57,7 +57,7 @@ function App() {
         <main className={styles.main}>
           {getBody(page)}
         </main>
-        <Footer currentPage={page}/>
+        <Footer />
       </>
     )
   }
