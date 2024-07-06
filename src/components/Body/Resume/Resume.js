@@ -13,7 +13,7 @@ function Resume() {
     const skillsJSX = skills.map(skill => {
         return (
             <section className={styles.skill} key={`skill${skills.indexOf(skill)}`}>
-                <h4>{skill.name}</h4>
+                <h4 id={skill.id}>{skill.name}</h4>
                 <p>{skill.description}</p>
             </section>
         );
