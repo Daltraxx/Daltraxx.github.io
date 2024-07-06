@@ -1,11 +1,30 @@
 :root {
   --primary-blue-900: hsla(212, 51%, 9%, 1); /*#0b1623*/
   --primary-blue-700: hsla(212, 51%, 16%, 1); /*#14273e*/
-  /*
-  --accent-color-blue: hsla(176, 96%, 69%, 1);
-  --accent-color-gray: hsla(210, 2%, 78%, 1); 
+  --primary-blue-500: hsla(212, 51%, 22%, 1); /*#1b3655*/
+  --primary-blue-300: hsla(212, 51%, 40%, 1); /*#32639a*/
+  --primary-blue-100: hsla(212, 51%, 77%, 1); /*#a6c2e2*/
+  
+  --accent-teal-900: hsla(176, 96%, 14%, 1); /*#014641*/
+  --accent-teal-700: hsla(176, 96%, 29%, 1); /*#039187*/
+  --accent-teal-500: hsla(176, 96%, 44%, 1); /*#04dcce*/
+  --accent-teal-300: hsla(176, 96%, 69%, 1); /*#64fcf2*/
+  --accent-teal-100: hsla(176, 96%, 82%, 1); /*#a5fdf7*/
+
+  --accent-orange-900: hsla(39, 100%, 23%, 1); /*#754c00*/
+  --accent-orange-700: hsla(39, 100%, 35%, 1); /*#b37400*/
+  --accent-orange-500: hsla(39, 100%, 50%, 1); /*#FFA500*/
+  --accent-orange-300: hsla(39, 100%, 60%, 1); /*#ffb833*/
+  --accent-orange-100: hsla(39, 100%, 68%, 1); /*#ffc65c*/
+
+  --gray-900: hsla(210, 2%, 16%, 1); /*#28292a*/
+  --gray-700: hsla(210, 2%, 30%, 1); /*#4b4d4e*/
+  --gray-500: hsla(210, 2%, 50%, 1); /*#7d8082*/
+  --gray-300: hsla(210, 2%, 78%, 1); /*#c6c7c8*/
+  --gray-100: hsla(210, 2%, 95%, 1); /*#f2f2f3*/
+  
   --accent-color-red: hsla(356, 96%, 69%, 1); 
-  */
+  
 }
 
 * {
@@ -33,7 +52,7 @@ body {
 }
 
 h1 {
-  color: var(--accent-color-blue);
+  color: var(--accent-teal-500);
 }
 
 li {

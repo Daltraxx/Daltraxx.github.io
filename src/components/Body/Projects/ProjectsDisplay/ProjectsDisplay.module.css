@@ -39,7 +39,7 @@
 .titleInfo {
     z-index: 10;
     position: relative;
-    /*text-shadow: var(--accent-color-blue) 1px 0 3px;*/
+    /*text-shadow: var(--accent-teal-500) 1px 0 3px;*/
 }
 
 .titleInfo h3 {

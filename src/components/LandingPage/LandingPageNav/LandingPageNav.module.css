@@ -18,16 +18,16 @@
 .nav a:hover {
     color: var(--accent-color-red);
     background-color: hsla(213, 24%, 22%, 1);
-    border: 2px solid var(--accent-color-blue);
+    border: 2px solid var(--accent-teal-500);
     border-radius: 3px;
 }
 
 .leftNavButton:hover {
-    filter: drop-shadow(15px 15px 1px var(--accent-color-gray));
+    filter: drop-shadow(15px 15px 1px var(--gray-300));
 }
 
 .rightNavButton:hover {
-    filter: drop-shadow(-15px 15px 1px var(--accent-color-gray));
+    filter: drop-shadow(-15px 15px 1px var(--gray-300));
 }
 
 .nav a:focus {

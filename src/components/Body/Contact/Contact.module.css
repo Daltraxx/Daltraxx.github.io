@@ -29,13 +29,13 @@
     content: "";
     background: linear-gradient(
         45deg,
-        var(--accent-color-red),
-        #ff7300,
+        var(--accent-teal-500),
+        var(--accent-orange-500),
         #fffb00,
-        var(--accent-color-blue),
-        #002bff,
+        var(--accent-teal-500),
+        var(--primary-blue-300),
         #7a00ff,
-        var(--accent-color-red)
+        var(--accent-teal-500)
     );
     position: absolute;
     top: -2px;
@@ -104,11 +104,11 @@
 }
 
 .contact a:active {
-    color: var(--accent-color-blue);
+    color: var(--accent-teal-500);
 }
 
 .contact a:active:before {
-    background: var(--accent-color-blue);
+    background: var(--accent-teal-500);
 }
 
 .contact a:active:after {

@@ -5,7 +5,7 @@
 
 .container h2 {
     text-align: center;
-    color: var(--accent-color-gray);
+    color: var(--gray-300);
 }
 
 .iconDisplay {
@@ -27,7 +27,7 @@
 }
 
 .iconContainer img:hover {
-    background-color: var(--accent-color-gray);
+    background-color: var(--gray-300);
 }
 
 .iconContainer img:active {
