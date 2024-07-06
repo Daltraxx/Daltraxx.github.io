@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Resume.module.css';
 
 import workExperience from './resources/work-experience';
-import skills from './resources/skills';
+import skills from '../../../resources/skills';
 import certifications from './resources/certifications';
 
 

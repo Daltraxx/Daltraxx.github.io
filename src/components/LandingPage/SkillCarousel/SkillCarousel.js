@@ -1,30 +1,29 @@
 import React from 'react';
 import styles from './SkillCarousel.module.css';
 
-import { skillIcons, experienceIcons } from './resources/icons';
+import skills from '../../../resources/skills';
 
 
 function SkillCarousel({ handlePageChange }) {
-    //create array for displaying "proficient in" icons
+    //create arrays for displaying "proficient in" and "experience with" icons
     const skillIconsDisplay = [];
-    for(let skill of skillIcons) {
-        skillIconsDisplay.push
-        (
-            <div className={styles.iconContainer} key={skill.description}>
-                <a href={skill.href} onClick={handlePageChange}><img src={skill.src} alt={skill.description} title={skill.description} name='resume' /></a>
-            </div>
-        );
-    };
-
-    //create array for displaying "experience in" icons
     const experienceIconsDisplay = [];
-    for (let experience of experienceIcons) {
-        experienceIconsDisplay.push
-        (
-            <div className={styles.iconContainer} key={experience.description}>
-                <a href={experience.href} onClick={handlePageChange}><img src={experience.src} alt={experience.description} title={experience.description} name='resume' /></a>
-            </div>
-        );
+    for (let skill of skills) {
+        if (skill.proficiency === 'skilled') {
+            skillIconsDisplay.push
+            (
+                <div className={styles.iconContainer} key={skill.name}>
+                    <a href={skill.href} onClick={handlePageChange}><img src={skill.src} alt={skill.name} title={skill.name} name='resume' /></a>
+                </div>
+            );
+        } else {
+            experienceIconsDisplay.push
+            (
+                <div className={styles.iconContainer} key={skill.name}>
+                    <a href={skill.href} onClick={handlePageChange}><img src={skill.src} alt={skill.name} title={skill.name} name='resume' /></a>
+                </div>
+            );
+        }  
     };
     
     return (
