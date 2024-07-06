@@ -23,7 +23,11 @@
   --gray-300: hsla(210, 2%, 78%, 1); /*#c6c7c8*/
   --gray-100: hsla(210, 2%, 95%, 1); /*#f2f2f3*/
   
-  --accent-color-red: hsla(356, 96%, 69%, 1); 
+  --accent-red-900: hsla(356, 96%, 22%, 1); /*#6e0209*/
+  --accent-red-700: hsla(356, 96%, 39%, 1); /*#c30411*/
+  --accent-red-500: hsla(356, 96%, 57%, 1); /*#fb2836*/
+  --accent-red-300: hsla(356, 96%, 69%, 1); /*#fc646e*/
+  --accent-red-100: hsla(356, 96%, 77%, 1); /*#fd8c94*/
   
 }
 
@@ -52,11 +56,11 @@ body {
 }
 
 h1 {
-  color: var(--accent-teal-500);
+  color: var(--accent-teal-300);
 }
 
 li {
-  color: var(--accent-color-red);
+  color: var(--accent-red-300);
   list-style: none;
 }
 

@@ -38,7 +38,7 @@
 }
 
 .active {
-    background-color: orange;
+    background-color: var(--accent-orange-500);
 }
 
 .active:hover {
@@ -46,7 +46,7 @@
 }
 
 .navButtonHover:hover {
-    background-color: var(--accent-color-red);
+    background-color: var(--accent-red-300);
     color: white;
 }
 

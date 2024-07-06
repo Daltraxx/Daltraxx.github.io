@@ -16,7 +16,7 @@
 }
 
 .nav a:hover {
-    color: var(--accent-color-red);
+    color: var(--accent-red-300);
     background-color: hsla(213, 24%, 22%, 1);
     border: 2px solid var(--accent-teal-500);
     border-radius: 3px;
