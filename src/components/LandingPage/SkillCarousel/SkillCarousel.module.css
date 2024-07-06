@@ -22,6 +22,15 @@
 }
 
 .iconContainer img {
-    padding: 1rem 1.5rem;
+    padding: 1rem .75rem;
+    border-radius: 5px;
+}
+
+.iconContainer img:hover {
+    background-color: var(--accent-color-gray);
+}
+
+.iconContainer img:active {
+    background-color: #FFF;
 }
 
