@@ -75,7 +75,7 @@ const skills = [
         name: 'C++',
         description: 'Hello there the angel from my nightmare the shadow in the background of the morgue',
         src: "/assets/images/c-plus-plus-icon.png", 
-        href: '#c++-skill',
+        href: '#cplusplus-skill',
         proficiency: 'experienced'
     },
 ]
