@@ -23,7 +23,7 @@ function Resume() {
     const certificationsJSX = certifications.map(certification => {
         return (
             <li key={`certification${certifications.indexOf(certification)}`}>
-                <a href={certification.url} target="_blank">{certification.title}</a>
+                <a href={certification.url} target="_blank" rel="noreferrer">{certification.title}</a>
             </li>
         )
     });
