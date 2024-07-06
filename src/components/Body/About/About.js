@@ -6,7 +6,7 @@ import Bio from './Bio/Bio';
 import VerbositySlider from './VerbositySlider/VerbositySlider';
 
 function About() {
-    const [verbosity, setVerbosity] = useState(100);
+    const [verbosity, setVerbosity] = useState(50);
     const handleChange = ({ target }) => {
         //console.log(target.value);
         setVerbosity(prev => target.value);
