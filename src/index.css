@@ -1,8 +1,11 @@
 :root {
-  --main-background-color: hsla(213, 24%, 16%, 1); /*#1f2833*/
-  --accent-color-blue: hsla(176, 96%, 69%, 1); /*#66fcf1*/
-  --accent-color-gray: hsla(210, 2%, 78%, 1); /*#c6c7c8*/
-  --accent-color-red: hsla(356, 96%, 69%, 1); /*FC6671*/
+  --primary-blue-900: hsla(212, 51%, 9%, 1); /*#0b1623*/
+  --primary-blue-700: hsla(212, 51%, 16%, 1); /*#14273e*/
+  /*
+  --accent-color-blue: hsla(176, 96%, 69%, 1);
+  --accent-color-gray: hsla(210, 2%, 78%, 1); 
+  --accent-color-red: hsla(356, 96%, 69%, 1); 
+  */
 }
 
 * {
@@ -23,7 +26,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     font-size: 18px;
-    background-color: var(--main-background-color);
+    background-color: var(--primary-blue-700);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -39,7 +42,7 @@ li {
 }
 
 h2, h3, p {
-  color: var(--main-background-color);
+  color: var(--primary-blue-700);
 }
 
 a {
@@ -54,5 +57,5 @@ code {
 /*All main h2 page headers*/
 .page-header {
   text-align: center;
-  color: var(--main-background-color);
+  color: var(--primary-blue-700);
 }

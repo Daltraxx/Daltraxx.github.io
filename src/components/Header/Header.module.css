@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main-background-color);
+    background-color: var(--primary-blue-700);
     height: 6rem;
 }
 

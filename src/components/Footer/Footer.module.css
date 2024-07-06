@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--main-background-color);
+    background-color: var(--primary-blue-700);
     height: 4.5rem;
     width: 100%;
     display: flex;
