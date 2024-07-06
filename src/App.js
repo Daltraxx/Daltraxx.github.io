@@ -12,12 +12,14 @@ import Footer from './components/Footer/Footer';
 function App() {
   const [page, setPage] = useState('landing');
 
-  const handlePageChange = ({target}) => {
+  const handlePageChange = ({ target }) => {
     //Change site background color when leaving landing page
     let body = document.querySelector('body');
     if (body.style.backgroundColor !== 'white') {
       body.style.backgroundColor = 'white';
     }
+
+    console.log(target);
 
     setPage(prevPage => target.name);
   }
@@ -46,7 +48,7 @@ function App() {
           <LandingPage handlePageChange={handlePageChange} />
         </header>
         <main>
-          <SkillCarousel />
+          <SkillCarousel handlePageChange={handlePageChange}/>
         </main>
       </div>
     );

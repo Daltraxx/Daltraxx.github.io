@@ -4,14 +4,14 @@ import styles from './SkillCarousel.module.css';
 import { skillIcons, experienceIcons } from './resources/icons';
 
 
-function SkillCarousel() {
+function SkillCarousel({ handlePageChange }) {
     //create array for displaying "proficient in" icons
     const skillIconsDisplay = [];
     for(let skill of skillIcons) {
         skillIconsDisplay.push
         (
             <div className={styles.iconContainer} key={skill.description}>
-                <img src={skill.src} alt={skill.description} title={skill.description} />
+                <a href={skill.href} onClick={handlePageChange}><img src={skill.src} alt={skill.description} title={skill.description} name='resume' /></a>
             </div>
         );
     };
@@ -22,7 +22,7 @@ function SkillCarousel() {
         experienceIconsDisplay.push
         (
             <div className={styles.iconContainer} key={experience.description}>
-                <img src={experience.src} alt={experience.description} title={experience.description} />
+                <a href={experience.href} onClick={handlePageChange}><img src={experience.src} alt={experience.description} title={experience.description} name='resume' /></a>
             </div>
         );
     };
