@@ -22,7 +22,9 @@ function Resume() {
     //map certification object array to JSX
     const certificationsJSX = certifications.map(certification => {
         return (
-            <li key={`certification${certifications.indexOf(certification)}`}><a href={certification.url} target="_blank">{certification.title}</a></li>
+            <li key={`certification${certifications.indexOf(certification)}`}>
+                <a href={certification.url} target="_blank">{certification.title}</a>
+            </li>
         )
     });
     
