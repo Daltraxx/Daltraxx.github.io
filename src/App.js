@@ -18,9 +18,7 @@ function App() {
     if (body.style.backgroundColor !== 'white') {
       body.style.backgroundColor = 'white';
     }
-
-    console.log(target);
-
+    
     setPage(prevPage => target.name);
   }
 
