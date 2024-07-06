@@ -50,7 +50,7 @@ function Resume() {
                 </p>
             </section>
             <section className={`${styles.resumeSection} ${styles.flexRow}`}>
-                <h3>Skills</h3>
+                <h3 id='skills'>Skills</h3>
                 {skillsJSX}
             </section>
             <section className={`${styles.resumeSection} ${styles.flexRow}`}>
