@@ -31,6 +31,8 @@
 }
 
 .iconContainer img:active {
-    background-color: #FFF;
+    background-color: var(--gray-700);
+    transform: translate(0, .5rem);
+    padding: .9rem .7rem; /*shrinks background when pressing*/
 }
 
