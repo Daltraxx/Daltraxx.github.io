@@ -70,7 +70,7 @@
 /*Skeuomorphic movement when clicking, diff reqs depending on child*/
 .navButton:active {
     height: calc(100% - 0.25rem);
-    box-sizing: content-box;
+    box-sizing: content-box; /*to make borders actually expand element*/
     border-top: 4px solid var(--primary-blue-700);
     border-right: 3px solid var(--primary-blue-700);
     border-left: 3px solid var(--primary-blue-700);
