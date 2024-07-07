@@ -1,5 +1,4 @@
 .nav {
-    background-color: var(--gray-300);
     height: 4rem;
     margin: 0;
     padding: 0;
@@ -23,8 +22,10 @@
 
 .navButton {
     display: flex;
+    box-sizing: border-box; /*was overidden to content-box*/
     justify-content: center;
     align-items: center;
+    background-color: var(--gray-300);
     color: var(--primary-blue-700);
     font-weight: 600;
     font-size: 1.3rem;
@@ -34,12 +35,16 @@
 }
 
 .nav ul li:not(:last-child) a {
-    border-right: 2px solid var(--primary-blue-700);
+    border-right: 1px solid var(--primary-blue-700);
+}
+
+.nav ul li:not(:first-child) a {
+    border-left: 1px solid var(--primary-blue-700);
 }
 
 /*maintain different color for current page*/
 .current {
-    background-color: var(--accent-orange-500);
+    background-color: var(--accent-orange-500-sat);
 }
 
 .current:hover {
@@ -52,12 +57,14 @@
 }
 
 /*
-.nav a:focus {
+.navButton:focus {
     color: white;
 }
 */
 
-.nav a:active {
-    background-color: hsla(356, 96%, 59%, 1);
-}
 
+
+.navButton:active {
+    height: calc(100% - 0.25rem);
+    transform: translate(0, -.125rem);
+}
