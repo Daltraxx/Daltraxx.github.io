@@ -3,7 +3,7 @@ import styles from './Nav.module.css';
 
 
 function Nav({ handlePageChange, currentPage }) {
-    const getClassName = (page) => page === currentPage ? `${styles.navButton} ${styles.current}` : `${styles.navButton} ${styles.navButtonHover}`;
+    const getClassName = (page) => page === currentPage ? `${styles.navButton} ${styles.current}` : `${styles.navButton}`;
     
 
 

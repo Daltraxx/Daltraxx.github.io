@@ -22,6 +22,8 @@
 
 .navButton {
     display: flex;
+    position: relative;
+    z-index: 0;
     box-sizing: border-box; /*was overidden to content-box*/
     justify-content: center;
     align-items: center;
@@ -34,11 +36,11 @@
     border-bottom: 2px solid var(--primary-blue-700);
 }
 
-.nav ul li:not(:last-child) a {
+.nav ul li:not(:last-child) .navButton {
     border-right: 1px solid var(--primary-blue-700);
 }
 
-.nav ul li:not(:first-child) a {
+.nav ul li:not(:first-child) .navButton {
     border-left: 1px solid var(--primary-blue-700);
 }
 
@@ -47,24 +49,53 @@
     background-color: var(--accent-orange-500-sat);
 }
 
-.current:hover {
-    color: white;
+.navButton:hover {
+    color: var(--gray-100);
 }
 
-.navButtonHover:hover {
+.navButton:not(.current):hover {
     background-color: var(--accent-red-300);
-    color: white;
 }
 
-/*
+
 .navButton:focus {
-    color: white;
+    color: var(--gray-100);
 }
-*/
+
+.navButton:not(.current):focus {
+    background-color: var(--accent-red-300);
+}
 
 
-
+/*Skeuomorphic movement when clicking, diff reqs depending on child*/
 .navButton:active {
     height: calc(100% - 0.25rem);
+    box-sizing: content-box;
+    border-top: 4px solid var(--primary-blue-700);
+    border-right: 3px solid var(--primary-blue-700);
+    border-left: 3px solid var(--primary-blue-700);
     transform: translate(0, -.125rem);
+    width: calc(100% - 5px);
 }
+
+.nav ul li:not(:last-child) .navButton:active {
+    border-right: 3px solid var(--primary-blue-700);
+    border-left: 3px solid var(--primary-blue-700);
+}
+
+.nav ul li:not(:first-child) .navButton:active {
+    border-right: 3px solid var(--primary-blue-700);
+    border-left: 3px solid var(--primary-blue-700);
+}
+
+.navButton:not(.current):active {
+    background-color: var(--accent-red-400);
+}
+
+.current:active {
+    background-color: var(--accent-orange-600-sat);
+}
+
+
+
+
