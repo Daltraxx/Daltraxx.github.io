@@ -1,6 +1,8 @@
 :root {
   --primary-blue-900: hsla(212, 51%, 9%, 1); /*#0b1623*/
+  --primary-blue-800: hsla(212, 51%, 13%, 1); /*#102032*/
   --primary-blue-700: hsla(212, 51%, 16%, 1); /*#14273e*/
+  --primary-blue-600: hsla(212, 51%, 19%, 1); /*#182f49*/
   --primary-blue-500: hsla(212, 51%, 22%, 1); /*#1b3655*/
   --primary-blue-300: hsla(212, 51%, 40%, 1); /*#32639a*/
   --primary-blue-100: hsla(212, 51%, 77%, 1); /*#a6c2e2*/
@@ -11,11 +13,12 @@
   --accent-teal-300: hsla(176, 96%, 69%, 1); /*#64fcf2*/
   --accent-teal-100: hsla(176, 96%, 82%, 1); /*#a5fdf7*/
 
-  --accent-orange-900: hsla(39, 100%, 23%, 1); /*#754c00*/
-  --accent-orange-700: hsla(39, 100%, 35%, 1); /*#b37400*/
-  --accent-orange-500: hsla(39, 100%, 50%, 1); /*#FFA500*/
-  --accent-orange-300: hsla(39, 100%, 60%, 1); /*#ffb833*/
-  --accent-orange-100: hsla(39, 100%, 68%, 1); /*#ffc65c*/
+  --accent-orange-900: hsla(39, 70%, 23%, 1); /*#754c00*/
+  --accent-orange-700: hsla(39, 70%, 35%, 1); /*#b37400*/
+  --accent-orange-500-sat: hsla(39, 100%, 50%, 1); /*#ffa600*/
+  --accent-orange-500: hsla(39, 70%, 50%, 1); /*#FFA500*/
+  --accent-orange-300: hsla(39, 70%, 60%, 1); /*#ffb833*/
+  --accent-orange-100: hsla(39, 70%, 68%, 1); /*#ffc65c*/
 
   --gray-900: hsla(210, 2%, 16%, 1); /*#28292a*/
   --gray-700: hsla(210, 2%, 30%, 1); /*#4b4d4e*/
@@ -62,6 +65,10 @@ h1 {
 li {
   color: var(--accent-red-300);
   list-style: none;
+}
+
+a {
+  color: inherit;
 }
 
 h2, h3, p {
