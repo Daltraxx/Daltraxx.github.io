@@ -6,11 +6,12 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding-left: 0;
 }
 
 .nav a {
     padding: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
     border: 2px solid var(--primary-blue-700);
     color: var(--accent-orange-500);
@@ -25,7 +26,7 @@
     background-color: var(--primary-blue-500);
     filter: drop-shadow(15px 15px 1px var(--gray-300));
     outline: none;
-    border: 2px solid var(--accent-teal-300);
+    border: 2px solid var(--accent-orange-300);
     border-radius: 3px;
 }
 
@@ -34,14 +35,14 @@
     background-color: var(--primary-blue-500);
     filter: drop-shadow(-15px 15px 1px var(--gray-300));
     outline: none;
-    border: 2px solid var(--accent-teal-300);
+    border: 2px solid var(--accent-orange-300);
     border-radius: 3px;
 }
 
 .nav a:active {
     background-color: var(--primary-blue-700);
     color: var(--accent-orange-500-sat);
-    border: 2px solid var(--accent-teal-500);
+    border: 2px solid var(--accent-orange-500);
 }
 
 
