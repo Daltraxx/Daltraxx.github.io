@@ -1,7 +1,30 @@
-.socialLinksContainer a {
-    color: #FFF;
+.socialLinksUl {
+    margin: 0;
 }
 
-.socialLinksContainer a:hover {
-    
+.socialLinksUl li {
+    margin: .1rem 0;
+}
+
+.socialLinksUl a {
+    color: var(--accent-orange-500-sat);
+    padding: .2rem .5rem;
+    border: 1px solid var(--primary-blue-700); /*not visible, just for positioning purposes*/
+    border-radius: 5px;
+    display: block; /*so translate works*/
+}
+
+.socialLinksUl a:hover,
+.socialLinksUl a:focus {
+    background-color: var(--accent-blue-300);
+    border: 1px solid var(--accent-orange-300);
+    text-decoration: underline;
+}
+
+.socialLinksUl a:active {
+    border: 1px solid var(--primary-blue-700);
+    background-color: var(--accent-blue-700);
+    color: var(--accent-orange-500);
+    text-decoration: none;
+    transform: translate(5px, 0);
 }
