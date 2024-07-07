@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Nav.module.css';
 
 
-
 function Nav({ handlePageChange, currentPage }) {
     const getClassName = (page) => page === currentPage ? `${styles.navButton} ${styles.active}` : `${styles.navButton} ${styles.navButtonHover}`;
     
