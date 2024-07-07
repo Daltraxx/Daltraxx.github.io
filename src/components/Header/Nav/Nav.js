@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Nav.module.css';
 
-//add logic for highlighting current page
 
-function Nav({handlePageChange, currentPage}) {
+
+function Nav({ handlePageChange, currentPage }) {
     const getClassName = (page) => page === currentPage ? `${styles.navButton} ${styles.active}` : `${styles.navButton} ${styles.navButtonHover}`;
     
 
