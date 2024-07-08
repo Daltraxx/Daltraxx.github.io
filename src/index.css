@@ -70,6 +70,12 @@ h1 {
   color: var(--accent-teal-300);
 }
 
+
+.page-header { /*All main h2 page headers*/
+  color: var(--primary-blue-700);
+  text-align: center;
+} 
+
 li {
   color: var(--accent-red-300);
   list-style: none;
@@ -79,7 +85,7 @@ a {
   color: inherit;
 }
 
-h2, h3, p {
+h3, p {
   color: var(--primary-blue-700);
 }
 
@@ -92,8 +98,4 @@ code {
     monospace;
 }
 
-/*All main h2 page headers*/
-.page-header {
-  text-align: center;
-  color: var(--primary-blue-700);
-}
+
