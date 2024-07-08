@@ -16,20 +16,20 @@
 }
 
 .half span:hover {
-    background-color: hsla(0, 0%, 0%, .3);
+    background-color: var(--gray-300);
     cursor: pointer;
 }
 
 .factsExtraInfo {
     display: flex;
     flex-direction: column;
-    background-color: var(--primary-blue-700);
+    background-color: var(--primary-blue-500);
     border-radius: 20px;
     width: 80%;
 }
 
 .factsExtraInfo h3, .factsExtraInfo p {
-    color: white;
+    color: var(--gray-100);
     text-align: center;
 }
 

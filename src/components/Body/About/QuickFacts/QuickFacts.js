@@ -12,7 +12,8 @@ function QuickFacts({ verbosity }) {
         }
 
         //continue to highlight currently selected fact
-        target.style.backgroundColor = 'hsla(0, 0%, 0%, .3)';
+        target.style.backgroundColor = 'var(--gray-300)';
+        
         
         //set new fact
         setFact(prev => target.id);
