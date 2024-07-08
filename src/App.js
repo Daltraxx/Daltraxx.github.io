@@ -19,7 +19,7 @@ function App() {
       body.style.backgroundColor = 'var(--gray-100)';
     }
 
-    console.log(body.style.backgroundColor);
+    //console.log(body.style.backgroundColor);
     
     setPage(prevPage => target.name);
   }

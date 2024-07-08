@@ -7,7 +7,7 @@ function QuickFacts({ verbosity }) {
     const handleClick = ({ target }) => {
         //remove highlighting of previous fact if there is one
         if (fact) {
-            console.log(document.getElementById(fact));
+            //console.log(document.getElementById(fact));
             document.getElementById(fact).style = '';
         }
 
