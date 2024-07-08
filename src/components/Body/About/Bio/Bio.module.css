@@ -1,19 +1,52 @@
-.lifeStoryContainer h3 {
+.bioContainer h3 {
     text-align: center;
 }
 
-.lifeStoryText {
+.bioText {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.lifeStoryText p {
+.bioCol {
+    display: flex;
+    background-color: var(--primary-blue-300);
+    border-radius: 5px;
+    flex-direction: column;
+    height: 32rem;
+    min-width: 30rem;
+    max-width: 30%;
+    margin: 1.5rem 1rem;
+}
+
+.bioParagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-200);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.bioParagraph:not(:last-child) {
+    margin: 2rem 2rem 1rem; 
+}
+
+.bioParagraph:not(:first-child) {
+    margin: 1rem 2rem 2rem; 
+}
+
+.bioParagraph p {
+    color: var(--accent-blue-700);
+    padding: 0 1rem;
     text-align: center;
-    max-width: 29.33%;
-    margin: 2rem 2%;
 }
 
 .hide {
     opacity: 0;
+}
+
+.none {
+    display: none;
 }
