@@ -40,15 +40,15 @@ function QuickFacts({ verbosity }) {
 
     return (
         <section className={styles.factsContainer}>
-            <div className={verbosity >= 25 ? styles.half : styles.hide}>
+            <div className={styles.half}>
                 <div className='bullet-points'>
                     <h3>The Bullet Points</h3>
                     <ul>
-                        <li><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
-                        <li><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
-                        <li><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
-                        <li><span id='04' onClick={handleClick}>His four loves in this world are fitness, books, video games, and programming.</span></li>
-                        <li><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until learning to code.</span></li>
+                        <li className={verbosity >= 25 ? '' : styles.hide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
+                        <li className={verbosity >= 30 ? '' : styles.hide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
+                        <li className={verbosity >= 35 ? '' : styles.hide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
+                        <li className={verbosity >= 40 ? '' : styles.hide}><span id='04' onClick={handleClick}>His four loves in this world are fitness, books, video games, and programming.</span></li>
+                        <li className={verbosity >= 45 ? '' : styles.hide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until learning to code.</span></li>
                     </ul>
                 </div>
             </div>

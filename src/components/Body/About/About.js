@@ -13,7 +13,7 @@ function About() {
     }
 
     const emojiImg = <img src="/assets/images/zipper-mouth-emoji.png" className={styles.emoji} name="zipped mouth emoji" alt="zipped mouth emoji"/>;
-    if (verbosity < 1) {
+    if (verbosity <= 10) {
         return (
             <section className={styles.aboutContainer}>
                 <h2 className='page-header'>About</h2>
@@ -21,7 +21,7 @@ function About() {
                 {emojiImg}
             </section>
         );
-    } else if (verbosity < 25) {
+    } else if (verbosity <= 20) {
         return (
             <section className={styles.aboutContainer}>
                 <h2 className='page-header'>About</h2>
