@@ -44,7 +44,7 @@ function Resume() {
         <section>
             <h2 className='page-header'>Resume</h2>
             <section className={`${styles.resumeSection} ${styles.flexColumn}`}>
-                <h3>Statement</h3>
+                <h3 className={styles.statementHeader}>Statement</h3>
                 <p>
                     I believe in an eclectic approach to both life and work that always strives for mastery. 
                     On and off the clock I labor to consume information that will aid my propensity for growth and contribution, 
