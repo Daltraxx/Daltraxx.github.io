@@ -65,7 +65,7 @@
     font-size: 1.2rem;
 }
 
-.universitySanDiego p:first-of-type {
+.educationThird p:first-of-type {
     color: var(--accent-orange-700-sat);
     font-weight: 600;
 }

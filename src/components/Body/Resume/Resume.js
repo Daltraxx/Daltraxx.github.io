@@ -73,6 +73,7 @@ function Resume() {
                 <section className={`${styles.educationThird}`}>
                     <div className={`${styles.codecademyDescription} ${styles.flexColumn}`}>
                         <h4>Codecademy</h4>
+                        <p>General Programming and Computer Science</p>
                         <p className={styles.dateRange}>2020 - <em>Continuous</em></p>
                         <p>
                             Description hereeeeeeeeeeeeeeeeeeee.
