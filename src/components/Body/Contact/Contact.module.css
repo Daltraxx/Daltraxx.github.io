@@ -4,8 +4,12 @@
     align-items: center;
 }
 
+.contact p:first-of-type{
+    margin-top: 0; /*to space page header evenly*/
+}
+
 .contact aside {
-    font-size: .8rem;
+    font-size: .8rem; 
 }
 
 /*Contact link styles*/

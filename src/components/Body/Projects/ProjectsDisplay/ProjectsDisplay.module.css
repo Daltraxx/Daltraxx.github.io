@@ -23,6 +23,10 @@
     margin: 2rem auto;
 }
 
+.imageContainer:first-of-type {
+    margin-top: 0; /*to space page header evenly*/
+}
+
 .shader {
     height: 100%;
     width: 100%;

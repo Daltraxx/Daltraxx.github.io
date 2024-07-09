@@ -22,8 +22,9 @@
 
 .resumeSection h3 {
     width: 100%;
-    background-color: var(--primary-blue-700);
-    color: #FFF;
+    background-color: var(--primary-blue-500);
+    color: var(--gray-100);
+    margin-top: 0;
 }
 
 /*Skills section*/

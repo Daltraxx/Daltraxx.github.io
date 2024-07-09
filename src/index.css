@@ -76,6 +76,7 @@ h1 {
 .page-header { /*All main h2 page headers*/
   color: var(--primary-blue-700);
   text-align: center;
+  margin: 2rem;
 } 
 
 li {
