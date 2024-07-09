@@ -29,9 +29,7 @@
     padding: .3rem;
 }
 
-.resumeSection p {
-    color: var(--primary-blue-700);
-}
+
 
 /*Statement section*/
 .statementHeader h3 {
@@ -62,19 +60,16 @@
     width: 35rem;
 }
 
-.universitySanDiego {
-    margin: 0 auto;
+.educationThird h4 {
+    color: var(--accent-blue-900);
+    font-size: 1.2rem;
 }
 
-/*
-.codecademyDescription {
-
+.universitySanDiego p:first-of-type {
+    color: var(--accent-orange-700-sat);
+    font-weight: 600;
 }
-*/
 
-.codecademyCertifications {
-    margin: 0 auto;
-}
 
 .codecademyCertifications ul {
     padding-left: 0;
@@ -84,9 +79,34 @@
     margin: .5rem 0;
 }
 
+.codecademyCertifications a {
+    color: var(--primary-blue-700);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.codecademyCertifications a:hover,
+.codecademyCertifications a:focus {
+    color: var(--accent-orange-600-sat);
+}
+
+.codecademyCertifications a:active {
+    color: var(--accent-orange-700-sat);
+    padding-left: 2rem;
+}
+
 /*Work Experience section*/
 
 .job {
     width: 30rem;
     margin: 0 3rem;
+}
+
+.job h4 {
+    color: var(--primary-blue-700)
+}
+
+.job p:first-of-type {
+    color: var(--accent-orange-700-sat);
+    font-weight: 600;
 }

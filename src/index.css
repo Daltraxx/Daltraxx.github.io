@@ -21,6 +21,7 @@
 
   --accent-orange-900: hsla(39, 70%, 23%, 1); /*#754c00*/
   --accent-orange-700: hsla(39, 70%, 35%, 1); /*#b37400*/
+  --accent-orange-700-sat: hsla(39, 100%, 35%, 1);
   --accent-orange-600-sat: hsla(39, 100%, 47%, 1); /*#f09c00*/
   --accent-orange-500-sat: hsla(39, 100%, 50%, 1); /*#ffa600*/
   --accent-orange-500: hsla(39, 70%, 50%, 1); /*#FFA500*/
