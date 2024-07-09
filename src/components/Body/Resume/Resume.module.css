@@ -1,6 +1,8 @@
 /*General page styles*/
 .flexColumn {
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .flexRow {
@@ -24,17 +26,34 @@
     width: 100%;
     background-color: var(--primary-blue-500);
     color: var(--gray-100);
+    padding: .3rem;
+}
+
+.resumeSection p {
+    color: var(--primary-blue-700);
 }
 
 /*Statement section*/
-.statementHeader {
+.statementHeader h3 {
     margin-top: 0;
+}
+
+.statementHeader p {
+    margin: .75rem 3rem;
 }
 
 /*Skills section*/
 .skill {
+    min-width: 28rem;
     width: 25%;
     margin: 1rem 2rem;
+}
+
+.skill h4 {
+    background-color: var(--accent-blue-700);
+    color: var(--accent-orange-500-sat);
+    border-radius: 6px;
+    width: 35%;
 }
 
 /*Education section*/

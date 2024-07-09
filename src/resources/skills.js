@@ -74,7 +74,7 @@ const skills = [
         proficiency: 'experienced'
     },
     {
-        name: 'Angular',
+        name: 'Angular.js',
         description: 'Hello there the angel from my nightmare the shadow in the background of the morgue',
         src: "/assets/images/angular-icon.png", 
         href: '#angularjs-skill',

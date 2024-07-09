@@ -12,7 +12,7 @@ function Resume() {
     //map skills object array to JSX
     const skillsJSX = skills.map(skill => {
         return (
-            <section className={styles.skill} key={`skill${skills.indexOf(skill)}`}>
+            <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${skills.indexOf(skill)}`}>
                 <h4 id={skill.id}>{skill.name}</h4>
                 <p>{skill.description}</p>
             </section>
@@ -43,8 +43,8 @@ function Resume() {
     return (
         <section>
             <h2 className='page-header'>Resume</h2>
-            <section className={`${styles.resumeSection} ${styles.flexColumn}`}>
-                <h3 className={styles.statementHeader}>Statement</h3>
+            <section className={`${styles.resumeSection} ${styles.flexColumn} ${styles.statementHeader}`}>
+                <h3>Statement</h3>
                 <p>
                     I believe in an eclectic approach to both life and work that always strives for mastery. 
                     On and off the clock I labor to consume information that will aid my propensity for growth and contribution, 
