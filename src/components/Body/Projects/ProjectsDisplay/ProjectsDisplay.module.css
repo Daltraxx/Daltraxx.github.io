@@ -33,17 +33,9 @@
     border-radius: .4rem;
     background-color: hsla(0, 0%, 0%, .7);
     backdrop-filter: blur(1px) saturate(100%);
-    position: relative;
-    z-index: 5;
     display: flex;
     justify-content: center;
     text-align: center;
-}
-
-.titleInfo {
-    z-index: 10;
-    position: relative;
-    /*text-shadow: var(--accent-teal-500) 1px 0 3px;*/
 }
 
 .titleInfo h3 {
