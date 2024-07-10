@@ -44,7 +44,12 @@ function QuickFacts({ verbosity }) {
                         However, my competencies quickly improved, and my interest in diving deeper into software was first sparked.
                         </p>;
             case '04':
-                return <p>And also my dogs.</p>;
+                return <p>
+                        Personal development and self-actualization are overarching obsessions of mine.
+                        I follow a manicured routine devoted to these aspirations, a few daily practices of which are meditation, journaling, reading, and exercise.
+                        I am also an avid practitioner of the creed that one should code every day (though it is almost always much more than that).
+                        Video games have also been near and dear to my heart since childhood, and were the sole thread of my interest in software growing up as I fantasized about making my own.
+                        </p>;
             case '05':
                 return <p>I thought all I had to do was go to college.</p>;
             default:
