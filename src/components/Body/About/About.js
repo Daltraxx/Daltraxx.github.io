@@ -21,7 +21,7 @@ function About() {
             <VerbositySlider handleChange={handleChange} verbosity={verbosity}/>
             {verbosity <= 10 && emojiImg}
             {verbosity >= 20 && <QuickFacts verbosity={verbosity} />}
-            <Bio verbosity={verbosity} />
+            {verbosity >= 50 && <Bio verbosity={verbosity} />}
         </section>
     );
 }
