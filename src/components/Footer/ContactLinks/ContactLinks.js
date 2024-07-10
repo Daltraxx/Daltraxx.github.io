@@ -7,7 +7,8 @@ function ContactLinks() {
 
     const linkedInLink = <a 
         href="https://www.linkedin.com/in/dalton-pettus/" 
-        target="_blank" 
+        target="_blank"
+        rel="noreferrer"
         className={styles.contactButton} 
         aria-label="LinkedIn link">
         LinkedIn
