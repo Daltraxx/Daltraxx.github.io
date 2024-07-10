@@ -4,8 +4,13 @@
     margin: 0 1.5rem;
 }
 
+.emojiContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .emoji {
-    text-align: center;
     margin: 4rem auto 0;
     height: 20.11rem;
     width: 26.66rem;
