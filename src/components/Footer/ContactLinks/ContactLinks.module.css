@@ -13,8 +13,19 @@
 }
 
 .contactButton {
-    border: 1px solid white;
+    border: 1px solid var(--gray-100);
     width: 100%;
-    color: #FFF;
+    color: var(--accent-orange-500-sat);
     text-align: center;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+    background-color: var(--primary-blue-500);
+    border: 1px solid var(--accent-orange-500-sat);
+}
+
+.contactButton:active {
+    background-color: var(--primary-blue-700);
+    border: 1px solid var(--accent-orange-700-sat);
 }
