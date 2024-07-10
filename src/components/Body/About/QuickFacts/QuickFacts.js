@@ -23,11 +23,26 @@ function QuickFacts({ verbosity }) {
     const getExtraInfo = () => {
         switch (fact) {
             case '01':
-                return <p>Python</p>;
+                return <p>
+                        Unsure of what to choose as a career path after college, I dabbled with the idea of pursuing economics. 
+                        Part of this actually entailed learning to code, with Python being an especially popular tool for economic research and data analysis.
+                        My enthrallment with economics didn't last, but with the art of programming at least somewhat demystified, my burgeoning interest in software would only grow since then.
+                        </p>;
             case '02':
-                return <p>"Earnest"</p>;
+                return <p>
+                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a littany of related skills.
+                        I know it can be done, but programming strictly on the side was torturously slow.
+                        The concepts and exercises weren't difficult, but I still felt myself waiting for the larger picture to come together.
+                        It wasn't until I had several free months to spend honing the skills I had accumulated that I finally came to feel confident in my abilities,
+                        as well as my capacity to contribute to a real team.
+                        </p>;
             case '03':
-                return <p>Ctrl C and ctrl V meant nothing to me.</p>;
+                return <p>
+                        I never realized the paucity of my tech exposure growing up until I started working in a tech company office.
+                        There was a stark contrast between me and the other QA workers, and much more so the programmers.
+                        I didn't know a single keyboard shortcut, even rudimentary ones like copy and paste.
+                        However, my competencies quickly improved, and my interest in diving deeper into software was first sparked.
+                        </p>;
             case '04':
                 return <p>And also my dogs.</p>;
             case '05':
@@ -47,8 +62,8 @@ function QuickFacts({ verbosity }) {
                         <li className={verbosity >= 25 ? '' : styles.hide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
                         <li className={verbosity >= 30 ? '' : styles.hide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
                         <li className={verbosity >= 35 ? '' : styles.hide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
-                        <li className={verbosity >= 40 ? '' : styles.hide}><span id='04' onClick={handleClick}>His four loves in this world are fitness, books, video games, and programming.</span></li>
-                        <li className={verbosity >= 45 ? '' : styles.hide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until learning to code.</span></li>
+                        <li className={verbosity >= 40 ? '' : styles.hide}><span id='04' onClick={handleClick}>Four loves in this world are fitness, books, video games, and - of course - programming.</span></li>
+                        <li className={verbosity >= 45 ? '' : styles.hide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
                     </ul>
                 </div>
             </div>
