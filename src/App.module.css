@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-/*padding-bottom controls spacing between main and footer*/
+
 .main {
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; /*controls spacing between main and footer*/
 }

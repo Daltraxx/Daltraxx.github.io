@@ -1,17 +1,23 @@
-.contact {
+.contactMain {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    justify-content: center;
+    
 }
 
-.contact p:first-of-type{
+.contactMain p:first-of-type{
     margin-top: 0; /*to space page header evenly*/
 }
 
-.contact aside {
+.contactMain aside:first-of-type {
     font-size: .8rem;
     color: var(--primary-blue-700)
+}
+
+.contactMain aside:last-of-type {
+    margin-top: 2rem;
 }
 
 /*Contact link styles*/
