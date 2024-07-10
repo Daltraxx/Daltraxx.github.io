@@ -28,6 +28,9 @@
   --accent-orange-300: hsla(39, 70%, 60%, 1); /*#ffb833*/
   --accent-orange-100: hsla(39, 70%, 68%, 1); /*#ffc65c*/
 
+  --accent-gold-600: hsla(51, 100%, 42%, 1);
+  --accent-gold-500: hsla(51, 100%, 50%, 1); /*#FFD700*/
+
   --gray-900: hsla(210, 2%, 16%, 1); /*#28292a*/
   --gray-700: hsla(210, 2%, 30%, 1); /*#4b4d4e*/
   --gray-500: hsla(210, 2%, 50%, 1); /*#7d8082*/

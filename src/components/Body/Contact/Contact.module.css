@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
 }
 
 .contact p:first-of-type{
@@ -9,16 +10,16 @@
 }
 
 .contact aside {
-    font-size: .8rem; 
+    font-size: .8rem;
+    color: var(--primary-blue-700)
 }
 
 /*Contact link styles*/
-.contact a {
+.contactLink {
     padding: 0.6em 2em;
     border: none;
     outline: none;
     color: #FFF;
-    background: var(--primary-blue-700);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -27,9 +28,11 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
-.contact a:before {
+.contactLink:before {
+    /*colors for glowing effect*/
     content: "";
     background: linear-gradient(
         45deg,
@@ -56,6 +59,7 @@
 }
 
 @keyframes contact-button {
+    /*glowing/shifting color animation*/
     0% {
         background-position: 0 0;
     }
@@ -67,7 +71,8 @@
     }
 }
 
-.contact a:after {
+.contactLink:after {
+    /*solid background for text*/
     z-index: -1;
     content: "";
     position: absolute;
@@ -79,42 +84,110 @@
     border-radius: 4px;
 }
 
-.coolLink:after {
-    background: none !important;
+.contactLink:focus,
+.contactLink:hover {
+    color: var(--accent-gold-500);
 }
 
-.contact a:focus {
-    color: gold;
+.contactLink:focus:before,
+.contactLink:hover:before {
+    background: var(--accent-gold-500);
 }
 
-.contact a:focus:before {
-    background: gold;
+.contactLink:focus:after,
+.contactLink:hover:after {
+    background: var(--primary-blue-600);
 }
 
-.contact a:focus:after {
-    background: hsla(213, 24%, 20%, 1);
-}
-
-.contact a:hover {
-    color: gold;
-}
-
-.contact a:hover:before {
-    background: gold;
-}
-
-.contact a:hover:after {
-    background: hsla(213, 24%, 20%, 1);
-}
-
-.contact a:active {
+.contactLink:active {
     color: var(--accent-teal-500);
+    transform: translate(0, 3px);
 }
 
-.contact a:active:before {
+.contactLink:active:before {
     background: var(--accent-teal-500);
 }
 
-.contact a:active:after {
-    background: hsla(213, 10%, 20%, 1);
+.contactLink:active:after {
+    background: var(--primary-blue-600);
+}
+
+/*Styles for coolLink (when transform is true) background none*/
+.coolLink {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 4px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-transform: uppercase;
+}
+
+.coolLink:before {
+    /*colors for glowing effect*/
+    content: "";
+    background: linear-gradient(
+        45deg,
+        var(--accent-teal-500),
+        var(--accent-orange-500),
+        #fffb00,
+        var(--accent-teal-500),
+        var(--primary-blue-300),
+        #7a00ff,
+        var(--accent-teal-500)
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: contact-button 10s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.coolLink:focus,
+.coolLink:hover {
+    color: var(gray-100);
+    outline: 5px solid var(--accent-blue-300);
+}
+
+.coolLink:focus:before,
+.coolLink:hover:before {
+    background: linear-gradient(
+        45deg,
+        var(--primary-blue-300),
+        var(--accent-teal-500),
+        var(--accent-orange-500-sat),
+        var(--accent-blue-500),
+        var(--accent-teal-700),
+        var(--primary-blue-300),
+        var(--accent-gold-500)
+    );
+}
+
+.coolLink:active {
+    transform: translate(0, 3px);
+    outline: 5px solid var(--accent-blue-500);
+    color: var(--gray-100)
+}
+
+.coolLink:active:before {
+    background: linear-gradient(
+        45deg,
+        var(--primary-blue-500),
+        var(--accent-teal-700),
+        var(--accent-orange-700-sat),
+        var(--accent-blue-700),
+        var(--accent-teal-900),
+        var(--primary-blue-500),
+        var(--accent-gold-600)
+    );
 }
