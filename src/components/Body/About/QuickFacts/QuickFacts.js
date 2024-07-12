@@ -51,7 +51,11 @@ function QuickFacts({ verbosity }) {
                         Video games have also been near and dear to my heart since childhood, and were the sole thread of my interest in software growing up as I fantasized about making my own.
                         </p>;
             case '05':
-                return <p>I thought all I had to do was go to college.</p>;
+                return <p>
+                        I grew up with the idea that my only real task was to go to college, and I never thought much beyond that. I would come to learn what a mistake that was come graduation. 
+                        It's now been several years since, and I'd give anything to have discovered programming sooner. I'm doing my best to make up for lost time, 
+                        and now all I dream about is the perpetual expansion of my skills, and endless exploration of new ideas and technologies.
+                        </p>;
             default:
                 return <p>Click a bullet point to display more information!</p>;
             
