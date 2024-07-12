@@ -30,7 +30,7 @@ function QuickFacts({ verbosity }) {
                         </p>;
             case '02':
                 return <p>
-                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a littany of related skills.
+                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a regimen of related skills.
                         I know it can be done, but programming strictly on the side was torturously slow.
                         The concepts and exercises weren't difficult, but I still felt myself waiting for the larger picture to come together.
                         It wasn't until I had several free months to spend honing the skills I had accumulated that I finally came to feel confident in my abilities,
@@ -41,7 +41,7 @@ function QuickFacts({ verbosity }) {
                         I never realized the paucity of my tech exposure growing up until I started working in a tech company office.
                         There was a stark contrast between me and the other QA workers, and much more so the programmers.
                         I didn't know a single keyboard shortcut, even rudimentary ones like copy and paste.
-                        However, my competencies quickly improved, and my interest in diving deeper into software was first sparked.
+                        However, my competencies quickly improved, and my nascent desire to dive deeper into software was first sparked.
                         </p>;
             case '04':
                 return <p>
@@ -64,19 +64,19 @@ function QuickFacts({ verbosity }) {
 
     return (
         <section className={styles.factsContainer}>
-            <div className={styles.half}>
+            <div className={styles.factsHalf}>
                 <div className='bullet-points'>
                     <h3>The Bullet Points</h3>
                     <ul>
-                        <li className={verbosity >= 25 ? '' : styles.hide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
-                        <li className={verbosity >= 30 ? '' : styles.hide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
-                        <li className={verbosity >= 35 ? '' : styles.hide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
-                        <li className={verbosity >= 40 ? '' : styles.hide}><span id='04' onClick={handleClick}>Four loves in this world are fitness, books, video games, and - of course - programming.</span></li>
-                        <li className={verbosity >= 45 ? '' : styles.hide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
+                        <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
+                        <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
+                        <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
+                        <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Four loves in this world are fitness, books, video games, and - of course - programming.</span></li>
+                        <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
                     </ul>
                 </div>
             </div>
-            <div className={verbosity >= 50 ? styles.half : styles.hide}>
+            <div className={verbosity >= 50 ? styles.factsHalf : `${styles.factsHalf} ${styles.factsHide}`}>
                 <div className={styles.factsExtraInfo}>
                     <h3>More Information</h3>
                     {getExtraInfo()}

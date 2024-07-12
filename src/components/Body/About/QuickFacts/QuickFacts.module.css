@@ -2,20 +2,20 @@
     display: inline-flex;
 }
 
-.half {
+.factsHalf {
     display: flex;
     justify-content: center;
     width: 50%;
 }
 
-.half li {
+.factsHalf li {
     margin: .7rem 0;
     list-style-type: disc;
     color: var(--primary-blue-700);
     line-height: 2rem;
 }
 
-.half span:hover {
+.factsHalf span:hover {
     background-color: var(--gray-300);
     cursor: pointer;
 }
@@ -33,7 +33,13 @@
     text-align: center;
 }
 
-.hide {
+.factsExtraInfo p {
+    margin-top: 0;
+    padding: 0 3rem;
+    line-height: 2rem;
+}
+
+.factsHide {
     opacity: 0;
 }
 
