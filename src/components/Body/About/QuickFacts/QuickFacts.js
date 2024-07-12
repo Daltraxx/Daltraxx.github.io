@@ -69,7 +69,7 @@ function QuickFacts({ verbosity }) {
                     <h3>The Bullet Points</h3>
                     <ul>
                         <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
-                        <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
+                        <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in <abbr title="Quality Assurance">QA</abbr> from 2021 to 2024.</span></li>
                         <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
                         <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Four loves in this world are fitness, books, video games, and - of course - programming.</span></li>
                         <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
