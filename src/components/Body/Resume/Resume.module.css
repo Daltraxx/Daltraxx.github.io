@@ -42,9 +42,9 @@
 
 /*Skills section*/
 .skill {
-    min-width: 28rem;
-    width: 25%;
-    margin: 1rem 2rem;
+    height: 15rem;
+    width: max(25%, 28rem);
+    margin: 1rem 2.5rem;
 }
 
 .skill h4 {
@@ -52,6 +52,12 @@
     color: var(--accent-orange-500-sat);
     border-radius: 6px;
     width: 35%;
+}
+
+.skillDescription {
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 
 /*Education section*/

@@ -14,7 +14,9 @@ function Resume() {
         return (
             <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${skills.indexOf(skill)}`}>
                 <h4 id={skill.id}>{skill.name}</h4>
-                <p>{skill.description}</p>
+                <section className={styles.skillDescription}>
+                    <p>{skill.description}</p>
+                </section>
             </section>
         );
     });
