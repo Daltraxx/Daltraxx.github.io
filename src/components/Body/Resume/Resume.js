@@ -46,9 +46,9 @@ function Resume() {
             <section className={`${styles.resumeSection} ${styles.flexColumn} ${styles.statementHeader}`}>
                 <h3>Statement</h3>
                 <p>
-                    I believe in an eclectic approach to both life and work that always strives for mastery. 
-                    On and off the clock I labor to consume information that will aid my propensity for growth and contribution, 
-                    as well as my understanding of how my impact may best be felt by any organization I service.
+                    I believe in an eclectic approach to both life and work that always strives for mastery, 
+                    and obsessively labor to hone the skills and consume the information that will allow for me to grow and contribute at the highest level.
+                    I wish for my impact to be felt within any organization I service, and am confident in my ability to make that happen. 
                 </p>
             </section>
             <section className={`${styles.resumeSection} ${styles.flexRow}`}>
