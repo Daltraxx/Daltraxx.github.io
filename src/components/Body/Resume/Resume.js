@@ -64,10 +64,10 @@ function Resume() {
                         <h4>University of San Diego</h4>
                         <p>Major in Political Science, Minor in Psychology</p>
                         <p className={styles.dateRange}>2012 - 2016</p>
-                        <p>
+                        <p className={styles.educationDescription}>
                             My university education was genuinely formative in my growing understanding of this world and its complexities, 
                             and what my role may be in it. My present and future may not be rooted in the above subjects, 
-                            however I only feel immense gratitude for all that has set me on my current trajectory, 
+                            however, I only feel immense gratitude for all that has set me on my current trajectory, 
                             including the skills that I have accumulated along the way.
                         </p>
                     </div>
@@ -77,8 +77,11 @@ function Resume() {
                         <h4>Codecademy</h4>
                         <p>General Programming and Computer Science</p>
                         <p className={styles.dateRange}>2020 - <em>Continuous</em></p>
-                        <p>
-                            Description hereeeeeeeeeeeeeeeeeeee.
+                        <p className={styles.educationDescription}>
+                            I began learning Python with Codecademy in 2020, and have since explored many subjects and skills on the platform. 
+                            Codecademy has been excellent at giving me a solid foundation in different skill paths so I could go on to solidify or master them through 
+                            independent projects and research. At this point in time, the majority of my learning occurs off of Codecademy,
+                            but it is still my first stop when exploring a new skill.
                         </p>
                     </div>
                 </section>

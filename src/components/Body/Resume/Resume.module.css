@@ -62,8 +62,8 @@
 
 /*Education section*/
 .educationThird {
-    min-width: 30%;
-    width: 35rem;
+    width: max(30%, 35rem);
+    margin: 0 1.2rem;
 }
 
 .educationThird h4 {
@@ -74,6 +74,10 @@
 .educationThird p:first-of-type {
     color: var(--accent-orange-700-sat);
     font-weight: 600;
+}
+
+.educationDescription {
+    line-height: 2rem
 }
 
 
