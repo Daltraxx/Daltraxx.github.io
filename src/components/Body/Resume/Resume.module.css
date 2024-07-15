@@ -112,11 +112,24 @@
     margin: 0 3rem;
 }
 
-.job h4 {
+.jobTitle {
     color: var(--primary-blue-700)
 }
 
-.job p:first-of-type {
+.jobCompany {
     color: var(--accent-orange-700-sat);
     font-weight: 600;
+}
+
+.jobBulletPointsHeader {
+    color: var(--accent-orange-700);
+}
+
+.jobBulletPoints {
+    padding-left: 0;
+}
+
+.jobBulletPoints li {
+    list-style-type: disc;
+    text-align: start;
 }

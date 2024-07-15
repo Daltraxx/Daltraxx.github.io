@@ -34,10 +34,14 @@ function Resume() {
     const workExperienceJSX = workExperience.map(job => {
         return (
             <section className={styles.job} key={`job${workExperience.indexOf(job)}`}>
-                <h4>{job.title}</h4>
-                <p>{job.company}</p>
+                <h4 className={styles.jobTitle}>{job.title}</h4>
+                <p className={styles.jobCompany}>{job.company}</p>
                 <p className={styles.dateRange}>{job.dates}</p>
                 <p>{job.description}</p>
+                <h5 className={styles.jobBulletPointsHeader}>Bullet Points</h5>
+                <ul className={styles.jobBulletPoints}>
+                    {job.notes.map((note, index) => <li key={`workNote${index}`}>{note}</li>)}
+                </ul>
             </section>
         );
     });
