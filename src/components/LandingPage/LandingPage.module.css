@@ -9,3 +9,26 @@
     width: 65%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1440px) {
+    .shortDescription {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .shortDescription {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .shortDescription {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
