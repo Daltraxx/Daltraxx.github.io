@@ -18,7 +18,7 @@
 .resumeSection {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
 }
 
@@ -112,6 +112,10 @@
     margin: 0 3rem;
 }
 
+.jobInfo {
+    height: 25rem;
+}
+
 .jobTitle {
     color: var(--primary-blue-700)
 }
@@ -121,7 +125,12 @@
     font-weight: 600;
 }
 
+.jobDescription {
+    line-height: 1.75rem;
+}
+
 .jobBulletPointsHeader {
+    text-transform: uppercase;
     color: var(--accent-orange-700);
 }
 
@@ -131,5 +140,7 @@
 
 .jobBulletPoints li {
     list-style-type: disc;
+    margin: .6rem 0;
     text-align: start;
+    color: var(--accent-orange-900)
 }

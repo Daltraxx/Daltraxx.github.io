@@ -22,7 +22,7 @@ const workExperience = [
         company: 'Aira Tech Corp',
         dates: 'Dec 2018 - Feb 2020',
         description: 
-            `This was my first occupation in a tech company, and a major period of personal development due to that.
+            `This was my first occupation in a tech company, and a major period of personal development as a result.
             I joined knowing with relatively meager computer experience, but quickly grew comfortable working with software in a professional capacity.
             My primary responsibilities involved the software setup and QA of products before they were shipped to clientele, 
             as well as the office’s technical setup and troubleshooting of any issues that arose.`,
