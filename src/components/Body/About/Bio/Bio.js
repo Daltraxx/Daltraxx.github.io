@@ -51,7 +51,7 @@ function Bio({ verbosity }) {
                     <div className={verbosity < 100 ? styles.none : styles.bioParagraph}>
                         <p>
                             I continued working in QA up until January of 2024. After leaving that company, 
-                            I finally devoted myself fully to mastering the requisite skills to be a contributing member of frontend development.
+                            I finally devoted myself fully to mastering the requisite skills to be a contributing member of front-end development.
                             This time has been truly transformative, and while I'd give anything to have discovered this passion in my youth, 
                             it's a revelation to every day professionally engage with thing I want to do - every day.
                         </p>
