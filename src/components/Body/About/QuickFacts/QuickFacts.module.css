@@ -1,5 +1,7 @@
+/*general component styles*/
+
 .factsContainer {
-    display: inline-flex;
+    display: flex;
 }
 
 .factsHalf {
@@ -12,6 +14,11 @@
     margin: .75rem 0 0;
 }
 
+.factsHide {
+    opacity: 0;
+}
+
+/*left side*/
 .bulletPointsContainer li {
     margin: .7rem 0;
     list-style-type: disc;
@@ -24,6 +31,7 @@
     cursor: pointer;
 }
 
+/*right side*/
 .factsExtraInfoContainer {
     display: flex;
     flex-direction: column;
@@ -53,6 +61,12 @@
 }
 
 @media only screen and (max-width: 1440px) {
+    .bulletPointsContainer {
+        width: 96%;
+    }
+
+    
+
     .bulletPointsContainer h3 {
         text-align: center;
     }
@@ -61,8 +75,8 @@
         font-size: 1.1rem;
     }
 
-    .factsExtraInfo {
-        width: 95%;
+    .factsExtraInfoContainer {
+        width: 92%;
     }
     .factsExtraInfoText p {
         font-size: 1rem;
@@ -71,8 +85,34 @@
     }
 }
 
-.factsHide {
-    opacity: 0;
+@media only screen and (max-width: 780px) {
+    /*Change to vertical display for smaller screen widths*/
+    .factsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .factsHalf {
+        width: 100%;
+    }
+
+    .factsExtraInfoContainer {
+        width: 86%;
+        margin: .5rem 0;
+    }
+
+    .factsExtraInfoContainer h3 {
+        margin: .75rem 0;
+    }
 }
 
+@media only screen and (max-width: 500px) {
+    .bulletPointsContainer ul {
+        padding: 0 1rem;
+    }
+
+    .bulletPointsContainer li {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
 
