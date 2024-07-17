@@ -64,8 +64,8 @@ function QuickFacts({ verbosity }) {
 
     return (
         <section className={styles.factsContainer}>
-            <div className={styles.factsHalf}>
-                <div className='bullet-points'>
+            <section className={styles.factsHalf}>
+                <div className={`bullet-points ${styles.bulletPointsContainer}`}>
                     <h3>The Bullet Points</h3>
                     <ul>
                         <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
@@ -75,13 +75,15 @@ function QuickFacts({ verbosity }) {
                         <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
                     </ul>
                 </div>
-            </div>
-            <div className={verbosity >= 50 ? styles.factsHalf : `${styles.factsHalf} ${styles.factsHide}`}>
-                <div className={styles.factsExtraInfo}>
+            </section>
+            <section className={verbosity >= 50 ? styles.factsHalf : `${styles.factsHalf} ${styles.factsHide}`}>
+                <div className={styles.factsExtraInfoContainer}>
                     <h3>More Information</h3>
-                    {getExtraInfo()}
+                    <section className={styles.factsExtraInfoText}>
+                        {getExtraInfo()}
+                    </section>
                 </div>
-            </div>
+            </section>
         </section>
     );
 }

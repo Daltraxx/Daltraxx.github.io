@@ -8,19 +8,19 @@
     width: 50%;
 }
 
-.factsHalf li {
+.bulletPointsContainer li {
     margin: .7rem 0;
     list-style-type: disc;
     color: var(--primary-blue-700);
     line-height: 2rem;
 }
 
-.factsHalf span:hover {
+.bulletPointsContainer span:hover {
     background-color: var(--gray-300);
     cursor: pointer;
 }
 
-.factsExtraInfo {
+.factsExtraInfoContainer {
     display: flex;
     flex-direction: column;
     background-color: var(--primary-blue-500);
@@ -28,15 +28,39 @@
     width: 80%;
 }
 
-.factsExtraInfo h3, .factsExtraInfo p {
+.factsExtraInfoContainer h3, .factsExtraInfoContainer p {
     color: #FFF;
     text-align: center;
 }
 
-.factsExtraInfo p {
+.factsExtraInfoText {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.factsExtraInfoText p {
     margin-top: 0;
     padding: 0 3rem;
     line-height: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .bulletPointsContainer h3 {
+        text-align: center;
+    }
+
+    .bulletPointsContainer li {
+        font-size: 1.1rem;
+    }
+
+    .factsExtraInfo {
+        width: 95%;
+    }
+    .factsExtraInfoText p {
+        font-size: 1rem;
+        padding: 0 2rem;
+    }
 }
 
 .factsHide {
