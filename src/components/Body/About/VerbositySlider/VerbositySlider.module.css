@@ -22,6 +22,12 @@
     width: 65%;
 }
 
+@media only screen and (max-width: 1024px) {
+    .verbosity input[type=range] {
+        width: 85%;
+    }
+}
+
 /*
 .verbosity input[type=range]:focus {
     outline: none;
