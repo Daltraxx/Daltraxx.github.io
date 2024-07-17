@@ -36,6 +36,12 @@
     border-bottom: 2px solid var(--primary-blue-700);
 }
 
+@media only screen and (max-width: 500px) {
+    .navButton {
+        font-size: 1.15rem;
+    }
+}
+
 .nav ul li:not(:last-child) .navButton {
     border-right: 1px solid var(--primary-blue-700);
 }
