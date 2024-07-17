@@ -14,6 +14,12 @@
     display: block; /*so translate works*/
 }
 
+@media only screen and (max-width: 500px) {
+    .socialLinksUl a {
+        font-size: .8rem;
+    }
+}
+
 .socialLinksUl a:hover,
 .socialLinksUl a:focus {
     background-color: var(--accent-blue-300);
