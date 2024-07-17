@@ -26,6 +26,26 @@
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 768px) {
+    .container h2 {
+        font-size: 1.2rem;
+    }
+
+    .iconContainer img {
+        height: 5.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .iconContainer {
+        width: 4rem;
+    }
+
+    .iconContainer img {
+        height: 4rem;
+    }
+}
+
 .iconContainer img:hover {
     background-color: var(--gray-500);
 }
