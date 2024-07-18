@@ -43,6 +43,14 @@
     text-align: center;
 }
 
+.hide {
+    opacity: 0;
+}
+
+.none {
+    display: none;
+}
+
 @media only screen and (max-width: 1440px) {
     .bioColContainer {
         justify-content: center;
@@ -53,10 +61,14 @@
     }
 }
 
-.hide {
-    opacity: 0;
+@media only screen and (max-width: 500px) {
+    .bioCol {
+        margin: 1rem 1rem;
+    }
+
+    .bioParagraph p {
+        font-size: 1rem;
+        padding: 0 6%;
+    }
 }
 
-.none {
-    display: none;
-}
