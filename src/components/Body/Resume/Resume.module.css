@@ -42,7 +42,7 @@
 
 /*Skills section*/
 .skill {
-    height: 15rem;
+    
     width: max(25%, 28rem);
     margin: 1rem 2.5rem;
 }
@@ -60,6 +60,18 @@
     align-items: center;
 }
 
+@media only screen and (max-width: 1024px) {
+    .skill {
+        margin: 0 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .skill h4 {
+        width: 50%;
+    }
+}
+
 /*Education section*/
 .educationThird {
     width: max(30%, 35rem);
@@ -71,13 +83,13 @@
     font-size: 1.2rem;
 }
 
-.educationThird p:first-of-type {
+.educationOutcome {
     color: var(--accent-orange-700-sat);
     font-weight: 600;
 }
 
 .educationDescription {
-    line-height: 2rem
+    line-height: 2rem;
 }
 
 
