@@ -15,8 +15,10 @@ function App() {
   const handlePageChange = ({ target }) => {
     //Change site background color when leaving landing page
     let body = document.querySelector('body');
-    if (body.style.backgroundColor !== 'var(--gray-100)') {
+    if (target.name !== 'landing') {
       body.style.backgroundColor = 'var(--gray-100)';
+    } else {
+      body.style.backgroundColor = 'var(--primary-blue-700)';
     }
 
     //console.log(body.style.backgroundColor);

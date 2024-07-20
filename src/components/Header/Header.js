@@ -10,7 +10,7 @@ function Header({handlePageChange, currentPage}) {
                 <div className={styles.headingSideDiv}>
                 </div>
                 <div className={styles.headingText}>
-                    <h1>Dalton Pettus</h1>
+                    <h1><a href="#!" name="landing" onClick={handlePageChange}>Dalton Pettus</a></h1>
                 </div>
                 <div className={styles.headingSideDiv}>
                     <SocialLinks />
