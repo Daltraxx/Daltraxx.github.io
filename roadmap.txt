@@ -1,0 +1,7 @@
+#Roadmap of additional features/functionality planned
+
+- add transition animation when leaving landing page
+- turn skill icon containers into carousel
+- browser backbutton compatibility
+- Download resume document functionality
+- Email form and CAPTCHA
