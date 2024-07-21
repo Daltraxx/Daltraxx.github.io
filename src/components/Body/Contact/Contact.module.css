@@ -4,16 +4,26 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    
+    text-align: center;
 }
 
 .contactMain p:first-of-type{
     margin-top: 0; /*to space page header evenly*/
 }
 
+.contactMain p {
+    max-width: 90%;
+}
+
 .contactMain aside:first-of-type {
     font-size: .8rem;
     color: var(--primary-blue-700)
+}
+
+@media only screen and (max-width: 768px) {
+    .contactMain aside:first-of-type {
+        display: none;
+    }
 }
 
 .contactMain aside:last-of-type {
