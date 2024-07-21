@@ -9,10 +9,18 @@
 
 .projectInfoHalf {
     width: 50%;
-    min-width: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .projectContainer {
+        flex-direction: column;
+    }
+    .projectInfoHalf {
+        width: 100%;
+    }
 }
 
 /*Title and important information overlaid on background image styles*/
@@ -20,10 +28,16 @@
 .imageContainer {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     border-radius: .4rem;
     width: 50rem;
     height: 37.5rem;
+} 
+
+@media only screen and (max-width: 900px) {
+    .imageContainer {
+        width: 96%;
+    }
 }
 
 .shader {
@@ -49,12 +63,29 @@
     color: var(--gray-100);
     font-size: 3.2rem;
     margin-top: 4rem;
+    max-width: 98%;
 }
 
 .titleInfo h4 {
     color: var(--gray-100);
     font-size: 1.8rem;
     margin: 0 0 .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .titleInfo h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .titleInfo h3 {
+        font-size: 2rem;
+    }
+
+    .titleInfo h4 {
+        font-size: 1.5rem;
+    }
 }
 
 .titleInfo ul {
@@ -93,6 +124,18 @@
 .projectDetails {
     width: 80%;
     text-align: center;
+    font-size: 1.125rem;
 }
 
+@media only screen and (max-width: 900px) {
+    .projectDetails {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projectDetails {
+        font-size: 1.15rem;
+    }
+}
 

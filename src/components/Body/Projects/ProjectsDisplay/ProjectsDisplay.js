@@ -30,11 +30,8 @@ function ProjectsDisplay({ projectsData }) {
         );
     });
 
-    return (
-        <section>
-            {projectsJSX}
-        </section>
-    )
+    return projectsJSX;
+        
 }
 
 export default ProjectsDisplay;
