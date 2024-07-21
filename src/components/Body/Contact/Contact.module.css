@@ -7,26 +7,31 @@
     text-align: center;
 }
 
-.contactMain p:first-of-type{
+.contactIntro {
     margin-top: 0; /*to space page header evenly*/
 }
 
-.contactMain p {
+.contactMain p,
+.contactMain aside {
     max-width: 90%;
 }
 
-.contactMain aside:first-of-type {
+.spacebarTip {
     font-size: .8rem;
     color: var(--primary-blue-700)
 }
 
 @media only screen and (max-width: 768px) {
-    .contactMain aside:first-of-type {
+    .contactIntro {
+        margin: 0;
+    }
+
+    .spacebarTip {
         display: none;
     }
 }
 
-.contactMain aside:last-of-type {
+.botWarning {
     margin-top: 2rem;
 }
 
