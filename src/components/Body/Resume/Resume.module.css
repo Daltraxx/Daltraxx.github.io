@@ -18,7 +18,6 @@
 .resumeSection {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     text-align: center;
 }
 
@@ -38,6 +37,8 @@
 
 .statementHeader p {
     margin: .75rem 3rem;
+    
+    text-align: center;
 }
 
 /*Skills section*/
