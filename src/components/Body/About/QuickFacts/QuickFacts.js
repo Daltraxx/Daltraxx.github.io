@@ -30,7 +30,7 @@ function QuickFacts({ verbosity }) {
                         </p>;
             case '02':
                 return <p>
-                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a regimen of related skills.
+                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a catalogue of related skills.
                         I know it can be done, but programming strictly on the side was torturously slow.
                         The concepts and exercises weren't difficult, but I still felt myself waiting for the larger picture to come together.
                         It wasn't until I had several free months to spend honing the skills I had accumulated that I finally came to feel confident in my abilities,
@@ -41,7 +41,7 @@ function QuickFacts({ verbosity }) {
                         I never realized the paucity of my tech exposure growing up until I started working in a tech company office.
                         There was a stark contrast between me and the other QA workers, and much more so the programmers.
                         I didn't know a single keyboard shortcut, even rudimentary ones like copy and paste.
-                        However, my competencies quickly improved, and my nascent desire to dive deeper into software was first sparked.
+                        However, my competencies quickly improved, and my nascent desire to dive deeper into software was ignited.
                         </p>;
             case '04':
                 return <p>
@@ -52,9 +52,9 @@ function QuickFacts({ verbosity }) {
                         </p>;
             case '05':
                 return <p>
-                        I grew up with the idea that my only real task was to go to college, and I never thought much beyond that. I would come to learn what a mistake that was come graduation. 
+                        I grew up with the idea that my only real task was to go to college, and I never contemplated much beyond that. I would come to learn what a mistake that was come graduation. 
                         It's now been several years since, and I'd give anything to have discovered programming sooner. I'm doing my best to make up for lost time, 
-                        and now all I dream about is the perpetual expansion of my skills, and endless exploration of new ideas and technologies.
+                        and now all I dream about is the perpetual expansion of my skills, as well as the blissfully endless exploration of new ideas and technologies.
                         </p>;
             default:
                 return <p>Click a bullet point to display more information!</p>;
@@ -70,9 +70,9 @@ function QuickFacts({ verbosity }) {
                     <ul>
                         <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
                         <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
-                        <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew hardly a thing about computers until his first QA job in 2018.</span></li>
-                        <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Four loves in this world are fitness, books, video games, and - of course - programming.</span></li>
-                        <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until beginning to learn to code.</span></li>
+                        <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew little about computers until first Quality Assurance employment in 2018.</span></li>
+                        <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Passions include fitness, reading and writing, video games, and - of course - programming.</span></li>
+                        <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until learning to code.</span></li>
                     </ul>
                 </div>
             </section>

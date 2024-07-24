@@ -18,15 +18,15 @@ function Bio({ verbosity }) {
                     <div className={verbosity < 70 ? styles.none : styles.bioParagraph}>
                         <p>
                             I went to college without any related professional aspirations. In fact, I spent the majority of my high school and college years dreaming of becoming a Navy SEAL.
-                            It seemed the the ultimate test a person could put themselves through, an irresistable challenge by my assessment. 
-                            I majored in political science with a minor in psychology, but had little real-world interest in the topics.
+                            It seemed the ultimate test a person could put themselves through, an irresistable challenge to my still unchanged proclivities. 
+                            I majored in political science with a minor in psychology, but had little professional interest in the topics.
                         </p>
                     </div>
                 </section>
                 <section className={verbosity < 75 ? styles.none : styles.bioCol}>
                     <div className={verbosity < 80 ? styles.none : styles.bioParagraph}>
                         <p>
-                            I graduated in 2016, and - having abandoned my desire to join the Navy - still had almost no notion of what my larger career path should be. 
+                            I graduated in 2016, and - having lost my desire to join the Navy - still had almost no notion of what my larger career path should be. 
                             I worked various jobs including at a moving company and as an immigration paralegal, 
                             but eventually accepted work doing QA at a tech company in 2018. This was the first occupation I managed to find some intrinsic reward in.
                         </p>
@@ -43,14 +43,14 @@ function Bio({ verbosity }) {
                     <div className={verbosity < 95 ? styles.none : styles.bioParagraph}>
                         <p>
                             I first began studying Python in 2020 as part of my interest in economics, 
-                            but in time decided that the joy of building things using code was the first vocation to really excite me since my childhood infatuation with joining the SEALs.
+                            but found that the joy of building things using code was the first vocation to really excite me since my childhood infatuation with joining the SEALs.
                             I pivoted to learning all things computer science, beginning with the practical decision to become fluent with JavaScript.
                             Unfortunately, my studies still had to remain relegated to my off-hours.
                         </p>
                     </div>
                     <div className={verbosity < 100 ? styles.none : styles.bioParagraph}>
                         <p>
-                            I continued working in QA up until January of 2024. After leaving that company, 
+                            I continued working in QA up until January of 2024. After departing, 
                             I finally devoted myself fully to mastering the requisite skills to be a contributing member of front-end development.
                             This time has been truly transformative, and while I'd give anything to have discovered this passion in my youth, 
                             it's a revelation to every day professionally engage with thing I want to do - every day.
