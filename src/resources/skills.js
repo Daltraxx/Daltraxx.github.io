@@ -11,7 +11,7 @@ const skills = [
     },
     {
         name: 'React',
-        description: "Having now built multiple projects using React, I feel secure in my ability to work with the framework in a professional capacity. I know there is much more to learn, and am excited to also start branching out to related frameworks such as Next.js and React Native.",
+        description: "Having now built multiple projects using React, I feel secure in my ability to work with the framework in a professional capacity. I know there is much more to learn, and I am excited to begin learning related frameworks such as Next.js and React Native.",
         src: "/assets/images/react-icon.png", 
         href: '#react-skill',
         id: 'react-skill',
@@ -19,7 +19,7 @@ const skills = [
     },
     {
         name: 'CSS',
-        description: "Once fraught with some difficulties, CSS has become a welcome and familiar tool, one which I enjoy exploring the possibilities of. One aspect I'm keen on diving deeper into is more complex animations and transitions.",
+        description: "Once fraught with some difficulties, CSS has become a welcome and familiar tool, and one which I enjoy exploring the possibilities of. One aspect I'm keen on diving deeper into is more complex animations and transitions.",
         src: "/assets/images/css-icon.png", 
         href: '#css-skill',
         id: 'css-skill',
@@ -27,7 +27,7 @@ const skills = [
     },
     {
         name: 'HTML',
-        description: "I'm as comfortable with HTML as I am anything, and am also prepared to build pages adhering to accessibility guidelines and account for SEO best practices.",
+        description: "I'm as comfortable with HTML as I am anything, and I am also prepared to build pages which adhere to accessibility guidelines and account for SEO best practices.",
         src: "/assets/images/html-icon.png", 
         href: '#html-skill',
         id: 'html-skill',
@@ -43,7 +43,7 @@ const skills = [
     },
     {
         name: 'Python',
-        description: 'My first programming language, it was once my most mastered and experienced, though it has been superseded by JavaScript. I would still have no discomfort returning to, refreshing and making use of my Python foundations.',
+        description: 'My first programming language, it was once my most mastered and experienced, though it has been usurped by JavaScript. Given some minimal refreshing, I would have no discomfort returning to and making use of my Python foundations.',
         src: "/assets/images/python-icon.png", 
         href: '#python-skill',
         id: 'python-skill',
@@ -51,7 +51,7 @@ const skills = [
     },
     {
         name: 'Handlebars.js',
-        description: 'I learned HandleBars before I learned React, and while I could certainly brush off the rust quickly, have not used the framework in great frequency since becoming familiar with React.',
+        description: 'I learned HandleBars before I learned React, and - while I could certainly brush off the rust quickly - have not used the framework in great frequency since becoming familiar with React.',
         src: "/assets/images/handlebars-icon.png", 
         href: '#handlebarsjs-skill',
         id: 'handlebarsjs-skill',
@@ -75,7 +75,7 @@ const skills = [
     },
     {
         name: 'Angular.js',
-        description: "Like Handlebars.js, I learned the basics of Angular before being swept up in mastering React. That said, I'm confident in my ability to tackle projects in Angular if needed.",
+        description: "Like Handlebars.js, I learned the basics of Angular before moving on to React. That said, I'm confident in my ability to tackle projects in Angular if needed.",
         src: "/assets/images/angular-icon.png", 
         href: '#angularjs-skill',
         id: 'angularjs-skill',
