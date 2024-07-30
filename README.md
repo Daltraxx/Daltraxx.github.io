@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Dalton Pettus Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a webapp built with React.js after being first initialized with `-create-react-app`. Its purpose is to serve as creator Dalton Pettus's portfolio and resume, as well as give a simple means of contacting the creator.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+The website features a landing page from which the user can navigate to anywhere on the full site. Once the user clicks one of the links, the relevant page will be rendered. At this time, the landing page can only be returned to by clicking the site header, 'Dalton Pettus'.
 
-### `npm start`
+The Contact Page displays only a Verbosity Slider and Quick Facts section at first. If a Quick Fact is selected, the corresponding, more verbose description will appear in the following box. If the Verbosity Slider is increased, more information will be displayed on the page, including the 'Longer Bio'. If the Verbosity Slider is decreased, information will be hidden from view until the page is nearly empty.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Resume Page is an organized view of the creator's resume.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Projects Page displays selected projects from the creator's coding history. Each projects features its title, the technologies used, a link to its GitHub repository, and a short description.
 
-### `npm test`
+The Contact Page presents button links to the creator's LinkedIn profile and email. On desktop, the spacebar can be pressed to render a different background and properties for the buttons. Clicking the email button opens the native email app on the user's device. To deter bots from scraping the creator's email, the email is never available in the link's href attribute until the button is clicked. Once clicked, the href value is replaced with the correct email, but only long enough to open the user's email application. Then the email is once again replaced with different values.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node Project Manager version 5.2 or higher
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Executing Program
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The app can be run in development mode locally by using `npm start` from the project directory.
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Dalton Pettus - [See GitHub Profile](https://github.com/Daltraxx)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
