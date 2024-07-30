@@ -4,13 +4,23 @@ This is a webapp built with React.js after being first initialized with `-create
 
 ## Description
 
+### Landing Page
+
 The website features a landing page from which the user can navigate to anywhere on the full site. Once the user clicks one of the links, the relevant page will be rendered. At this time, the landing page can only be returned to by clicking the site header, 'Dalton Pettus'.
 
-The Contact Page displays only a Verbosity Slider and Quick Facts section at first. If a Quick Fact is selected, the corresponding, more verbose description will appear in the following box. If the Verbosity Slider is increased, more information will be displayed on the page, including the 'Longer Bio'. If the Verbosity Slider is decreased, information will be hidden from view until the page is nearly empty.
+### About Page
+
+The About Page displays only a Verbosity Slider and Quick Facts section at first. If a Quick Fact is selected, the corresponding, more verbose description will appear in the following box. If the Verbosity Slider is increased, more information will be displayed on the page, including the 'Longer Bio'. If the Verbosity Slider is decreased, information will be hidden from view until the page is nearly empty.
+
+### Resume Page
 
 The Resume Page is an organized view of the creator's resume.
 
+### Projects Page
+
 The Projects Page displays selected projects from the creator's coding history. Each projects features its title, the technologies used, a link to its GitHub repository, and a short description.
+
+### Contact Page
 
 The Contact Page presents button links to the creator's LinkedIn profile and email. On desktop, the spacebar can be pressed to render a different background and properties for the buttons. Clicking the email button opens the native email app on the user's device. To deter bots from scraping the creator's email, the email is never available in the link's href attribute until the button is clicked. Once clicked, the href value is replaced with the correct email, but only long enough to open the user's email application. Then the email is once again replaced with different values.
 
