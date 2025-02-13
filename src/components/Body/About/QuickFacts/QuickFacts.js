@@ -30,10 +30,10 @@ function QuickFacts({ verbosity }) {
                         </p>;
             case '02':
                 return <p>
-                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a job in web development, I switched gears to mastering Javascript and a catalogue of related skills.
+                        Though I started with and attained a solid grasp of Python, once I finally committed to seeking a career in web development, I switched gears to mastering Javascript and a catalogue of related skills.
                         I know it can be done, but programming strictly on the side was torturously slow.
                         The concepts and exercises weren't difficult, but I still felt myself waiting for the larger picture to come together.
-                        It wasn't until I had several free months to spend honing the skills I had accumulated that I finally came to feel confident in my abilities,
+                        It wasn't until dedicated myself fully to working as a software engineer that I finally came to feel confident in my abilities,
                         as well as my capacity to contribute to a real team.
                         </p>;
             case '03':
@@ -41,20 +41,23 @@ function QuickFacts({ verbosity }) {
                         I never realized the paucity of my tech exposure growing up until I started working in a tech company office.
                         There was a stark contrast between me and the other QA workers, and much more so the programmers.
                         I didn't know a single keyboard shortcut, even rudimentary ones like copy and paste.
-                        However, my competencies quickly improved, and my nascent desire to dive deeper into software was ignited.
+                        However, my competencies quickly improved and I eventually became QA Lead.
+                        Once I learned the breadth of what I could learn and create through programming, I was forever hooked.
                         </p>;
             case '04':
                 return <p>
                         Personal development and self-actualization are overarching obsessions of mine.
                         I follow a manicured routine devoted to these aspirations, a few daily practices of which are meditation, journaling, reading, and exercise.
-                        I am also an avid practitioner of the creed that one should code every day (though it is almost always much more than that).
+                        I am also an avid practitioner of the creed that one should cognitively challenge themselves with code every day.
                         Video games have also been near and dear to my heart since childhood, and were the sole thread of my interest in software growing up as I fantasized about making my own.
                         </p>;
             case '05':
                 return <p>
-                        I grew up with the idea that my only real task was to go to college, and I never contemplated much beyond that. I would come to learn what a mistake that was come graduation. 
-                        It's now been several years since, and I'd give anything to have discovered programming sooner. I'm doing my best to make up for lost time, 
-                        and now all I dream about is the perpetual expansion of my skills, as well as the blissfully endless exploration of new ideas and technologies.
+                        I have been enthralled with the art of creation since I was a child. 
+                        This was often expressed in writing, which I still do, but I never found a way in which this passion could align with a career.
+                        Upon graduating university, I found myself in a state of limbo, until I discovered software development.
+                        Now I lament that I had not been introduced to this field as early as possible.
+                        It happily dominates all my time, combining my loves of learning and creating, of fine-tuning until something is exactly as I want it and watching it come to life.
                         </p>;
             default:
                 return <p>Click a bullet point to display more information!</p>;
@@ -71,8 +74,8 @@ function QuickFacts({ verbosity }) {
                         <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
                         <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
                         <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew little about computers until first Quality Assurance employment in 2018.</span></li>
-                        <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Passions include fitness, reading and writing, video games, and - of course - programming.</span></li>
-                        <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Excelled in academics growing up, but didn't discover any viable or enticing career paths until learning to code.</span></li>
+                        <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Passions include fitness, reading and writing, video games, and - of course - software engineering.</span></li>
+                        <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Programming is my outlet for expressing my creativity and detail-obsessed nature.</span></li>
                     </ul>
                 </div>
             </section>
