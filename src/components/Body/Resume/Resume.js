@@ -56,7 +56,7 @@ function Resume() {
                 Proven ability in creating and implementing successful front and back-end web applications. I love building things and challenging myself along the way. 
                 </p>
             </section>
-            <section className={`${styles.resumeSection} ${styles.flexRow} ${styles.skillsSection}`}>
+            <section className={`${styles.resumeSection} ${styles.flexRow}`}>
                 <h3 id='skills'>Skills</h3>
                 {skillsJSX}
             </section>
