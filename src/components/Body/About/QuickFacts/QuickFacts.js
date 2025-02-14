@@ -38,11 +38,10 @@ function QuickFacts({ verbosity }) {
                         </p>;
             case '03':
                 return <p>
-                        I never realized the paucity of my tech exposure growing up until I started working in a tech company office.
-                        There was a stark contrast between me and the other QA workers, and much more so the programmers.
-                        I didn't know a single keyboard shortcut, even rudimentary ones like copy and paste.
-                        However, my competencies quickly improved and I eventually became QA Lead.
-                        Once I learned the breadth of what I could learn and create through programming, I was forever hooked.
+                        I always want to work towards being within the vanguard of my field, exploring new technologies and pushing them forward.
+                        Much of this stems from my admiration of past inventors and innovators, from Babbage and Lovelace
+                        to the pioneers of the computing and internet revolutions. I'll always work to emulate these greats,
+                        to be a force of creation and progress in the world.
                         </p>;
             case '04':
                 return <p>
@@ -73,7 +72,7 @@ function QuickFacts({ verbosity }) {
                     <ul>
                         <li className={verbosity >= 25 ? '' : styles.factsHide}><span id='01' onClick={handleClick}>Began learning first program language, Python, in May of 2020.</span></li>
                         <li className={verbosity >= 30 ? '' : styles.factsHide}><span id='02' onClick={handleClick}>Started studying programming in earnest* while working in QA from 2021 to 2024.</span></li>
-                        <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Knew little about computers until first Quality Assurance employment in 2018.</span></li>
+                        <li className={verbosity >= 35 ? '' : styles.factsHide}><span id='03' onClick={handleClick}>Deep interest in working with AI tools and progressing the development of the field itself.</span></li>
                         <li className={verbosity >= 40 ? '' : styles.factsHide}><span id='04' onClick={handleClick}>Passions include fitness, reading and writing, video games, and - of course - software engineering.</span></li>
                         <li className={verbosity >= 45 ? '' : styles.factsHide}><span id='05' onClick={handleClick}>Programming is my outlet for expressing my creativity and detail-obsessed nature.</span></li>
                     </ul>

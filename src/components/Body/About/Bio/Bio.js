@@ -18,7 +18,7 @@ function Bio({ verbosity }) {
                     <div className={verbosity < 70 ? styles.none : styles.bioParagraph}>
                         <p>
                             I went to college without any related professional aspirations. In fact, I spent the majority of my high school and college years dreaming of becoming a Navy SEAL.
-                            It seemed the ultimate test a person could put themselves through, an irresistable challenge to my still unchanged proclivities. 
+                            It seemed the ultimate test a person could put themselves through, an irresistable challenge of the kind I have a penchant for. 
                             I majored in political science with a minor in psychology, but had little professional interest in the topics.
                         </p>
                     </div>
@@ -35,7 +35,7 @@ function Bio({ verbosity }) {
                         <p>
                             Bereft of any deep background using computers, this was the first of my employments to challenge me in any real way.
                             I learned fast, however, and any challenging aspect was short-lived. I once again became bored with the lack of self-application
-                            and worried about my own stymied growth as a result. My burgeoning desire to dive deeper into tech was a response to this growing ennui.
+                            and worried about my own stymied growth as a result. I yearned for an occupation which would continuously challenge me intellectually and creatively.
                         </p>
                     </div>
                 </section>
@@ -50,10 +50,10 @@ function Bio({ verbosity }) {
                     </div>
                     <div className={verbosity < 100 ? styles.none : styles.bioParagraph}>
                         <p>
-                            I continued working in QA up until January of 2024. After departing, 
-                            I finally devoted myself fully to mastering the requisite skills to be a contributing member of front-end development.
-                            This time has been truly transformative, and while I'd give anything to have discovered this passion in my youth, 
-                            it's a revelation to every day professionally engage with thing I want to do - every day.
+                            Finally, in the beginning of 2024, 
+                            I finally devoted myself fully to mastering the requisite skills to be a fully capable - even exeptional - software engineer.
+                            It's a revelation to spend every day challenging myself, working with others with similar skills and interests, and building things that seemed impossible before.
+                            I now have a life of continuous actualization, creation, and servicing others. I'm finally living my dream.
                         </p>
                     </div>
                 </section>
