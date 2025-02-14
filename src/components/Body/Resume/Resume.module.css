@@ -54,15 +54,13 @@
 
 .skill img {
     height: 3.8888rem;
-    padding: .5rem;
-    border-radius: 6px;
 }
 
-.skillDescription {
+/* .skillDescription {
     display: flex;
     height: 10rem;
     align-items: center;
-}
+} */
 
 @media only screen and (max-width: 1058px) {
     .skill {
