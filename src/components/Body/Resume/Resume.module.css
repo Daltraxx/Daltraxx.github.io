@@ -41,15 +41,21 @@
 
 /*Skills section*/
 .skill {
-    width: max(25%, 28rem);
-    margin: 1rem 2.5rem;
+    flex-basis: 20%;
+    margin: 1rem 1rem;
 }
 
 .skill h4 {
     background-color: var(--accent-blue-700);
     color: var(--accent-orange-500-sat);
     border-radius: 6px;
-    width: 35%;
+    min-width: 10rem;
+}
+
+.skill img {
+    height: 3.8888rem;
+    padding: .5rem;
+    border-radius: 6px;
 }
 
 .skillDescription {

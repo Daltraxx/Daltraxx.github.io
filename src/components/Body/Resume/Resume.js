@@ -14,9 +14,7 @@ function Resume() {
         return (
             <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${skills.indexOf(skill)}`}>
                 <h4 id={skill.id}>{skill.name}</h4>
-                <section className={styles.skillDescription}>
-                    <p>{skill.description}</p>
-                </section>
+                <img src={skill.src}/>
             </section>
         );
     });
@@ -54,12 +52,11 @@ function Resume() {
             <section className={`${styles.resumeSection} ${styles.flexColumn} ${styles.statementHeader}`}>
                 <h3>Statement</h3>
                 <p>
-                    I believe in an eclectic approach to both life and work.
-                    Always striving for mastery, I obsessively hone my skills and consume the information that will allow me to grow and contribute at the highest level.
-                    I wish for my impact to be felt within any organization I service, and am confident in my ability to make that happen. 
+                Creative and detail-obsessed software engineer with a passion for mastering emergent technologies and tools, including AI and machine learning. 
+                Proven ability in creating and implementing successful front and back-end web applications. I love building things and challenging myself along the way. 
                 </p>
             </section>
-            <section className={`${styles.resumeSection} ${styles.flexRow}`}>
+            <section className={`${styles.resumeSection} ${styles.flexRow} ${styles.skillsSection}`}>
                 <h3 id='skills'>Skills</h3>
                 {skillsJSX}
             </section>

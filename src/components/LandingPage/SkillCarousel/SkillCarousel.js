@@ -13,14 +13,14 @@ function SkillCarousel({ handlePageChange }) {
             skillIconsDisplay.push
             (
                 <div className={styles.iconContainer} key={skill.name}>
-                    <a href='#skills' onClick={handlePageChange}><img src={skill.src} alt={skill.name} title={skill.name} name='resume' /></a>
+                    <a href='#skills' onClick={handlePageChange}><img src={skill.src} alt={skill.alt} title={skill.name} name='resume' /></a>
                 </div>
             );
         } else {
             experienceIconsDisplay.push
             (
                 <div className={styles.iconContainer} key={skill.name}>
-                    <a href='#skills' onClick={handlePageChange}><img src={skill.src} alt={skill.name} title={skill.name} name='resume' /></a>
+                    <a href='#skills' onClick={handlePageChange}><img src={skill.src} alt={skill.alt} title={skill.name} name='resume' /></a>
                 </div>
             );
         }  
