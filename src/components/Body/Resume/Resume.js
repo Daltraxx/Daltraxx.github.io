@@ -65,19 +65,18 @@ function Resume() {
                 <section className={styles.educationThird}>
                     <div className={`${styles.universitySanDiego} ${styles.flexColumn}`}>
                         <h4>University of San Diego</h4>
-                        <p className={styles.educationOutcome}>Major in Political Science, Minor in Psychology</p>
-                        <p className={styles.dateRange}>2012 - 2016</p>
+                        {/* <p className={styles.educationOutcome}>Major in Political Science, Minor in Psychology</p> */}
+                        <p className={styles.educationDateRange}>2012 - 2016</p>
                         <section className={styles.educationDescription}>
                             <p>
-                                My university education was genuinely formative in my growing understanding of this world and its complexities, 
-                                and what my role may be in it. My present and future may not be rooted in the above subjects, 
-                                but I only feel immense gratitude for all that has set me on my current trajectory, 
-                                including the skills that I have accumulated along the way.
+                                Just one stop in a lifelong journey of education and growth. I learned how to research with proficiency and gained a resolute confidence in my ability to
+                                figure out a solution to any problem or obstacle one can encounter - no matter its complexity - which continues to this day. I earnestly believe that this is 
+                                of the most impactful assurances once can have.
                             </p>
                         </section>
                     </div>
                 </section>
-                <section className={`${styles.educationThird}`}>
+                {/* <section className={`${styles.educationThird}`}>
                     <div className={`${styles.codecademyDescription} ${styles.flexColumn}`}>
                         <h4>Codecademy</h4>
                         <p className={styles.educationOutcome}>General Programming and Computer Science</p>
@@ -91,15 +90,15 @@ function Resume() {
                             </p>
                         </section>
                     </div>
-                </section>
-                <section className={`${styles.educationThird}`}>
+                </section> */}
+                {/* <section className={`${styles.educationThird}`}>
                     <div className={`${styles.codecademyCertifications} ${styles.flexColumn}`}>
                         <h4>Certifications</h4>
                         <ul>
                             {certificationsJSX}
                         </ul>
                     </div>
-                </section>
+                </section> */}
             </section>
             <section className={`${styles.resumeSection} ${styles.flexRow}`}>
                 <h3>Work Experience</h3>

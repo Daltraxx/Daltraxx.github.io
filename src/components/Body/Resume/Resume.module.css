@@ -90,6 +90,12 @@
     font-size: 1.2rem;
 }
 
+.educationDateRange {
+    margin: 0 0;
+    color: var(--accent-orange-700-sat);
+    font-weight: 600;
+}
+
 .educationOutcome {
     color: var(--accent-orange-700-sat);
     font-weight: 600;
