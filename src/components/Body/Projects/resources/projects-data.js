@@ -2,6 +2,18 @@
 
 const projectsData = [
     {
+        name: 'Dalton Pettus Portfolio Site',
+        description: 
+            `It is worth placing this very site here because of the variety of skills involved in making it. Built with React and making heavy use of props and hooks,
+            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
+            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is also written so that its content is easy to update.
+            This project showed me many new paths to explore and dive deeper into, and there is much more to implement and expand upon going forward.
+            I will continue to use this site as a playground for new skills I develop.`,
+        github: 'https://github.com/Daltraxx/dalton-pettus-portfolio-site',
+        image: '/assets/images/dalton-portfolio-site-project.png',
+        technologies: ['React']
+    },
+    {
         name: 'Ravenous',
         description: 
             `In this project I built a React app which uses the Yelp API to search and display results based on the business name and location entered. 
@@ -21,36 +33,24 @@ const projectsData = [
         */
         github: 'https://github.com/Daltraxx/ravenous',
         image: '/assets/images/ravenous-project.png',
-        technologies: ['JavaScript', 'React', 'Yelp API', 'CSS', 'HTML']
-    },
-    {
-        name: 'Dalton Pettus Portfolio Site',
-        description: 
-            `It is worth placing this very site here because of the variety of skills involved in making it. Built with React and making heavy use of props and hooks,
-            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
-            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is also written so that its content is easy to update.
-            This project showed me many new paths to explore and dive deeper into, and there is much more to implement and expand upon going forward.
-            I will continue to use this site as a playground for new skills I develop.`,
-        github: 'https://github.com/Daltraxx/dalton-pettus-portfolio-site',
-        image: '/assets/images/dalton-portfolio-site-project.png',
-        technologies: ['JavaScript', 'React', 'CSS', 'HTML']
+        technologies: ['React', 'Yelp API']
     },
     {
         name: 'Life RPG Company Webpage',
         description: 
-            `A simple fake company webpage for a project I am currently studying to build into a production-ready application, 
-            it is included to showcase my ability to work with CSS and HTML to build elegant and responsive webpages from scratch.`,
+            `A company webpage for LifeRPG, a site and application where users may report on their daily habits and task completion to level up and gain rewards for their character.
+            [in development]`,
         github: 'https://github.com/Daltraxx/life-rpg-project-site',
         image: '/assets/images/life-rpg-project.png',
-        technologies: ['CSS', 'HTML']
+        technologies: ['Next.js', 'React', 'MongoDB']
     },
     {
         name: 'Santee Pickleball Webpage',
         description: 
-            `A simple fake pickleball club webpage, it is included to showcase my ability to work with CSS and HTML to build elegant and responsive webpages from scratch.`,
+            `A simple pickleball club webpage where users may register and meet with others, communicating and planning times to gather for their favorite activity. [in development]`,
         github: 'https://github.com/Daltraxx/santee-pickleball-site',
         image: '/assets/images/santee-pickleballers-project.png',
-        technologies: ['CSS', 'HTML']
+        technologies: ['Next.js', 'React', 'MongoDB']
     },
 ];
 
