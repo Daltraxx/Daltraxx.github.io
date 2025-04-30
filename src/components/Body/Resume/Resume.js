@@ -14,7 +14,7 @@ function Resume() {
         return (
             <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${skills.indexOf(skill)}`}>
                 <h4 id={skill.id}>{skill.name}</h4>
-                <img src={skill.src}/>
+                <img src={skill.src} alt={`${skill.name} icon`}/>
             </section>
         );
     });
