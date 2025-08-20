@@ -8,6 +8,7 @@ import Resume from './components/Body/Resume/Resume';
 import Projects from './components/Body/Projects/Projects';
 import Contact from './components/Body/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import jsonLd from './lib/jsonLd';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -45,25 +46,33 @@ function App() {
 
   if (page === 'landing') {
     return (
-      <div className={styles.landingPageBody}>
-        <header className={styles.header}>
-          <LandingPage handlePageChange={handlePageChange} />
-        </header>
-        <main>
-          <SkillCarousel handlePageChange={handlePageChange}/>
-        </main>
-      </div>
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <div className={styles.landingPageBody}>
+          <header className={styles.header}>
+            <LandingPage handlePageChange={handlePageChange} />
+          </header>
+          <main>
+            <SkillCarousel handlePageChange={handlePageChange} />
+          </main>
+        </div>
+      </>
     );
   } else {
     return (
       <>
-        <Header handlePageChange={handlePageChange} currentPage={page}/>
-        <main className={styles.main}>
-          {getBody(page)}
-        </main>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <Header handlePageChange={handlePageChange} currentPage={page} />
+        <main className={styles.main}>{getBody(page)}</main>
         <Footer />
       </>
-    )
+    );
   }
 }
 
