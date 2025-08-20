@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
@@ -23,7 +23,7 @@ function App() {
 
     //console.log(body.style.backgroundColor);
     
-    setPage(prevPage => target.name);
+    setPage(target.name);
   }
 
   //render correct page
