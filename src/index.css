@@ -28,6 +28,7 @@
   --accent-orange-300: hsla(39, 70%, 60%, 1); /*#ffb833*/
   --accent-orange-100: hsla(39, 70%, 68%, 1); /*#ffc65c*/
 
+  --heading-gold: #FFC000;
   --accent-gold-600: hsla(51, 100%, 42%, 1);
   --accent-gold-500: hsla(51, 100%, 50%, 1); /*#FFD700*/
 
@@ -71,7 +72,7 @@ body {
 }
 
 h1 {
-  color: var(--accent-teal-300);
+  color: var(--heading-gold);
 }
 
 
