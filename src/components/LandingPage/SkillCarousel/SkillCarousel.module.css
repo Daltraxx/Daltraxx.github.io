@@ -26,6 +26,17 @@
     border-radius: 5px;
 }
 
+.iconContainer img:hover {
+    background-color: var(--gray-500);
+}
+
+.iconContainer img:active {
+    background-color: var(--gray-700);
+    transform: translate(0, .5rem);
+    padding: .9rem .7rem; /*shrinks background when pressing*/
+}
+
+
 @media only screen and (max-width: 768px) {
     .container h2 {
         font-size: 1.2rem;
