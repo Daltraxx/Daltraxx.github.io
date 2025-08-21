@@ -54,7 +54,7 @@
     margin: 0;
     overflow: hidden;
     max-height: 13.75rem;
-    transition: max-height 0.5s linear;
+    transition: max-height 0.5s ease;
 }
 
 .nav ul[data-expanded="false"] {
