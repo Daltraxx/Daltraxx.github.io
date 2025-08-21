@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './LandingPageNav.module.css';
 
 function LandingPageNav({handlePageChange}) {
