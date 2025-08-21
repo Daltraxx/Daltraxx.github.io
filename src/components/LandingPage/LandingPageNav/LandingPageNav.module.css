@@ -70,6 +70,11 @@
     display: block; /* so translate works */
 }
 
+.nav a:active {
+    color: var(--accent-orange-500-sat);
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 425px) {
     .nav ul {
         flex-direction: row;
