@@ -18,16 +18,19 @@
     cursor: pointer;
 }
 
-.menuToggleIcon {
+.menuToggleButton span {
     display: inline-block;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     font-size: 0.75rem;
+    transition: transform 0.3s ease;
 }
 
-
+.menuToggleButtonOpen span {
+    transform: rotate(180deg) translateY(50%);
+}
 
 .nav ul {
     list-style: none;

@@ -1,10 +1,26 @@
 import styles from './LandingPageNav.module.css';
+import { useState } from 'react';
+import clsx from 'clsx';
 
-function LandingPageNav({handlePageChange}) {
+function LandingPageNav({ handlePageChange }) {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+        console.log(`Menu is now ${!menuOpen ? 'open' : 'closed'}`);
+    };
+
     return (
         <nav className={styles.nav}>
-            <button className={styles.menuToggleButton}>
-                See Menu <span className={`${styles.menuToggleIcon}`}>▲</span>
+            <button
+                className={clsx(
+                    styles.menuToggleButton,
+                    menuOpen && styles.menuToggleButtonOpen
+                )}
+                onClick={toggleMenu}
+            >
+                See Menu{" "}
+                <span>▲</span>
             </button>
             <ul>
                 <li key="about">
