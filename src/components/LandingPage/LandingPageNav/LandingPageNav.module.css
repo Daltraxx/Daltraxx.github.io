@@ -1,5 +1,5 @@
 .nav {
-    padding: 1.5rem 0 1rem 0;
+    padding: 1rem 0;
 }
 
 .menuToggleButton {
@@ -34,7 +34,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 0.75rem;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .menuToggleButton[aria-expanded="true"] {
@@ -52,6 +52,13 @@
     flex-direction: column;
     padding-left: 0;
     margin: 0;
+    overflow: hidden;
+    max-height: 13.75rem;
+    transition: max-height 0.5s linear;
+}
+
+.nav ul[data-expanded="false"] {
+    max-height: 0;
 }
 
 .nav a {

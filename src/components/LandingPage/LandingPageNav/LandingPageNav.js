@@ -20,7 +20,7 @@ function LandingPageNav({ handlePageChange }) {
                 See Menu{" "}
                 <span>▲</span>
             </button>
-            <ul id="navigation-menu">
+            <ul id="navigation-menu" data-expanded={menuOpen}>
                 <li key="about">
                     <a
                         href="#!"
