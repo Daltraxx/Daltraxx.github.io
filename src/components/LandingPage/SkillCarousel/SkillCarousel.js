@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './SkillCarousel.module.css';
 
 import skills from '../../../resources/skills';
