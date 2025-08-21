@@ -12,16 +12,15 @@ function LandingPageNav({ handlePageChange }) {
     return (
         <nav className={styles.nav}>
             <button
-                className={clsx(
-                    styles.menuToggleButton,
-                    menuOpen && styles.menuToggleButtonOpen
-                )}
+                className={clsx(styles.menuToggleButton)}
+                aria-expanded={menuOpen}
+                aria-controls="navigation-menu"
                 onClick={toggleMenu}
             >
                 See Menu{" "}
                 <span>▲</span>
             </button>
-            <ul>
+            <ul id="navigation-menu">
                 <li key="about">
                     <a
                         href="#!"
