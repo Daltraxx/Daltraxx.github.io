@@ -6,7 +6,7 @@ const skills = [
     alt: "JavaScript icon",
     description:
       "JavaScript is currently my most comfortable programming language by a large margin. I certainly don't know everything, but am confident in my ability to figure out any problem when JavaScript is the tool I'm utlilizing.",
-    src: "/assets/images/js-icon.png",
+    src: "/assets/images/js-icon.webp",
     href: "#javascript-skill",
     id: "javascript-skill",
     proficiency: "skilled",
@@ -16,7 +16,7 @@ const skills = [
     alt: "React icon",
     description:
       "Having now built multiple projects using React, I feel secure in my ability to work with the framework in a professional capacity. I know there is much more to learn, and I am excited to begin learning related frameworks such as Next.js and React Native.",
-    src: "/assets/images/react-icon.png",
+    src: "/assets/images/react-icon.webp",
     href: "#react-skill",
     id: "react-skill",
     proficiency: "skilled",
@@ -36,7 +36,7 @@ const skills = [
     alt: "TypeScript icon",
     description:
       "I enjoy using TypeScript and immediately appreciated its ease and type-safe nature (my first type-safe language). I have not encountered any difficulties with it thus far, and will be using it in upcoming personal projects.",
-    src: "/assets/images/typescript-icon.png",
+    src: "/assets/images/typescript-icon.webp",
     href: "#typescript-skill",
     id: "typescript-skill",
     proficiency: "experienced",
@@ -84,7 +84,7 @@ const skills = [
     alt: "Node.js icon",
     description:
       "Node.js is relatively recent to me, and while I've completed the Codecademy course, I have much to learn and absorb more fully regarding it's possibilities. Mastering this language is one of my ongoing endeavors.",
-    src: "/assets/images/node-js-icon.png",
+    src: "/assets/images/node-js-icon.webp",
     href: "#nodejs-skill",
     id: "nodejs-skill",
     proficiency: "experienced",
@@ -93,7 +93,7 @@ const skills = [
     name: "Java",
     alt: "Java icon",
     description: "",
-    src: "/assets/images/java-icon.png",
+    src: "/assets/images/java-icon.webp",
     href: "#java-skill",
     id: "java-skill",
     proficiency: "skilled",
@@ -103,7 +103,7 @@ const skills = [
     alt: "Python icon",
     description:
       "My first programming language, it was once my most mastered and experienced, though it has been usurped by JavaScript. Given some minimal refreshing, I would have no discomfort returning to and making use of my Python foundations.",
-    src: "/assets/images/python-icon.png",
+    src: "/assets/images/python-icon.webp",
     href: "#python-skill",
     id: "python-skill",
     proficiency: "experienced",
@@ -113,7 +113,7 @@ const skills = [
     alt: "Handlebars icon",
     description:
       "I learned HandleBars before I learned React, and - while I could certainly brush off the rust quickly - have not used the framework in great frequency since becoming familiar with React.",
-    src: "/assets/images/handlebars-icon.png",
+    src: "/assets/images/handlebars-icon.webp",
     href: "#handlebarsjs-skill",
     id: "handlebarsjs-skill",
     proficiency: "experienced",
@@ -123,7 +123,7 @@ const skills = [
     alt: "Bootstrap icon",
     description:
       "Feeling the need to know a CSS/HTML framework, I learned Bootstrap and grew to appreciate its ease of use. I still enjoy building sites from CSS scratch, but am able to use Bootstrap for components I haven't yet learned to implement myself.",
-    src: "/assets/images/bootstrap-icon.png",
+    src: "/assets/images/bootstrap-icon.webp",
     href: "#bootstrap-skill",
     id: "bootstrap-skill",
     proficiency: "experienced",
@@ -133,7 +133,7 @@ const skills = [
     alt: "Angular.js icon",
     description:
       "Like Handlebars.js, I learned the basics of Angular before moving on to React. That said, I'm confident in my ability to tackle projects in Angular if needed.",
-    src: "/assets/images/angular-icon.png",
+    src: "/assets/images/angular-icon.webp",
     href: "#angularjs-skill",
     id: "angularjs-skill",
     proficiency: "experienced",
@@ -143,7 +143,7 @@ const skills = [
         name: 'C++',
         alt: 'C++ icon',
         description: "C++ is a recent language for me but learning it is my ",
-        src: "/assets/images/c-plus-plus-icon.png", 
+        src: "/assets/images/c-plus-plus-icon.webp", 
         href: '#cplusplus-skill',
         id: 'cplusplus-skill',
         proficiency: 'experienced'
