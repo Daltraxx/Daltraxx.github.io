@@ -8,15 +8,24 @@ function SkillCarousel({ handlePageChange, className }) {
     const skillIconDisplay = [];
     for (let skill of skills) {
         skillIconDisplay.push(
-            <div className={styles.iconContainer} key={skill.name}>
-                <a href="#skills" onClick={handlePageChange}>
-                    <img
-                        src={skill.src}
-                        alt={skill.alt}
-                        title={skill.name}
-                        name="resume"
-                    />
-                </a>
+            <div
+                className={styles.iconContainer}
+                key={skill.name}
+            >
+            <a
+                href="#skills"
+                onClick={handlePageChange}
+                aria-label={`Navigate to ${skill.name} on Resume page`}
+            >
+                <img
+                    src={skill.src}
+                    alt={skill.alt || skill.name}
+                    title={skill.name}
+                    name="resume"
+                    role="img"
+                    aria-label={skill.alt || skill.name}
+                />
+            </a>
             </div>
         );
     };
