@@ -8,9 +8,9 @@ function LandingPage({handlePageChange}) {
         <>
             <h1 className={styles.heading}><a href="# ">Dalton Pettus</a></h1>
             <p className={styles.shortDescription}>
-                An impassioned and prodigiously ambitious software engineer who loves learning and building things. 
+                Endlessly curious and ambitious software engineer whose passions are learning and building things. 
                 Instrumental in servicing any person or organization looking to meet their project or development goals.
-                Reach out and let's have a conversation.
+                Work with someone who loves what they do. Reach out and let's have a conversation.
             </p>
             <LandingPageNav handlePageChange={handlePageChange}/>
         </>
