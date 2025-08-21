@@ -6,6 +6,7 @@
 .container h2 {
     text-align: center;
     color: var(--gray-300);
+    font-size: 1.2rem;
 }
 
 .iconDisplay {
@@ -17,11 +18,12 @@
 }
 
 .iconContainer {
-    width: 7rem;
+    width: 3.5rem;
     text-align: center;
 }
 
 .iconContainer img {
+    height: 4rem;
     padding: 1rem .75rem;
     border-radius: 5px;
 }
@@ -36,10 +38,9 @@
     padding: .9rem .7rem; /*shrinks background when pressing*/
 }
 
-
-@media only screen and (max-width: 768px) {
-    .container h2 {
-        font-size: 1.2rem;
+@media only screen and (min-width: 451px) {
+    .iconContainer {
+        width: 7rem;
     }
 
     .iconContainer img {
@@ -47,23 +48,8 @@
     }
 }
 
-@media only screen and (max-width: 450px) {
-    .iconContainer {
-        width: 3.5rem;
-    }
-
-    .iconContainer img {
-        height: 4rem;
+@media only screen and (min-width: 769px) {
+    .container h2 {
+        font-size: 2rem;
     }
 }
-
-.iconContainer img:hover {
-    background-color: var(--gray-500);
-}
-
-.iconContainer img:active {
-    background-color: var(--gray-700);
-    transform: translate(0, .5rem);
-    padding: .9rem .7rem; /*shrinks background when pressing*/
-}
-
