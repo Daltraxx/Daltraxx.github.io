@@ -19,24 +19,24 @@ const skills = [
         id: 'react-skill',
         proficiency: 'skilled'
     },
-    {
-        name: 'CSS',
-        alt: 'CSS icon',
-        description: "Once fraught with some difficulties, CSS has become a welcome and familiar tool, and one which I enjoy exploring the possibilities of. One aspect I'm keen on diving deeper into is more complex animations and transitions.",
-        src: "/assets/images/css-icon.png", 
-        href: '#css-skill',
-        id: 'css-skill',
-        proficiency: 'skilled'
-    },
-    {
-        name: 'HTML',
-        alt: 'HTML icon',
-        description: "I'm as comfortable with HTML as I am anything, and I am also prepared to build pages which adhere to accessibility guidelines and account for SEO best practices.",
-        src: "/assets/images/html-icon.png", 
-        href: '#html-skill',
-        id: 'html-skill',
-        proficiency: 'skilled'
-    },
+    // {
+    //     name: 'CSS',
+    //     alt: 'CSS icon',
+    //     description: "Once fraught with some difficulties, CSS has become a welcome and familiar tool, and one which I enjoy exploring the possibilities of. One aspect I'm keen on diving deeper into is more complex animations and transitions.",
+    //     src: "/assets/images/css-icon.png", 
+    //     href: '#css-skill',
+    //     id: 'css-skill',
+    //     proficiency: 'skilled'
+    // },
+    // {
+    //     name: 'HTML',
+    //     alt: 'HTML icon',
+    //     description: "I'm as comfortable with HTML as I am anything, and I am also prepared to build pages which adhere to accessibility guidelines and account for SEO best practices.",
+    //     src: "/assets/images/html-icon.png", 
+    //     href: '#html-skill',
+    //     id: 'html-skill',
+    //     proficiency: 'skilled'
+    // },
     {
         name: 'Java',
         alt: 'Java icon',
