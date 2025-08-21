@@ -7,7 +7,6 @@ function LandingPageNav({ handlePageChange }) {
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
-        console.log(`Menu is now ${!menuOpen ? 'open' : 'closed'}`);
     };
 
     return (
