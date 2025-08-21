@@ -1,9 +1,4 @@
-.skillsSection {
-    display: flex;
-    justify-content: space-around;
-}
-
-.container h2 {
+.skillsSection h2 {
     text-align: center;
     color: var(--gray-300);
     font-size: 1.2rem;
@@ -49,7 +44,7 @@
 }
 
 @media only screen and (min-width: 769px) {
-    .container h2 {
+    .skillsSection h2 {
         font-size: 2rem;
     }
 }

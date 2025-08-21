@@ -3,7 +3,7 @@ import styles from './SkillCarousel.module.css';
 import skills from '../../../resources/skills';
 
 
-function SkillCarousel({ handlePageChange }) {
+function SkillCarousel({ handlePageChange, className }) {
     //create arrays for displaying "proficient in" and "experience with" icons
     const skillIconDisplay = [];
     for (let skill of skills) {
@@ -22,12 +22,10 @@ function SkillCarousel({ handlePageChange }) {
     };
     
     return (
-        <section className={styles.skillsSection}>
-            <div className={styles.container}>
-                <h2>Experience With</h2>
-                <div className={styles.iconDisplay}>
-                    {skillIconDisplay}
-                </div>
+        <section className={`${styles.skillsSection} ${className || ''}`}>
+            <h2>Experience With</h2>
+            <div className={styles.iconDisplay}>
+                {skillIconDisplay}
             </div>
         </section>
     )
