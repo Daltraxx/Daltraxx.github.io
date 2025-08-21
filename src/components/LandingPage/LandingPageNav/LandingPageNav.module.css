@@ -5,7 +5,7 @@
 .nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding-left: 0;
     margin: 0;
 }
@@ -19,42 +19,49 @@
     display: block; /* so translate works */
 }
 
-.nav a:hover {
-    color: var(--accent-orange-500-sat);
-}
+@media only screen and (min-width: 425px) {
+    .nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
-.leftNavButton:hover,
-.leftNavButton:focus {
-    background-color: var(--primary-blue-500);
-    filter: drop-shadow(15px 15px 1px var(--gray-300));
-    outline: none;
-    border: 2px solid var(--accent-orange-300);
-    border-radius: 3px;
-}
+    .nav a:hover {
+        color: var(--accent-orange-500-sat);
+    }
 
-.rightNavButton:hover,
-.rightNavButton:focus {
-    background-color: var(--primary-blue-500);
-    filter: drop-shadow(-15px 15px 1px var(--gray-300));
-    outline: none;
-    border: 2px solid var(--accent-orange-300);
-    border-radius: 3px;
-}
+    .leftNavButton:hover,
+    .leftNavButton:focus {
+        background-color: var(--primary-blue-500);
+        filter: drop-shadow(15px 15px 1px var(--gray-300));
+        outline: none;
+        border: 2px solid var(--accent-orange-300);
+        border-radius: 3px;
+    }
 
-.nav a:active {
-    background-color: var(--primary-blue-700);
-    color: var(--accent-orange-500-sat);
-    border: 2px solid var(--accent-orange-500);
-}
+    .rightNavButton:hover,
+    .rightNavButton:focus {
+        background-color: var(--primary-blue-500);
+        filter: drop-shadow(-15px 15px 1px var(--gray-300));
+        outline: none;
+        border: 2px solid var(--accent-orange-300);
+        border-radius: 3px;
+    }
 
-.leftNavButton:active {
-    transform: translate(.2rem, .2rem);
-    filter: drop-shadow(calc(15px - .2rem) calc(15px - .2rem) 1px var(--gray-400));
-}
+    .nav a:active {
+        background-color: var(--primary-blue-700);
+        color: var(--accent-orange-500-sat);
+        border: 2px solid var(--accent-orange-500);
+    }
 
-.rightNavButton:active {
-    transform: translate(-.2rem, .2rem);
-    filter: drop-shadow(calc(-15px + .2rem) calc(15px - .2rem) 1px var(--gray-400));
+    .leftNavButton:active {
+        transform: translate(.2rem, .2rem);
+        filter: drop-shadow(calc(15px - .2rem) calc(15px - .2rem) 1px var(--gray-400));
+    }
+
+    .rightNavButton:active {
+        transform: translate(-.2rem, .2rem);
+        filter: drop-shadow(calc(-15px + .2rem) calc(15px - .2rem) 1px var(--gray-400));
+    }
 }
 
 @media only screen and (min-width: 551px) {
