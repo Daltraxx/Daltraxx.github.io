@@ -3,6 +3,9 @@ import styles from './LandingPageNav.module.css';
 function LandingPageNav({handlePageChange}) {
     return (
         <nav className={styles.nav}>
+            <button className={styles.menuToggleButton}>
+                See Menu <span className={`${styles.menuToggleIcon}`}>▲</span>
+            </button>
             <ul>
                 <li key="about">
                     <a
