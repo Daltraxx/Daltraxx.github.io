@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Resume.module.css';
 
 import workExperience from './resources/work-experience';
