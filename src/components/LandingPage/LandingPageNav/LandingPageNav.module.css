@@ -98,19 +98,17 @@
     }
 
     .leftNavButton:hover,
-    .leftNavButton:focus {
+    .leftNavButton:focus-visible {
         background-color: var(--primary-blue-500);
         filter: drop-shadow(15px 15px 1px var(--gray-300));
-        outline: none;
         border: 2px solid var(--accent-orange-300);
         border-radius: 3px;
     }
 
     .rightNavButton:hover,
-    .rightNavButton:focus {
+    .rightNavButton:focus-visible {
         background-color: var(--primary-blue-500);
         filter: drop-shadow(-15px 15px 1px var(--gray-300));
-        outline: none;
         border: 2px solid var(--accent-orange-300);
         border-radius: 3px;
     }
