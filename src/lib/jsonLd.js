@@ -1,6 +1,8 @@
 import skills from "../resources/skills.js";
 
-const jsonLDSkills = skills.map((skill) => skill.name);
+const jsonLDSkills = Array.isArray(skills)
+  ? [...new Set(skills.map((s) => s?.name?.trim()).filter(Boolean))]
+  : [];
 
 const jsonLd = {
   "@context": "https://schema.org",
