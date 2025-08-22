@@ -7,7 +7,7 @@ function ProjectsDisplay({ projectsData }) {
         return (
             <section className={styles.projectContainer} key={`project` + projectsData.indexOf(project)}>
                 <section className={styles.projectInfoHalf}>
-                    <div className={styles.imageContainer} style={{backgroundImage: 'url' + `(${project.image})`}}>
+                    <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.image})` }}>
                         <div className={styles.shader}>
                             <div className={styles.titleInfo}>
                                 <h3>{project.name}</h3>
