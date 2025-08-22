@@ -10,7 +10,7 @@ function LandingPage({handlePageChange}) {
             <p className={styles.shortDescription}>
                 Endlessly curious, ambitious software engineer passionate about learning and building. 
                 Instrumental in servicing any person or organization looking to meet their project or development goals.
-                Work with someone who loves what they do. Reach out and let's have a conversation.
+                Work with someone who loves what they do &mdash; reach out and let's have a conversation.
             </p>
             <LandingPageNav handlePageChange={handlePageChange}/>
         </>
