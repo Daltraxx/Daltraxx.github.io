@@ -52,7 +52,7 @@
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .skillsSection h2 {
         font-size: 2rem;
     }
