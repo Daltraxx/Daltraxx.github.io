@@ -2,7 +2,7 @@ import styles from './Resume.module.css';
 
 import workExperience from './resources/work-experience';
 import skills from '../../../resources/skills';
-import certifications from './resources/certifications';
+// import certifications from './resources/certifications';
 
 
 
@@ -19,13 +19,13 @@ function Resume() {
     });
 
     //map certification object array to JSX
-    const certificationsJSX = certifications.map(certification => {
-        return (
-            <li key={`certification${certifications.indexOf(certification)}`}>
-                <a href={certification.url} target="_blank" rel="noreferrer">{certification.title}</a>
-            </li>
-        )
-    });
+    // const certificationsJSX = certifications.map(certification => {
+    //     return (
+    //         <li key={`certification${certifications.indexOf(certification)}`}>
+    //             <a href={certification.url} target="_blank" rel="noreferrer">{certification.title}</a>
+    //         </li>
+    //     )
+    // });
     
     //map workExperience object array to JSX
     const workExperienceJSX = workExperience.map(job => {
