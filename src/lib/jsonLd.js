@@ -7,6 +7,7 @@ const jsonLDSkills = Array.isArray(skills)
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://www.daltonpettus.com/#person",
   name: "Dalton Pettus",
   url: "https://www.daltonpettus.com",
   alumniOf: {
