@@ -8,7 +8,7 @@ function LandingPage({handlePageChange}) {
         <>
             <h1 className={styles.heading}><a href="# ">Dalton Pettus</a></h1>
             <p className={styles.shortDescription}>
-                Endlessly curious and ambitious software engineer whose passions are learning and building things. 
+                Endlessly curious, ambitious software engineer passionate about learning and building. 
                 Instrumental in servicing any person or organization looking to meet their project or development goals.
                 Work with someone who loves what they do. Reach out and let's have a conversation.
             </p>
