@@ -15,7 +15,7 @@ function ProjectsDisplay({ projectsData }) {
                                 <ul>
                                     {project.technologies.map(tech => <li key={`${tech}`}>{tech}</li>)}
                                 </ul>
-                                <a href={project.github} target="_blank">View on GitHub</a>
+                                <a href={project.github} target="_blank" rel='noopener noreferrer'>View on GitHub</a>
                             </div>
                         </div>
                     </div>
