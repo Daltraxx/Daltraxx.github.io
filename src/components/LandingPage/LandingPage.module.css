@@ -7,23 +7,7 @@
     color: var(--gray-100);
     font-size: clamp(1rem, 0.5vw + 0.9rem, 1.3rem);
     width: 90%;
+    /* Keeps readable line length ~65 characters on large screens */
+    max-width: 65ch;
     margin: 0 auto;
-}
-
-@media only screen and (min-width: 769px) {
-    .shortDescription {
-        width: 90%;
-    }
-}
-
-@media only screen and (min-width: 1025px) {
-    .shortDescription {
-        width: 80%;
-    }
-}
-
-@media only screen and (min-width: 1441px) {
-    .shortDescription {
-        width: 65%;
-    }
 }
