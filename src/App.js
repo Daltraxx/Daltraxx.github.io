@@ -13,7 +13,9 @@ import jsonLd from './lib/jsonLd';
 function App() {
   const [page, setPage] = useState('landing');
 
-  const handlePageChange = ({ target }) => {
+  const handlePageChange = (event) => {
+    event.preventDefault();
+    const target = event.target;
     //Change site background color when leaving landing page
     let body = document.querySelector('body');
     if (target.name !== 'landing') {
