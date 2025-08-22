@@ -16,7 +16,7 @@ function LandingPageNav({ handlePageChange }) {
                 aria-controls="navigation-menu"
                 onClick={toggleMenu}
             >
-                See Menu{" "}
+                {menuOpen ? "Close Menu " : "Open Menu "}
                 <span>▲</span>
             </button>
             <ul id="navigation-menu" data-expanded={menuOpen}>
