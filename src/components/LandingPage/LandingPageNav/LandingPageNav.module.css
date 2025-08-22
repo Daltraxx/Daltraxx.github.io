@@ -55,12 +55,8 @@
     padding-left: 0;
     margin: 0;
     overflow: hidden;
-    max-height: 13.75rem;
+    max-height: var(--menu-max-height, 0);
     transition: max-height 0.5s ease;
-}
-
-.nav ul[data-expanded="false"] {
-    max-height: 0;
 }
 
 .nav a {

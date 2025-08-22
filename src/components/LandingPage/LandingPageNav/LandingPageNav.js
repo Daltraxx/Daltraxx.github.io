@@ -1,10 +1,20 @@
 import styles from './LandingPageNav.module.css';
-import { useState, useId } from 'react';
+import { useState, useId, useRef, useEffect } from 'react';
 import clsx from 'clsx';
 
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuId = useId();
+
+    const menuRef = useRef(null);
+    useEffect(() => {
+        if (menuRef.current) {
+            const menuElement = menuRef.current;
+            const maxHeight = menuOpen ? `${menuElement.scrollHeight}px` : '0';
+            menuElement.style.setProperty('--menu-max-height', maxHeight);
+        }
+    }, [menuOpen]);
+
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -20,7 +30,7 @@ function LandingPageNav({ handlePageChange }) {
                 {menuOpen ? "Close Menu " : "Open Menu "}
                 <span>▲</span>
             </button>
-            <ul id={menuId} data-expanded={menuOpen} hidden={!menuOpen}>
+            <ul id={menuId} data-expanded={menuOpen} hidden={!menuOpen} ref={menuRef}>
                 <li>
                     <a
                         href="#!"
