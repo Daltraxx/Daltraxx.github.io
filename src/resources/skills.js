@@ -5,8 +5,7 @@ const skills = [
     name: "JavaScript",
     alt: "JavaScript icon",
     description:
-      "JavaScript is currently my most comfortable programming language by a large margin. I certainly don't know everything, but am confident in my ability to figure out any problem when JavaScript is the tool I'm utlilizing.",
-    src: "/assets/images/js-icon.webp",
+      "JavaScript is currently my most comfortable programming language by a large margin. I certainly don't know everything, but am confident in my ability to figure out any problem when JavaScript is the tool I'm utilizing.",    src: "/assets/images/js-icon.webp",
     href: "#javascript-skill",
     id: "javascript-skill",
     proficiency: "skilled",
