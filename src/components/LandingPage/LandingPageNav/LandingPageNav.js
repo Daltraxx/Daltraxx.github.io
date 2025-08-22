@@ -21,7 +21,7 @@ function LandingPageNav({ handlePageChange }) {
                 <span>▲</span>
             </button>
             <ul id={menuId} data-expanded={menuOpen} hidden={!menuOpen}>
-                <li key="about">
+                <li>
                     <a
                         href="#!"
                         className={styles.leftNavButton}
@@ -31,7 +31,7 @@ function LandingPageNav({ handlePageChange }) {
                         About
                     </a>
                 </li>
-                <li key="resume">
+                <li>
                     <a
                         href="#!"
                         className={styles.leftNavButton}
@@ -41,7 +41,7 @@ function LandingPageNav({ handlePageChange }) {
                         Resume
                     </a>
                 </li>
-                <li key="projects">
+                <li>
                     <a
                         href="#!"
                         className={styles.rightNavButton}
@@ -51,7 +51,7 @@ function LandingPageNav({ handlePageChange }) {
                         Projects
                     </a>
                 </li>
-                <li key="contact">
+                <li>
                     <a
                         href="#!"
                         className={styles.rightNavButton}
