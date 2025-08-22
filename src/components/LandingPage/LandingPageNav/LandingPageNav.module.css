@@ -77,7 +77,6 @@
     /* Hide the menu toggle button on larger screens */
     .menuToggleButton {
         display: none;
-        visibility: hidden;
     }
 
     .nav ul {
