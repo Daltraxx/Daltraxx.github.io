@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './ProjectsDisplay.module.css';
 
 function ProjectsDisplay({ projectsData }) {
