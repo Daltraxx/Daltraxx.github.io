@@ -8,7 +8,7 @@ import Resume from './components/Body/Resume/Resume';
 import Projects from './components/Body/Projects/Projects';
 import Contact from './components/Body/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import jsonLd from './lib/jsonLd';
+import personJsonLd from './lib/jsonLd';
 
 function App() {
   const [page, setPage] = useState('landing');
@@ -45,7 +45,7 @@ function App() {
     }
   }
 
-  const ldJson = JSON.stringify(jsonLd);
+  const ldJson = JSON.stringify(personJsonLd);
 
   return (
     <>
