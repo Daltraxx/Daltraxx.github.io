@@ -20,7 +20,7 @@ function LandingPageNav({ handlePageChange }) {
                 {menuOpen ? "Close Menu " : "Open Menu "}
                 <span>▲</span>
             </button>
-            <ul id={menuId} data-expanded={menuOpen}>
+            <ul id={menuId} data-expanded={menuOpen} hidden={!menuOpen}>
                 <li key="about">
                     <a
                         href="#!"
