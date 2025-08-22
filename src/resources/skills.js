@@ -83,8 +83,7 @@ const skills = [
     name: "Node.js",
     alt: "Node.js icon",
     description:
-      "Node.js is relatively recent to me, and while I've completed the Codecademy course, I have much to learn and absorb more fully regarding it's possibilities. Mastering this language is one of my ongoing endeavors.",
-    src: "/assets/images/node-js-icon.webp",
+      "Node.js is relatively recent to me, and while I've completed the Codecademy course, I have much to learn and absorb more fully regarding its possibilities. Mastering this language is one of my ongoing endeavors.",    src: "/assets/images/node-js-icon.webp",
     href: "#nodejs-skill",
     id: "nodejs-skill",
     proficiency: "experienced",
