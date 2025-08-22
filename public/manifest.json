@@ -1,5 +1,7 @@
 {
   "short_name": "Dalton Pettus",
+  "id": "/",
+  "scope": "/",
   "name": "Dalton Pettus | Software Engineer",
   "icons": [
     {
