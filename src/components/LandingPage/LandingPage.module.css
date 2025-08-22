@@ -1,5 +1,5 @@
 .heading {
-    font-size: 2rem;
+    font-size: clamp(2rem, 3vw + 1rem, 4rem);
 }
 
 .shortDescription {
@@ -11,18 +11,12 @@
 }
 
 @media only screen and (min-width: 426px) {
-    .heading {
-        font-size: 2.5rem;
-    }
     .shortDescription {
         font-size: 1.3rem;
     }
 }
 
 @media only screen and (min-width: 769px) {
-    .heading {
-        font-size: 4rem;
-    }
     .shortDescription {
         width: 90%;
     }
