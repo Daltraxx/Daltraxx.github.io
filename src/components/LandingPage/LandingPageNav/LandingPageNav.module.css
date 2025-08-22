@@ -87,7 +87,7 @@
 
     /* On larger screens, the menu is always expanded */
     .nav ul[data-expanded="false"] {
-        max-height: inherit;
+        max-height: none;
     }
 
     .nav a:hover {
