@@ -44,7 +44,7 @@
 }
 
 .menuToggleButton[aria-expanded="true"] span {
-    transform: rotate(180deg) translateY(50%);
+    transform: translateY(-50%) rotate(180deg);
 }
 
 .nav ul {
