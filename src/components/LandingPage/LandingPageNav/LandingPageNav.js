@@ -1,9 +1,10 @@
 import styles from './LandingPageNav.module.css';
-import { useState } from 'react';
+import { useState, useId } from 'react';
 import clsx from 'clsx';
 
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
+    const menuId = useId();
 
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
@@ -13,13 +14,13 @@ function LandingPageNav({ handlePageChange }) {
                 type="button"
                 className={clsx(styles.menuToggleButton)}
                 aria-expanded={menuOpen}
-                aria-controls="navigation-menu"
+                aria-controls={menuId}
                 onClick={toggleMenu}
             >
                 {menuOpen ? "Close Menu " : "Open Menu "}
                 <span>▲</span>
             </button>
-            <ul id="navigation-menu" data-expanded={menuOpen}>
+            <ul id={menuId} data-expanded={menuOpen}>
                 <li key="about">
                     <a
                         href="#!"
