@@ -22,7 +22,6 @@ function SkillCarousel({ handlePageChange, className }) {
                     alt={skill.alt || skill.name}
                     title={skill.name}
                     name="resume"
-                    role="img"
                     aria-label={skill.alt || skill.name}
                 />
             </a>
