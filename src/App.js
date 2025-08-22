@@ -45,14 +45,15 @@ function App() {
     }
   }
 
+  const ldJson = JSON.stringify(jsonLd);
 
-  if (page === 'landing') {
-    return (
-      <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: ldJson }}
+      />
+      {page === 'landing' ? (
         <div className={styles.landingPageBody}>
           <header className={styles.header}>
             <LandingPage handlePageChange={handlePageChange} />
@@ -61,21 +62,16 @@ function App() {
             <SkillCarousel handlePageChange={handlePageChange} className={styles.skillCarousel} />
           </main>
         </div>
-      </>
-    );
-  } else {
-    return (
-      <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <Header handlePageChange={handlePageChange} currentPage={page} />
-        <main className={styles.main}>{getBody(page)}</main>
-        <Footer />
-      </>
-    );
-  }
+      ) : (
+        <>
+          <Header handlePageChange={handlePageChange} currentPage={page} />
+          <main className={styles.main}>{getBody(page)}</main>
+          <Footer />
+        </>
+      )} 
+    </>
+  );
+  
 }
 
 export default App;
