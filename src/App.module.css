@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.skillCarousel {
+    margin-bottom: 1rem;
+}
+
 .header {
     padding-top: 7%;
     display: flex;

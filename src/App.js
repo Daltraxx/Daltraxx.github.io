@@ -58,7 +58,7 @@ function App() {
             <LandingPage handlePageChange={handlePageChange} />
           </header>
           <main>
-            <SkillCarousel handlePageChange={handlePageChange} />
+            <SkillCarousel handlePageChange={handlePageChange} className={styles.skillCarousel} />
           </main>
         </div>
       </>
