@@ -1,3 +1,7 @@
+.skillsSection {
+    margin-bottom: 1rem;
+}
+
 .skillsSection h2 {
     text-align: center;
     color: var(--gray-300);
