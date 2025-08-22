@@ -1,7 +1,7 @@
 import skills from "../resources/skills.js";
 
 const jsonLDSkills = Array.isArray(skills)
-  ? [...new Set(skills.map((s) => s?.name?.trim()).filter(Boolean))]
+  ? [...new Set(skills.map((skill) => skill?.name?.trim()).filter(Boolean))]
   : [];
 
 const jsonLd = {
