@@ -60,6 +60,7 @@
 
 @media only screen and (min-width: 1024px) {
     .iconDisplay {
-        max-width: 60%;
+        /* min 48rem, prefer 60%, cap at 80rem — tune to taste */
+        max-width: clamp(48rem, 60%, 80rem);
     }
 }
