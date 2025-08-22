@@ -24,21 +24,26 @@
     width: 4rem
 }
 
+.iconContainer a {
+    display: inline-block;
+    border-radius: 5px;
+    /* smooth hover/press */
+    transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.iconContainer a:hover {
+    background-color: var(--gray-500);
+}
+
+.iconContainer a:active {
+    background-color: var(--gray-700);
+    transform: translateY(2px) scale(0.98);
+}
+
 .iconContainer img {
     height: 4rem;
     width: auto;
     padding: 1rem .75rem;
-    border-radius: 5px;
-}
-
-.iconContainer img:hover {
-    background-color: var(--gray-500);
-}
-
-.iconContainer img:active {
-    background-color: var(--gray-700);
-    transform: translate(0, .5rem);
-    padding: .9rem .7rem; /*shrinks background when pressing*/
 }
 
 @media only screen and (min-width: 451px) {
