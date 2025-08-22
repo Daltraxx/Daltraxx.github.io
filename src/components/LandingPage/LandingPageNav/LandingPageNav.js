@@ -5,9 +5,7 @@ import clsx from 'clsx';
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
         <nav className={styles.nav}>
