@@ -10,6 +10,7 @@ function LandingPageNav({ handlePageChange }) {
     return (
         <nav className={styles.nav}>
             <button
+                type="button"
                 className={clsx(styles.menuToggleButton)}
                 aria-expanded={menuOpen}
                 aria-controls="navigation-menu"
