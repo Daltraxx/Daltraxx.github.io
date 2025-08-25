@@ -20,18 +20,20 @@
     width: 4rem
 }
 
-.iconContainer a {
+.iconContainer button {
     display: inline-block;
+    background-color: transparent;
+    border: none;
     border-radius: 5px;
     /* smooth hover/press */
     transition: background-color 120ms ease, transform 120ms ease;
 }
 
-.iconContainer a:hover {
+.iconContainer button:hover {
     background-color: var(--gray-500);
 }
 
-.iconContainer a:active {
+.iconContainer button:active {
     background-color: var(--gray-700);
     transform: translateY(2px) scale(0.98);
 }

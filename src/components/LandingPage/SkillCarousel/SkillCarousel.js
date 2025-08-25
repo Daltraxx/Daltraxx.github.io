@@ -15,21 +15,18 @@ function SkillCarousel({ handlePageChange, className = '' }) {
             className={styles.iconContainer}
             key={skill.name}
         >
-            <a
-                href="#skills"
+            <button
                 onClick={handleSkillClick}
                 data-page="resume"
-                aria-label={`Navigate to ${skill.name} on Resume page`}
+                aria-label={`Navigate to Resume page`}
             >
                 <img
                     src={skill.src}
                     alt={skill.alt || skill.name}
                     title={skill.name}
-                    loading="lazy"
-                    decoding="async"
                     data-page="resume"
                 />
-            </a>
+            </button>
         </div>
     ));
     
