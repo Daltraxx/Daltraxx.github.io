@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
@@ -46,7 +46,10 @@ function App() {
     }
   }
 
-  const ldJson = JSON.stringify(personJsonLd);
+  const ldJson = useMemo(
+    () => JSON.stringify(personJsonLd).replace(/</g, '\\u003c'),
+    []
+  );
 
   return (
     <>
