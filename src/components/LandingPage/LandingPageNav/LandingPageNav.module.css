@@ -60,12 +60,18 @@
 }
 
 .nav a {
-    padding: .5rem;
+    padding: .75rem .5rem;
     font-size: 1.2rem;
     font-weight: 600;
     border: 2px solid var(--primary-blue-700);
     color: var(--accent-orange-500);
     display: block; /* so translate works */
+}
+
+.nav a:focus-visible {
+    outline: 3px solid var(--accent-orange-400);
+    outline-offset: 3px;
+    text-decoration: none;
 }
 
 .nav a:hover {
