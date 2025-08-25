@@ -24,9 +24,10 @@ function App() {
       body.style.backgroundColor = 'var(--primary-blue-700)';
     }
 
-    //console.log(body.style.backgroundColor);
-    
-    setPage(target.name);
+    // Determine the new page to navigate to, prioritizing data-page attribute but allow name during transition
+    const newPage = target.dataset.page || target.name;
+
+    setPage(newPage);
   }
 
   //render correct page
