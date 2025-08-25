@@ -19,7 +19,7 @@ export const personJsonLd = {
     "https://www.linkedin.com/in/dalton-pettus/",
     "https://github.com/Daltraxx",
     "https://bsky.app/profile/daltonpettus.com",
-    "https://x.com/pettus_dalton",
+    "https://twitter.com/pettus_dalton",
   ],
   jobTitle: "Software Engineer",
 };
