@@ -17,20 +17,11 @@ function Resume() {
             </section>
         );
     });
-
-    //map certification object array to JSX
-    // const certificationsJSX = certifications.map(certification => {
-    //     return (
-    //         <li key={`certification${certifications.indexOf(certification)}`}>
-    //             <a href={certification.url} target="_blank" rel="noreferrer">{certification.title}</a>
-    //         </li>
-    //     )
-    // });
     
     //map workExperience object array to JSX
-    const workExperienceJSX = workExperience.map(job => {
+    const workExperienceJSX = workExperience.map((job, index) => {
         return (
-            <section className={styles.job} key={`job${workExperience.indexOf(job)}`}>
+            <section className={styles.job} key={`job${index}`}>
                 <section className={styles.jobInfo}>
                     <h4 className={styles.jobTitle}>{job.title}</h4>
                     <p className={styles.jobCompany}>{job.company}</p>
