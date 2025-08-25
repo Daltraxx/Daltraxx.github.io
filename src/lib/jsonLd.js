@@ -4,7 +4,7 @@ const jsonLDSkills = Array.isArray(skills)
   ? [...new Set(skills.map((skill) => skill?.name?.trim()).filter(Boolean))]
   : [];
 
-export const personJsonLd = {
+const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://www.daltonpettus.com/#person",
