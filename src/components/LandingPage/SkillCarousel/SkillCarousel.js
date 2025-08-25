@@ -5,30 +5,33 @@ import clsx from 'clsx';
 
 
 function SkillCarousel({ handlePageChange, className = '' }) {
-    //create arrays for displaying "proficient in" and "experience with" icons
-    const skillIconDisplay = [];
-    for (let skill of skills) {
-        skillIconDisplay.push(
-            <div
-                className={styles.iconContainer}
-                key={skill.name}
-            >
+    const handleSkillClick = (e) => {
+        e.preventDefault();
+        handlePageChange(e);
+    };
+
+    const skillIconDisplay = skills.map((skill) => (
+        <div
+            className={styles.iconContainer}
+            key={skill.name}
+        >
             <a
                 href="#skills"
-                onClick={handlePageChange}
+                onClick={handleSkillClick}
+                data-page="resume"
                 aria-label={`Navigate to ${skill.name} on Resume page`}
             >
                 <img
                     src={skill.src}
                     alt={skill.alt || skill.name}
                     title={skill.name}
-                    name="resume"
-                    aria-label={skill.alt || skill.name}
+                    loading="lazy"
+                    decoding="async"
+                    data-page="resume"
                 />
             </a>
-            </div>
-        );
-    };
+        </div>
+    ));
     
     return (
         <section className={clsx(styles.skillsSection, className)}>
