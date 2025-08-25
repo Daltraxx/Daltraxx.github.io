@@ -1,9 +1,10 @@
 import styles from './SkillCarousel.module.css';
 
 import skills from '../../../resources/skills';
+import clsx from 'clsx';
 
 
-function SkillCarousel({ handlePageChange, className }) {
+function SkillCarousel({ handlePageChange, className = '' }) {
     //create arrays for displaying "proficient in" and "experience with" icons
     const skillIconDisplay = [];
     for (let skill of skills) {
@@ -30,7 +31,7 @@ function SkillCarousel({ handlePageChange, className }) {
     };
     
     return (
-        <section className={`${styles.skillsSection} ${className || ''}`}>
+        <section className={clsx(styles.skillsSection, className)}>
             <h2>Experience With</h2>
             <div className={styles.iconDisplay}>
                 {skillIconDisplay}
