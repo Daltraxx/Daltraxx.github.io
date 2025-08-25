@@ -5,7 +5,8 @@ const skills = [
     name: "JavaScript",
     alt: "JavaScript icon",
     description:
-      "JavaScript is currently my most comfortable programming language by a large margin. I certainly don't know everything, but am confident in my ability to figure out any problem when JavaScript is the tool I'm utilizing.",    src: "/assets/images/js-icon.webp",
+      "JavaScript is currently my most comfortable programming language by a large margin. I certainly don't know everything, but am confident in my ability to figure out any problem when JavaScript is the tool I'm utilizing.",
+    src: "/assets/images/js-icon.webp",
     href: "#javascript-skill",
     id: "javascript-skill",
     proficiency: "skilled",
@@ -82,12 +83,12 @@ const skills = [
     name: "Node.js",
     alt: "Node.js icon",
     description:
-      "Node.js is relatively recent to me, and while I've completed the Codecademy course, I have much to learn and absorb more fully regarding its possibilities. Mastering this language is one of my ongoing endeavors.",    src: "/assets/images/node-js-icon.webp",
+      "Node.js is relatively recent to me, and while I've completed the Codecademy course, I have much to learn and absorb more fully regarding its possibilities. Mastering this language is one of my ongoing endeavors.",
+    src: "/assets/images/node-js-icon.webp",
     href: "#nodejs-skill",
     id: "nodejs-skill",
     proficiency: "experienced",
-  },
-  {
+  },  {
     name: "Java",
     alt: "Java icon",
     description: "",
