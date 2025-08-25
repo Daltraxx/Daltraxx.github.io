@@ -28,6 +28,7 @@
     border-radius: 5px;
     /* smooth hover/press */
     transition: background-color 120ms ease, transform 120ms ease;
+    cursor: pointer;
 }
 
 .iconContainer button:hover {
