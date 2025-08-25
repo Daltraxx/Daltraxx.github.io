@@ -3,9 +3,9 @@ import styles from './ProjectsDisplay.module.css';
 function ProjectsDisplay({ projectsData }) {
 
     //get jsx for each project by mapping from projectsData array of objects
-    const projectsJSX = projectsData.map(project => {
+    const projectsJSX = projectsData.map((project, index) => {
         return (
-            <section className={styles.projectContainer} key={`project` + projectsData.indexOf(project)}>
+            <section className={styles.projectContainer} key={`project${index}`}>
                 <section className={styles.projectInfoHalf}>
                     <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.image})` }} aria-hidden="true">
                         <div className={styles.shader}>
