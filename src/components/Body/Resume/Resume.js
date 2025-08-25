@@ -9,9 +9,9 @@ import skills from '../../../resources/skills';
 function Resume() {
 
     //map skills object array to JSX
-    const skillsJSX = skills.map(skill => {
+    const skillsJSX = skills.map((skill, index) => {
         return (
-            <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${skills.indexOf(skill)}`}>
+            <section className={`${styles.skill} ${styles.flexColumn}`} key={`skill${index}`}>
                 <h4 id={skill.id}>{skill.name}</h4>
                 <img src={skill.src} alt={`${skill.name} icon`}/>
             </section>
