@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
@@ -11,43 +11,44 @@ import Footer from './components/Footer/Footer';
 import personJsonLd from './lib/jsonLd';
 
 function App() {
-  const [page, setPage] = useState('landing');
+  const [page, setPage] = useState("landing");
 
   const handlePageChange = (event) => {
     event.preventDefault();
     const target = event.target;
-    //Change site background color when leaving landing page
-    let body = document.querySelector('body');
-    if (target.name !== 'landing') {
-      body.style.backgroundColor = 'var(--gray-100)';
-    } else {
-      body.style.backgroundColor = 'var(--primary-blue-700)';
-    }
 
     // Determine the new page to navigate to, prioritizing data-page attribute but allow name during transition
     const newPage = target.dataset.page || target.name;
 
     setPage(newPage);
-  }
+  };
+
+  // Change site background color depending on the current page
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      document.body.style.backgroundColor =
+        page !== "landing" ? "var(--gray-100)" : "var(--primary-blue-700)";
+    }
+  }, [page]);
 
   //render correct page
   const getBody = (page) => {
     switch (page) {
-      case 'about':
+      case "about":
         return <About />;
-      case 'resume':
+      case "resume":
         return <Resume />;
-      case 'projects':
+      case "projects":
         return <Projects />;
-      case 'contact':
+      case "contact":
         return <Contact />;
       default:
-        return <h2>You found a page that shouldn't exist. Good for you.</h2>
+        return <h2>You found a page that shouldn't exist. Good for you.</h2>;
     }
-  }
+  };
 
   const ldJson = useMemo(
-    () => JSON.stringify(personJsonLd).replace(/</g, '\\u003c'),
+    () => JSON.stringify(personJsonLd).replace(/</g, "\\u003c"),
     []
   );
 
@@ -57,7 +58,7 @@ function App() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: ldJson }}
       />
-      {page === 'landing' ? (
+      {page === "landing" ? (
         <div className={styles.landingPageBody}>
           <header className={styles.header}>
             <LandingPage handlePageChange={handlePageChange} />
@@ -72,10 +73,9 @@ function App() {
           <main className={styles.main}>{getBody(page)}</main>
           <Footer />
         </>
-      )} 
+      )}
     </>
   );
-  
 }
 
 export default App;
