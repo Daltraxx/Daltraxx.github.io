@@ -12,7 +12,7 @@ function LandingPage({handlePageChange}) {
         </h1>
         <p className={styles.shortDescription}>
           An endlessly curious, ambitious software engineer passionate about
-          learning and building. Instrumental in servicing any person or
+          learning and building. Instrumental in serving any person or
           organization looking to meet their project or development goals. Work
           with someone who loves what they do — reach out and let's have a
           conversation.
