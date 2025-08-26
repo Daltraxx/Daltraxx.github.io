@@ -25,7 +25,6 @@ function SkillCarousel({ handlePageChange, className = '' }) {
                     alt={skill.alt || skill.name}
                     width={skill.width ?? 70}
                     height={skill.height ?? 70}
-                    
                 />
             </button>
         </div>
