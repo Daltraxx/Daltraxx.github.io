@@ -106,7 +106,8 @@ const skills = [
   {
     name: "Java",
     alt: "Java icon",
-    description: "",
+    description:
+      "Java is a robust, object-oriented programming language that I have experience with for enterprise applications and backend development.",
     src: "/assets/images/java-icon.webp",
     width: 43,
     height: 70,
