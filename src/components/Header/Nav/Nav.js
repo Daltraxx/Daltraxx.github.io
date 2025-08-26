@@ -1,8 +1,15 @@
+import clsx from 'clsx';
 import styles from './Nav.module.css';
 
 
 function Nav({ handlePageChange, currentPage }) {
-    const getClassName = (page) => page === currentPage ? `${styles.navButton} ${styles.current}` : `${styles.navButton}`;
+    const getClassName = (page) =>
+      page === currentPage
+        ? clsx(
+            styles.navButton,
+            styles.current
+          )
+        : styles.navButton;
     
 
 
