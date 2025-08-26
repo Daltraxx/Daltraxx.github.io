@@ -1,10 +1,10 @@
-.nav {
+.navContainer {
     height: 4rem;
     margin: 0;
     padding: 0;
 }
 
-.nav ul {
+.navContainer ul {
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -12,7 +12,7 @@
     padding-inline-start: 0;
 }
 
-.nav ul li {
+.navContainer ul li {
     display: flex;
     width: 25%;
     justify-content: center;
@@ -42,11 +42,11 @@
     }
 }
 
-.nav ul li:not(:last-child) .navButton {
+.navContainer ul li:not(:last-child) .navButton {
     border-right: 1px solid var(--primary-blue-700);
 }
 
-.nav ul li:not(:first-child) .navButton {
+.navContainer ul li:not(:first-child) .navButton {
     border-left: 1px solid var(--primary-blue-700);
 }
 
@@ -86,12 +86,12 @@
     width: calc(100% - 5px);
 }
 
-.nav ul li:not(:last-child) .navButton:active {
+.navContainer ul li:not(:last-child) .navButton:active {
     border-right: 3px solid var(--primary-blue-700);
     border-left: 3px solid var(--primary-blue-700);
 }
 
-.nav ul li:not(:first-child) .navButton:active {
+.navContainer ul li:not(:first-child) .navButton:active {
     border-right: 3px solid var(--primary-blue-700);
     border-left: 3px solid var(--primary-blue-700);
 }

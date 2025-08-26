@@ -8,7 +8,7 @@ function Nav({ handlePageChange, currentPage }) {
 
 
     return (
-        <nav className={styles.nav}>
+        <nav className={styles.navContainer}>
             <ul>
                 <li key="about"><a href="#!" className={getClassName("about")} onClick={handlePageChange} name="about">About</a></li>
                 <li key="resume"><a href="#!" className={getClassName("resume")} onClick={handlePageChange} name="resume">Resume</a></li>
