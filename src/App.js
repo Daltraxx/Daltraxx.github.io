@@ -1,4 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
@@ -54,10 +55,9 @@ function App() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: ldJson }}
-      />
+      <Helmet>
+        <script type="application/ld+json">{ldJson}</script>
+      </Helmet>
       {page === "landing" ? (
         <div className={styles.landingPageBody}>
           <header className={styles.header}>
