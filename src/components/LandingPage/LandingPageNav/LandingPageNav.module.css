@@ -21,7 +21,9 @@
 .menuToggleButton:focus-visible {
     outline: 3px solid var(--accent-orange-400);
     outline-offset: 3px;
-    /* Optional: reinforce with a focus ring that doesn't affect layout */
+    /* Fallback for browsers that don't support color-mix */
+    box-shadow: 0 0 0 3px var(--accent-orange-400-50, rgba(255, 165, 0, 0.5));
+    /* Enhanced focus ring for supported browsers */
     box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent-orange-400) 50%, transparent);
 }
 .menuToggleButton:active {
