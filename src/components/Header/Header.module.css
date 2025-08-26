@@ -38,6 +38,6 @@
 
 @media only screen and (min-width: 501px) {
     .headingSideDiv {
-        margin: 0 2rem;
+        margin-inline-end: 2rem;
     }
 }
