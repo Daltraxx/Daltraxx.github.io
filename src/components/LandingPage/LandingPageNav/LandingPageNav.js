@@ -16,7 +16,7 @@ function LandingPageNav({ handlePageChange }) {
     }, [menuOpen]);
 
 
-    const toggleMenu = () => setMenuOpen(!menuOpen);
+    const toggleMenu = () => setMenuOpen(prev => !prev);
 
     return (
         <nav className={styles.nav}>
