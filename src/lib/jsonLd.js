@@ -1,9 +1,14 @@
 import skills from "../resources/skills.js";
 
 const jsonLDSkills = Array.isArray(skills)
-  ? [...new Set(skills.map((skill) => skill?.name?.trim()).filter(Boolean))]
+  ? [
+      ...new Set(
+        skills
+          .map((skill) => skill?.name?.trim?.())
+          .filter(Boolean)
+      ),
+    ]
   : [];
-
 const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
