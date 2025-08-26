@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from './Nav/Nav';
 import SocialLinks from './SocialLinks/SocialLinks';
 import styles from './Header.module.css';
