@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './SocialLinks.module.css';
 
 function SocialLinks() {
