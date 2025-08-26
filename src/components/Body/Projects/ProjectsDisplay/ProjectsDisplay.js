@@ -10,7 +10,6 @@ function ProjectsDisplay({ projectsData }) {
               <div
                 className={styles.imageContainer}
                 style={{ backgroundImage: `url(${project.image})` }}
-                aria-hidden="true"
               >
                 <div className={styles.shader}>
                   <div className={styles.titleInfo}>
