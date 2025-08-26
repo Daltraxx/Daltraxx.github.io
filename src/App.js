@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -14,15 +14,19 @@ import personJsonLd from './lib/jsonLd';
 function App() {
   const [page, setPage] = useState("landing");
 
-  const handlePageChange = (event) => {
-    event.preventDefault();
-    const target = event.target;
+  const handlePageChange = useCallback((e) => {
+    if (e && typeof e.preventDefault === "function") e.preventDefault();
 
-    // Determine the new page to navigate to, prioritizing data-page attribute but allow name during transition
-    const newPage = target.dataset.page || target.name;
-
-    setPage(newPage);
-  };
+    // Get the page name from data-page attribute or name attribute and
+    // prefer currentTarget to avoid picking up nested child without dataset/name
+    const el = e ? (e.currentTarget || e.target) : null;
+    
+    const newPage =
+      (el && el.dataset && el.dataset.page) ||
+      (el && typeof el.name === "string" ? el.name : undefined);
+    
+    if (newPage) setPage(newPage);
+  }, []);
 
   // Change site background color depending on the current page
   useEffect(() => {
