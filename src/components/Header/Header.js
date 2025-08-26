@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 function Header({handlePageChange, currentPage}) {
     return (
         <header>
-            <div className={styles.heading}>
+            <div className={styles.headingContainer}>
                 <div className={styles.headingSideDiv}>
                 </div>
                 <div className={styles.headingText}>
