@@ -42,6 +42,15 @@
     transition: transform 0.5s ease;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .menuToggleButton span {
+    transition: none;
+  }
+  .nav ul {
+    transition: none;
+  }
+}
+
 .menuToggleButton[aria-expanded="true"] {
     background-color: var(--primary-blue-800);
     border-color: var(--accent-orange-500);
