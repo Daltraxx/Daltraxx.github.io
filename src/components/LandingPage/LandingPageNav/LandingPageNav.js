@@ -1,6 +1,5 @@
 import styles from './LandingPageNav.module.css';
 import { useState, useId, useRef, useEffect } from 'react';
-import clsx from 'clsx';
 
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +21,7 @@ function LandingPageNav({ handlePageChange }) {
       <nav className={styles.nav}>
         <button
           type="button"
-          className={clsx(styles.menuToggleButton)}
+          className={styles.menuToggleButton}
           aria-expanded={menuOpen}
           aria-controls={menuId}
           onClick={toggleMenu}
