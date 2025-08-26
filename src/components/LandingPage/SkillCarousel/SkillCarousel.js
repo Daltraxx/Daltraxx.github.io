@@ -23,7 +23,6 @@ function SkillCarousel({ handlePageChange, className = '' }) {
                 <img
                     src={skill.src}
                     alt={skill.alt || skill.name}
-                    title={skill.name}
                     data-page="resume"
                 />
             </button>
