@@ -8,6 +8,10 @@
     color: var(--gray-100);
     font-size: clamp(1rem, 0.5vw + 0.9rem, 1.3rem);
     /* Keeps readable line length ~65 characters on large screens */
+    width: 90%;
+    max-width: 65ch;
+    /* Logical-size version for modern engines */
     inline-size: min(90%, 65ch);
+    line-height: 1.6;
     margin: 0 auto;
 }
