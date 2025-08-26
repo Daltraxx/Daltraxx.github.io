@@ -1,8 +1,9 @@
+import clsx from 'clsx';
 import styles from './SocialLinks.module.css';
 
-function SocialLinks() {
+function SocialLinks({ className = ''}) {
     return (
-        <ul className={styles.socialLinksUl}>
+        <ul className={clsx(styles.socialLinksUl, className)}>
             <li><a href="https://github.com/Daltraxx" target="_blank"  rel="noreferrer">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/dalton-pettus/" target="_blank"  rel="noreferrer">LinkedIn</a></li>
         </ul>

@@ -12,7 +12,7 @@ function Header({handlePageChange, currentPage}) {
                     <h1><a href="/">Dalton Pettus</a></h1>
                 </div>
                 <div className={styles.headingSideDiv}>
-                    <SocialLinks />
+                    <SocialLinks className={styles.socialLinks} />
                 </div>
             </div>
             <Nav handlePageChange={handlePageChange} currentPage={currentPage}/>
