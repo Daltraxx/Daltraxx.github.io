@@ -167,13 +167,12 @@ const skills = [
     {
         name: 'C++',
         alt: 'C++ icon',
-        description: "C++ is a recent language for me but learning it is my ",
+        description: "C++ is a recent language for me but learning it is my ongoing priority for systems programming.",
         src: "/assets/images/c-plus-plus-icon.webp", 
         href: '#cplusplus-skill',
         id: 'cplusplus-skill',
         proficiency: 'experienced'
     },
-    */
-];
+  */];
 
 export default skills;
