@@ -87,6 +87,10 @@ h1 {
   margin: 2rem;
 } 
 
+ul {
+  padding-left: 0;
+}
+
 li {
   color: var(--accent-red-300);
   list-style: none;
