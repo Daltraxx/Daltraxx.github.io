@@ -21,9 +21,10 @@
 }
 
 .socialLinksContainer a:hover,
-.socialLinksContainer a:focus {
+.socialLinksContainer a:focus,
+.socialLinksContainer a:focus-visible {
     background-color: var(--accent-blue-300);
-    border: 1px solid var(--accent-orange-300);
+    border-color: var(--accent-orange-300);
     text-decoration: underline;
 }
 
