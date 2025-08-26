@@ -1,5 +1,5 @@
 .heading {
-    /* Scales from 2rem (≤533px viewport) up to 4rem (≥1600px) */
+    /* Fluid type from 2rem to 4rem; roughly ~533px–1600px with a 16px root */
     font-size: clamp(2rem, 3vw + 1rem, 4rem);
 }
 
