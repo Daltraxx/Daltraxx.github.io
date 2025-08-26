@@ -7,7 +7,7 @@ function LandingPage({handlePageChange}) {
     return (
       <>
         <h1 className={styles.heading}>
-          <a href="/" aria-current="page">
+          <a href="/">
             Dalton Pettus
           </a>
         </h1>
