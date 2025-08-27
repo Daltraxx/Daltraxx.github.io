@@ -1,5 +1,6 @@
 import styles from './LandingPageNav.module.css';
 import { useState, useId, useRef, useLayoutEffect } from 'react';
+import navItems from '../../../resources/navItems';
 
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -17,12 +18,7 @@ function LandingPageNav({ handlePageChange }) {
 
   const toggleMenu = () => setMenuOpen(prev => !prev);
 
-  const navItems = [
-    { id: 'about', label: 'About', className: styles.leftNavButton },
-    { id: 'resume', label: 'Resume', className: styles.leftNavButton },
-    { id: 'projects', label: 'Projects', className: styles.rightNavButton },
-    { id: 'contact', label: 'Contact', className: styles.rightNavButton },
-  ];
+  
 
     return (
       <nav className={styles.nav} aria-label='Primary'>
@@ -43,11 +39,11 @@ function LandingPageNav({ handlePageChange }) {
           inert={!menuOpen}
           ref={menuRef}
         >
-          {navItems.map(({ id, label, className }) => (
+          {navItems.map(({ id, label }, index) => (
             <li key={id}>
               <a
                 href="#"
-                className={className}
+                className={index < navItems.length / 2 ? styles.leftNavButton : styles.rightNavButton}
                 onClick={handlePageChange}
                 data-page={id}
                 role="button"
