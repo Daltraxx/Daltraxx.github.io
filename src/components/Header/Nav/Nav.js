@@ -18,7 +18,7 @@ function Nav({ handlePageChange, currentPage }) {
         <ul>
           <li>
             <a
-              href="#!"
+              href="#"
               className={getClassName("about")}
               onClick={handlePageChange}
               data-page="about"
@@ -29,7 +29,7 @@ function Nav({ handlePageChange, currentPage }) {
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={getClassName("resume")}
               onClick={handlePageChange}
               data-page="resume"
@@ -40,7 +40,7 @@ function Nav({ handlePageChange, currentPage }) {
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={getClassName("projects")}
               onClick={handlePageChange}
               data-page="projects"
@@ -51,7 +51,7 @@ function Nav({ handlePageChange, currentPage }) {
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={getClassName("contact")}
               onClick={handlePageChange}
               data-page="contact"
