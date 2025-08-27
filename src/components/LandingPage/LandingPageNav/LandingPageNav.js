@@ -37,40 +37,44 @@ function LandingPageNav({ handlePageChange }) {
         >
           <li>
             <a
-              href="#!"
+              href="#"
               className={styles.leftNavButton}
               onClick={handlePageChange}
-              name="about"
+              data-page="about"
+              role='button'
             >
               About
             </a>
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={styles.leftNavButton}
               onClick={handlePageChange}
-              name="resume"
+              data-page="resume"
+              role='button'
             >
               Resume
             </a>
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={styles.rightNavButton}
               onClick={handlePageChange}
-              name="projects"
+              data-page="projects"
+              role='button'
             >
               Projects
             </a>
           </li>
           <li>
             <a
-              href="#!"
+              href="#"
               className={styles.rightNavButton}
               onClick={handlePageChange}
-              name="contact"
+              data-page="contact"
+              role='button'
             >
               Contact
             </a>
