@@ -21,7 +21,7 @@ function Nav({ handlePageChange, currentPage }) {
                         href="#!"
                         className={getClassName("about")}
                         onClick={handlePageChange}
-                        name="about"
+                        data-page="about"
                     >
                         About
                     </a>
@@ -31,7 +31,7 @@ function Nav({ handlePageChange, currentPage }) {
                         href="#!"
                         className={getClassName("resume")}
                         onClick={handlePageChange}
-                        name="resume"
+                        data-page="resume"
                     >
                         Resume
                     </a>
@@ -41,7 +41,7 @@ function Nav({ handlePageChange, currentPage }) {
                         href="#!"
                         className={getClassName("projects")}
                         onClick={handlePageChange}
-                        name="projects"
+                        data-page="projects"
                     >
                         Projects
                     </a>
@@ -51,7 +51,7 @@ function Nav({ handlePageChange, currentPage }) {
                         href="#!"
                         className={getClassName("contact")}
                         onClick={handlePageChange}
-                        name="contact"
+                        data-page="contact"
                     >
                         Contact
                     </a>
