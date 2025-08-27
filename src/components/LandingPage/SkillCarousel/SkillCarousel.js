@@ -13,7 +13,7 @@ function SkillCarousel({ handlePageChange, className = '' }) {
     const skillIconDisplay = skills.map((skill) => (
         <div
             className={styles.iconContainer}
-            key={skill.name}
+            key={skill.id}
         >
             <button
                 onClick={handleSkillClick}
