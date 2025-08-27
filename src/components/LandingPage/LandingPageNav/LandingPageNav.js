@@ -32,7 +32,8 @@ function LandingPageNav({ handlePageChange }) {
         <ul
           id={menuId}
           data-expanded={menuOpen}
-          hidden={!menuOpen}
+          aria-hidden={!menuOpen}
+          inert={!menuOpen}
           ref={menuRef}
         >
           <li>
