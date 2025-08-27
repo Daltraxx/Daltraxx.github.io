@@ -22,6 +22,7 @@ function Nav({ handlePageChange, currentPage }) {
               className={getClassName("about")}
               onClick={handlePageChange}
               data-page="about"
+              role='button'
               aria-current={currentPage === "about" ? "page" : undefined}
             >
               About
@@ -33,6 +34,7 @@ function Nav({ handlePageChange, currentPage }) {
               className={getClassName("resume")}
               onClick={handlePageChange}
               data-page="resume"
+              role='button'
               aria-current={currentPage === "resume" ? "page" : undefined}
             >
               Resume
@@ -44,6 +46,7 @@ function Nav({ handlePageChange, currentPage }) {
               className={getClassName("projects")}
               onClick={handlePageChange}
               data-page="projects"
+              role='button'
               aria-current={currentPage === "projects" ? "page" : undefined}
             >
               Projects
@@ -55,6 +58,7 @@ function Nav({ handlePageChange, currentPage }) {
               className={getClassName("contact")}
               onClick={handlePageChange}
               data-page="contact"
+              role='button'
               aria-current={currentPage === "contact" ? "page" : undefined}
             >
               Contact
