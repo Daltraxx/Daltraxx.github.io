@@ -1,15 +1,15 @@
 import styles from './LandingPageNav.module.css';
-import { useState, useId, useRef, useEffect } from 'react';
+import { useState, useId, useRef, useLayoutEffect } from 'react';
 
 function LandingPageNav({ handlePageChange }) {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuId = useId();
 
     const menuRef = useRef(null);
-    useEffect(() => {
+    useLayoutEffect(() => {
         if (menuRef.current) {
             const menuElement = menuRef.current;
-            const maxHeight = menuOpen ? `${menuElement.scrollHeight}px` : '0';
+            const maxHeight = menuOpen ? `${menuElement.scrollHeight}px` : '0px';
             menuElement.style.setProperty('--menu-max-height', maxHeight);
         }
     }, [menuOpen]);
