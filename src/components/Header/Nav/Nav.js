@@ -14,7 +14,7 @@ function Nav({ handlePageChange, currentPage }) {
 
 
     return (
-      <nav className={styles.navContainer}>
+      <nav className={styles.navContainer} aria-label='Primary'>
         <ul>
           <li>
             <a
