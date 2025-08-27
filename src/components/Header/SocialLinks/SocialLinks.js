@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import styles from './SocialLinks.module.css';
 
-function SocialLinks({ className = ''}) {
+function SocialLinks({ className }) {
     return (
         <ul className={clsx(styles.socialLinksContainer, className)}>
             <li><a href="https://github.com/Daltraxx" target="_blank"  rel="noopener noreferrer">GitHub</a></li>
