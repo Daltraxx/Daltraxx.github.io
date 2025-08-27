@@ -66,7 +66,7 @@ const skills = [
     alt: "PostgreSQL icon",
     description:
       "PostgreSQL is a powerful, open-source relational database system. I have used it for managing structured data and am familiar with its SQL querying capabilities.",
-    src: "/assets/images/postgresql-icon.webp",
+    src: "/assets/images/postgreSQL-icon.webp",
     width: 70,
     height: 70,
     href: "#postgresql-skill",
