@@ -15,7 +15,14 @@ function LandingPageNav({ handlePageChange }) {
     }, [menuOpen]);
 
 
-    const toggleMenu = () => setMenuOpen(prev => !prev);
+  const toggleMenu = () => setMenuOpen(prev => !prev);
+
+  const navItems = [
+    { id: 'about', label: 'About', className: styles.leftNavButton },
+    { id: 'resume', label: 'Resume', className: styles.leftNavButton },
+    { id: 'projects', label: 'Projects', className: styles.rightNavButton },
+    { id: 'contact', label: 'Contact', className: styles.rightNavButton },
+  ];
 
     return (
       <nav className={styles.nav} aria-label='Primary'>
@@ -36,50 +43,19 @@ function LandingPageNav({ handlePageChange }) {
           inert={!menuOpen}
           ref={menuRef}
         >
-          <li>
-            <a
-              href="#"
-              className={styles.leftNavButton}
-              onClick={handlePageChange}
-              data-page="about"
-              role='button'
-            >
-              About
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className={styles.leftNavButton}
-              onClick={handlePageChange}
-              data-page="resume"
-              role='button'
-            >
-              Resume
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className={styles.rightNavButton}
-              onClick={handlePageChange}
-              data-page="projects"
-              role='button'
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className={styles.rightNavButton}
-              onClick={handlePageChange}
-              data-page="contact"
-              role='button'
-            >
-              Contact
-            </a>
-          </li>
+          {navItems.map(({ id, label, className }) => (
+            <li key={id}>
+              <a
+                href="#"
+                className={className}
+                onClick={handlePageChange}
+                data-page={id}
+                role="button"
+              >
+                {label}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     );
