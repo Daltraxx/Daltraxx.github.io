@@ -63,27 +63,15 @@
 }
 
 
-/*Skeuomorphic movement when clicking, diff reqs depending on child*/
-.navButton:active {
-    height: calc(100% - 0.35rem);
-    box-sizing: content-box; /*to make borders actually expand element*/
-    border-top: 5px solid var(--primary-blue-700);
-    border-right: 3px solid var(--primary-blue-700);
+/*Skeuomorphic movement when clicking*/
+.navContainer .navButton:active {
+    border-top: 3px solid var(--primary-blue-700);
+    border-right: 1px solid var(--primary-blue-700);
     border-left: 3px solid var(--primary-blue-700);
-    border-bottom: 4px solid var(--primary-blue-700);
-    margin-top: 1px;
-    transform: translate(0, -.125rem);
-    width: calc(100% - 5px);
+    border-bottom: 3px solid var(--primary-blue-700);
 }
-
-.navContainer li:not(:last-child) .navButton:active {
+.navContainer li:last-child .navButton:active {
     border-right: 3px solid var(--primary-blue-700);
-    border-left: 3px solid var(--primary-blue-700);
-}
-
-.navContainer li:not(:first-child) .navButton:active {
-    border-right: 3px solid var(--primary-blue-700);
-    border-left: 3px solid var(--primary-blue-700);
 }
 
 .navButton:not(.current):active {
