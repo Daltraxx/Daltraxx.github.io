@@ -36,12 +36,8 @@
     border-bottom: 2px solid var(--primary-blue-700);
 }
 
-.navContainer li:not(:last-child) .navButton {
-    border-right: 1px solid var(--primary-blue-700);
-}
-
-.navContainer li:not(:first-child) .navButton {
-    border-left: 1px solid var(--primary-blue-700);
+.navContainer ul li + li .navButton {
+    border-left: 2px solid var(--primary-blue-700);
 }
 
 /*maintain different color for current page*/
