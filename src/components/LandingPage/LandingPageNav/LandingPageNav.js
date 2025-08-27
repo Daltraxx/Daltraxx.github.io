@@ -18,7 +18,7 @@ function LandingPageNav({ handlePageChange }) {
     const toggleMenu = () => setMenuOpen(prev => !prev);
 
     return (
-      <nav className={styles.nav}>
+      <nav className={styles.nav} aria-label='Primary'>
         <button
           type="button"
           className={styles.menuToggleButton}
