@@ -36,15 +36,13 @@ function QuickFacts({ verbosity }) {
       case "02":
         return (
           <p>
-            Though I started with and attained a solid grasp of Python, once I
-            finally committed to seeking a career in web development, I switched
-            gears to mastering Javascript and a catalogue of related skills. I
-            know it can be done, but programming strictly on the side was
-            torturously slow. The concepts and exercises weren't difficult, but
-            I still felt myself waiting for the larger picture to come together.
-            It wasn't until dedicated myself fully to working as a software
-            engineer that I finally came to feel confident in my abilities, as
-            well as my capacity to contribute to a real team.
+            While working in QA, I took online courses, built projects, and
+            vigorously studied computer science, web development, software
+            engineering, anything that I felt would get me closer to my goal. I
+            grew professionally as I was promoted to lead, participated in
+            sprints, and collaborated with developers, but I knew that my true
+            passion lay in the building and fixing, not just the finding of
+            problems.
           </p>
         );
       case "03":
@@ -103,8 +101,8 @@ function QuickFacts({ verbosity }) {
             </li>
             <li className={verbosity >= 30 ? "" : styles.factsHide}>
               <span id="02" onClick={handleClick}>
-                Started studying programming in earnest* while working in QA
-                from 2021 to 2024.
+                Studied web development and software engineering while working
+                in QA.
               </span>
             </li>
             <li className={verbosity >= 35 ? "" : styles.factsHide}>
