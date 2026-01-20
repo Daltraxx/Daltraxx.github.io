@@ -18,7 +18,7 @@ function QuickFacts({ verbosity }) {
     setFact((prev) => target.id);
   };
 
-  //render More Infromation conditionally based on currently selected fact
+  // Render More Information conditionally based on currently selected fact
   const getExtraInfo = () => {
     switch (fact) {
       case "01":
