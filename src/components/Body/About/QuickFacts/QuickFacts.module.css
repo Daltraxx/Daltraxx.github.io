@@ -2,12 +2,14 @@
 
 .factsContainer {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .factsHalf {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 
 .factsHalf h3 {
@@ -19,11 +21,16 @@
 }
 
 /*left side*/
+.bulletPointsContainer ul {
+    padding: 0 1rem;
+}
+
 .bulletPointsContainer li {
     margin: .7rem 0;
     list-style-type: disc;
     color: var(--primary-blue-700);
-    line-height: 2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
 .bulletPointsContainer span:hover {
@@ -37,13 +44,17 @@
     flex-direction: column;
     background-color: var(--primary-blue-500);
     border-radius: 20px;
-    width: 80%;
+    width: 86%;
+    margin: .5rem 0;
 }
-
 
 .factsExtraInfoContainer h3, .factsExtraInfoContainer p {
     color: #FFF;
     text-align: center;
+}
+
+.factsExtraInfoContainer h3 {
+    margin: .75rem 0;
 }
 
 .factsExtraInfoText {
@@ -57,62 +68,47 @@
     margin-top: 0;
     margin-bottom: 4%;
     padding: 0 2rem;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 500px) {
+    .bulletPointsContainer li {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .factsContainer {
+        flex-direction: row;
+        align-items: stretch;
+    }
+    
+    .factsHalf {
+        width: 50%;
+    }
+
+    .factsExtraInfoContainer {
+        width: 80%;
+        margin: 0;
+    }
+
+    .factsExtraInfoText p {
+        line-height: 1.9rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
     .bulletPointsContainer {
         width: 96%;
     }
-
-    
 
     .bulletPointsContainer h3 {
         text-align: center;
     }
 
-    .bulletPointsContainer li {
-        font-size: 1.1rem;
-    }
-
     .factsExtraInfoContainer {
         width: 92%;
     }
-    .factsExtraInfoText p {
-        font-size: 1rem;
-        line-height: 1.6rem;
-        padding: 0 2rem;
-    }
 }
-
-@media only screen and (max-width: 780px) {
-    /*Change to vertical display for smaller screen widths*/
-    .factsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .factsHalf {
-        width: 100%;
-    }
-
-    .factsExtraInfoContainer {
-        width: 86%;
-        margin: .5rem 0;
-    }
-
-    .factsExtraInfoContainer h3 {
-        margin: .75rem 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .bulletPointsContainer ul {
-        padding: 0 1rem;
-    }
-
-    .bulletPointsContainer li {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-}
-
