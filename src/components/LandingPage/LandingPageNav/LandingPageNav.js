@@ -36,7 +36,7 @@ function LandingPageNav({ handlePageChange }) {
           id={menuId}
           data-expanded={menuOpen}
           aria-hidden={!menuOpen}
-          inert={!menuOpen}
+          inert={menuOpen.toString()}
           ref={menuRef}
         >
           {navItems.map(({ id, label }, index) => (
