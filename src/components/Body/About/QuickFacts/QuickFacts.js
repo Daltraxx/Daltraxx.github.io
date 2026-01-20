@@ -5,17 +5,7 @@ function QuickFacts({ verbosity }) {
   const [fact, setFact] = useState(null);
 
   const handleClick = ({ target }) => {
-    //remove highlighting of previous fact if there is one
-    if (fact) {
-      //console.log(document.getElementById(fact));
-      document.getElementById(fact).style = "";
-    }
-
-    //continue to highlight currently selected fact
-    target.style.backgroundColor = "var(--gray-300)";
-
-    //set new fact
-    setFact((prev) => target.id);
+    setFact(target.id);
   };
 
   // Render More Information conditionally based on currently selected fact
@@ -95,29 +85,69 @@ function QuickFacts({ verbosity }) {
           <h3>The Bullet Points</h3>
           <ul>
             <li className={verbosity >= 25 ? "" : styles.factsHide}>
-              <span id="01" onClick={handleClick}>
+              <span
+                id="01"
+                onClick={handleClick}
+                style={
+                  fact === "01"
+                    ? { backgroundColor: "var(--gray-300)" }
+                    : undefined
+                }
+              >
                 Began learning first program language, Python, in May of 2020.
               </span>
             </li>
             <li className={verbosity >= 30 ? "" : styles.factsHide}>
-              <span id="02" onClick={handleClick}>
+              <span
+                id="02"
+                onClick={handleClick}
+                style={
+                  fact === "02"
+                    ? { backgroundColor: "var(--gray-300)" }
+                    : undefined
+                }
+              >
                 Studied web development and software engineering while working
                 in QA.
               </span>
             </li>
             <li className={verbosity >= 35 ? "" : styles.factsHide}>
-              <span id="03" onClick={handleClick}>
+              <span
+                id="03"
+                onClick={handleClick}
+                style={
+                  fact === "03"
+                    ? { backgroundColor: "var(--gray-300)" }
+                    : undefined
+                }
+              >
                 Deep interest in emerging technologies and tools.
               </span>
             </li>
             <li className={verbosity >= 40 ? "" : styles.factsHide}>
-              <span id="04" onClick={handleClick}>
+              <span
+                id="04"
+                onClick={handleClick}
+                style={
+                  fact === "04"
+                    ? { backgroundColor: "var(--gray-300)" }
+                    : undefined
+                }
+              >
                 Other passions include fitness, reading and writing, video
                 games, and general self-improvement.
               </span>
             </li>
             <li className={verbosity >= 45 ? "" : styles.factsHide}>
-              <span id="05" onClick={handleClick}>
+              <span
+                id="05"
+                onClick={handleClick}
+                style={
+                  fact === "05"
+                    ? { backgroundColor: "var(--gray-300)" }
+                    : undefined
+                }
+              >
                 Programming is my outlet for expressing my creativity and
                 detail-obsessed nature.
               </span>
