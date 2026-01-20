@@ -1,37 +1,42 @@
 .socialLinksContainer {
-    margin: 0;
+  margin: 0;
 }
 
 .socialLinksContainer li {
-    margin: .1rem 0;
+  margin: 0.1rem 0;
 }
 
 .socialLinksContainer a {
-    color: var(--accent-orange-500-sat);
-    padding: .2rem .5rem;
-    border: 1px solid var(--primary-blue-700); /*not visible, just for positioning purposes*/
-    border-radius: 5px;
-    display: block; /*so translate works*/
+  color: var(--accent-orange-500-sat);
+  padding: 0.2rem 0.5rem;
+  border: 1px solid var(--primary-blue-700); /*not visible, just for positioning purposes*/
+  border-radius: 5px;
+  display: block; /*so translate works*/
 }
 
 @media only screen and (max-width: 500px) {
-    .socialLinksContainer a {
-        font-size: .8rem;
-    }
+  .socialLinksContainer a {
+    font-size: 0.8rem;
+  }
 }
 
-.socialLinksContainer a:hover,
-.socialLinksContainer a:focus,
-.socialLinksContainer a:focus-visible {
+@media (hover: hover) {
+  .socialLinksContainer a:hover {
     background-color: var(--accent-blue-300);
     border: 1px solid var(--accent-orange-300);
     text-decoration: underline;
+  }
+}
+.socialLinksContainer a:focus-visible {
+  background-color: var(--accent-blue-300);
+  border: 1px solid var(--accent-orange-300);
+  text-decoration: underline;
 }
 
 .socialLinksContainer a:active {
-    border: 1px solid var(--primary-blue-700);
-    background-color: var(--accent-blue-700);
-    color: var(--accent-orange-500);
-    text-decoration: none;
-    transform: translate(5px, 0);
+  border: 1px solid var(--primary-blue-700);
+  background-color: var(--accent-blue-700);
+  color: var(--accent-orange-500);
+  text-decoration: none;
+  transform: translate(5px, 0);
 }
