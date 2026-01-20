@@ -54,19 +54,19 @@ function QuickFacts({ verbosity }) {
             Babbage and Lovelace to the pioneers of the computing and internet
             revolutions. One inherently always feels behind while working in
             this field, and frankly, I love that about it. It's never boring.
+            There's always more to learn.
           </p>
         );
       case "04":
         return (
           <p>
             Personal development and self-actualization are overarching
-            obsessions of mine. I follow a manicured routine devoted to these
-            aspirations, a few daily practices of which are meditation,
-            journaling, reading, and exercise. I am also an avid practitioner of
-            the creed that one should cognitively challenge themselves with code
-            every day. Video games have also been near and dear to my heart
-            since childhood, and were the sole thread of my interest in software
-            growing up as I fantasized about making my own.
+            obsessions of mine. An avid follower of routine, I schedule everyday
+            with intention. I never want to grow stagnant or "comfortable". This
+            applies to all facets of my life, including tackling programming
+            problems and complex projects that seem overwhelming at first.
+            Broken down into smaller, more digestable pieces, I've learned
+            nothing is insurmountable.
           </p>
         );
       case "05":
@@ -112,8 +112,8 @@ function QuickFacts({ verbosity }) {
             </li>
             <li className={verbosity >= 40 ? "" : styles.factsHide}>
               <span id="04" onClick={handleClick}>
-                Passions include fitness, reading and writing, video games, and
-                - of course - software engineering.
+                Other passions include fitness, reading and writing, video
+                games, and general self-improvement.
               </span>
             </li>
             <li className={verbosity >= 45 ? "" : styles.factsHide}>
