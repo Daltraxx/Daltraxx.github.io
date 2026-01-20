@@ -65,7 +65,7 @@ function QuickFacts({ verbosity }) {
             with intention. I never want to grow stagnant or "comfortable". This
             applies to all facets of my life, including tackling programming
             problems and complex projects that seem overwhelming at first.
-            Broken down into smaller, more digestable pieces, I've learned
+            Broken down into smaller, more digestible pieces, I've learned
             nothing is insurmountable.
           </p>
         );
