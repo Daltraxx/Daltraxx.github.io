@@ -75,7 +75,6 @@
 @media only screen and (min-width: 500px) {
     .bulletPointsContainer li {
         font-size: 1.1rem;
-        line-height: 1.5rem;
     }
 }
 
