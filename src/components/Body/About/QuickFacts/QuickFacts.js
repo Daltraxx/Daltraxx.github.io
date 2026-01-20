@@ -52,8 +52,8 @@ function QuickFacts({ verbosity }) {
             exploring new technologies and pushing them forward. Much of this
             stems from my admiration of past inventors and innovators, from
             Babbage and Lovelace to the pioneers of the computing and internet
-            revolutions. I'll always work to emulate these greats, to be a force
-            of creation and progress in the world.
+            revolutions. One inherently always feels behind while working in
+            this field, and frankly, I love that about it. It's never boring.
           </p>
         );
       case "04":
@@ -107,8 +107,7 @@ function QuickFacts({ verbosity }) {
             </li>
             <li className={verbosity >= 35 ? "" : styles.factsHide}>
               <span id="03" onClick={handleClick}>
-                Deep interest in working with AI tools and progressing the
-                development of the field itself.
+                Deep interest in emerging technologies and tools.
               </span>
             </li>
             <li className={verbosity >= 40 ? "" : styles.factsHide}>
