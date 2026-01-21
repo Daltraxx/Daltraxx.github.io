@@ -89,10 +89,6 @@
     align-items: start;
   }
 
-  .factsHalf {
-    width: 50%;
-  }
-
   .factsExtraInfoContainer {
     width: 80%;
     margin: 0;
@@ -105,10 +101,11 @@
 
 @media only screen and (min-width: 1440px) {
   .bulletPointsContainer {
-    width: 96%;
+    width: 60%;
   }
 
   .factsExtraInfoContainer {
-    width: 92%;
+    width: 60%;
+    max-width: 33rem;
   }
 }
