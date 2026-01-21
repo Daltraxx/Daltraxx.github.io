@@ -59,20 +59,6 @@ function QuickFacts({ verbosity }) {
             two of the most rewarding experiences in existence.
           </p>
         );
-      case "05":
-        return (
-          <p>
-            I have been enthralled with the art of creation since I was a child.
-            This was often expressed in writing, which I still do, but I never
-            found a way in which this passion could align with a career. Upon
-            graduating university, I found myself in a state of limbo, until I
-            discovered software development. Now I lament that I had not been
-            introduced to this field as early as possible. It happily dominates
-            all my time, combining my loves of learning and creating, of
-            fine-tuning until something is exactly as I want it and watching it
-            come to life.
-          </p>
-        );
       default:
         return <p>Click a bullet point to display more information!</p>;
     }
@@ -136,20 +122,6 @@ function QuickFacts({ verbosity }) {
               >
                 Other passions include fitness, reading and writing, video
                 games, and general self-improvement.
-              </span>
-            </li>
-            <li className={verbosity >= 45 ? "" : styles.factsHide}>
-              <span
-                id="05"
-                onClick={handleClick}
-                style={
-                  fact === "05"
-                    ? { backgroundColor: "var(--gray-300)" }
-                    : undefined
-                }
-              >
-                Programming is my outlet for expressing my creativity and
-                detail-obsessed nature.
               </span>
             </li>
           </ul>
