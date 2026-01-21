@@ -52,11 +52,11 @@ function QuickFacts({ verbosity }) {
           <p>
             Personal development and self-actualization are overarching
             obsessions of mine. An avid follower of routine, I schedule everyday
-            with intention. I never want to grow stagnant or "comfortable". This
-            applies to all facets of my life, including tackling programming
-            problems and complex projects that seem overwhelming at first.
-            Broken down into smaller, more digestible pieces, I've learned
-            nothing is insurmountable.
+            with intention. I never want to grow stagnant or "comfortable". As a
+            result, I love to challenge myself in every way that I can.
+            Tangentially, I have a lifelong passion for stories told through any
+            medium. Building things oneself and admiring the craft of others are
+            two of the most rewarding experiences in existence.
           </p>
         );
       case "05":
