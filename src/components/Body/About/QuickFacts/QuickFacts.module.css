@@ -1,4 +1,4 @@
-/*general component styles*/
+/* GENERAL COMPONENT STYLES */
 
 .factsContainer {
   display: flex;
@@ -20,7 +20,7 @@
   opacity: 0;
 }
 
-/*left side*/
+/* TOP/LEFT SIDE */
 .bulletPointsContainer h3 {
   text-align: center;
 }
@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 
-/*right side*/
+/* BOTTOM/RIGHT SIDE e*/
 .factsExtraInfoContainer {
   display: flex;
   flex-direction: column;
@@ -83,10 +83,16 @@
   }
 }
 
+/* SWITCH TO ROW LAYOUT */
 @media only screen and (min-width: 780px) {
   .factsContainer {
     flex-direction: row;
     align-items: start;
+    justify-content: center;
+  }
+
+  .factsHalf {
+    width: 50%;
   }
 
   .factsExtraInfoContainer {
