@@ -12,10 +12,6 @@
   width: 100%;
 }
 
-.factsHalf h3 {
-  margin: 0.75rem 0 0;
-}
-
 .factsHide {
   opacity: 0;
 }
@@ -26,11 +22,13 @@
 }
 
 .bulletPointsContainer ul {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .bulletPointsContainer li {
-  margin: 0.7rem 0;
   list-style-type: disc;
   color: var(--primary-blue-700);
   font-size: clamp(1rem, 2.5vw, 1.2rem);
