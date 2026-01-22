@@ -33,7 +33,7 @@
   margin: 0.7rem 0;
   list-style-type: disc;
   color: var(--primary-blue-700);
-  font-size: 1rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
 .bulletPointsContainer span:hover {
@@ -74,12 +74,6 @@
   padding: 0 2rem;
   line-height: 1.5rem;
   font-size: 1rem;
-}
-
-@media only screen and (min-width: 500px) {
-  .bulletPointsContainer li {
-    font-size: 1.1rem;
-  }
 }
 
 /* SWITCH TO ROW LAYOUT */
