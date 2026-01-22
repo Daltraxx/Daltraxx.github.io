@@ -60,7 +60,7 @@ function QuickFacts({ verbosity }) {
           </p>
         );
       default:
-        return <p>Click a bullet point to display more information!</p>;
+        return <p>Activate a bullet point to display more information!</p>;
     }
   };
 
