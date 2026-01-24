@@ -66,7 +66,6 @@ function QuickFacts({ verbosity }) {
 
   return (
     <section className={styles.factsContainer}>
-
       {/* BULLET POINTS SECTION */}
       <section className={styles.factsHalf}>
         <div className={`bullet-points ${styles.bulletPointsContainer}`}>
