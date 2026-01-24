@@ -8,8 +8,7 @@ import VerbositySlider from "./VerbositySlider/VerbositySlider";
 function About() {
   const [verbosity, setVerbosity] = useState(50);
   const handleChange = ({ target }) => {
-    //console.log(target.value);
-    setVerbosity((prev) => target.value);
+    setVerbosity(target.value);
   };
 
   const emojiImg = (
