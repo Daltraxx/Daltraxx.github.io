@@ -9,10 +9,7 @@ function Contact() {
   useEffect(() => {
     const linkTransform = ({ key }) => {
       if (key === " ") {
-        //console.log('works!');
-        transform
-          ? setTransform((prev) => false)
-          : setTransform((prev) => true);
+        setTransform((prev) => !prev);
       }
     };
 
@@ -21,7 +18,7 @@ function Contact() {
     return () => {
       document.removeEventListener("keyup", linkTransform);
     };
-  }, [transform]);
+  }, []);
 
   return (
     <section className={styles.contact}>
