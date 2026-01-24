@@ -73,7 +73,8 @@ function QuickFacts({ verbosity }) {
           <h3>The Bullet Points</h3>
           <ul>
             <li className={verbosity >= 25 ? "" : styles.factsHide}>
-              <span
+              <button
+                className={styles.factButton}
                 id="01"
                 onClick={handleClick}
                 style={
@@ -83,10 +84,11 @@ function QuickFacts({ verbosity }) {
                 }
               >
                 Began learning first program language, Python, in May of 2020.
-              </span>
+              </button>
             </li>
             <li className={verbosity >= 30 ? "" : styles.factsHide}>
-              <span
+              <button
+                className={styles.factButton}
                 id="02"
                 onClick={handleClick}
                 style={
@@ -97,10 +99,11 @@ function QuickFacts({ verbosity }) {
               >
                 Studied web development and software engineering while working
                 in QA.
-              </span>
+              </button>
             </li>
             <li className={verbosity >= 35 ? "" : styles.factsHide}>
-              <span
+              <button
+                className={styles.factButton}
                 id="03"
                 onClick={handleClick}
                 style={
@@ -110,10 +113,11 @@ function QuickFacts({ verbosity }) {
                 }
               >
                 Deep interest in emerging technologies and tools.
-              </span>
+              </button>
             </li>
             <li className={verbosity >= 40 ? "" : styles.factsHide}>
-              <span
+              <button
+                className={styles.factButton}
                 id="04"
                 onClick={handleClick}
                 style={
@@ -124,7 +128,7 @@ function QuickFacts({ verbosity }) {
               >
                 Other passions include fitness, reading and writing, video
                 games, and general self-improvement.
-              </span>
+              </button>
             </li>
           </ul>
         </div>

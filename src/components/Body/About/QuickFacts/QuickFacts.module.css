@@ -16,6 +16,17 @@
   opacity: 0;
 }
 
+.factButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
 /* TOP/LEFT SIDE */
 .bulletPointsContainer h3 {
   text-align: center;
