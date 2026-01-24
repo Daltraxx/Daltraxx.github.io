@@ -4,9 +4,32 @@ import styles from "./QuickFacts.module.css";
 function QuickFacts({ verbosity }) {
   const [fact, setFact] = useState(null);
 
-  const handleClick = ({ target }) => {
-    setFact(target.id);
+  const handleClick = ({ currentTarget }) => {
+    setFact(currentTarget.id);
   };
+
+  const FACTS = [
+    {
+      id: "01",
+      minVerbosity: 25,
+      text: "Began learning first program language, Python, in May of 2020.",
+    },
+    {
+      id: "02",
+      minVerbosity: 30,
+      text: "Studied web development and software engineering while working in QA.",
+    },
+    {
+      id: "03",
+      minVerbosity: 35,
+      text: "Deep interest in emerging technologies and tools.",
+    },
+    {
+      id: "04",
+      minVerbosity: 40,
+      text: "Other passions include fitness, reading and writing, video games, and general self-improvement.",
+    },
+  ];
 
   // Render More Information conditionally based on currently selected fact
   const getExtraInfo = () => {
@@ -71,64 +94,26 @@ function QuickFacts({ verbosity }) {
         <div className={`bullet-points ${styles.bulletPointsContainer}`}>
           <h3>The Bullet Points</h3>
           <ul>
-            <li className={verbosity >= 25 ? "" : styles.factsHide}>
-              <button
-                className={styles.factButton}
-                id="01"
-                onClick={handleClick}
-                style={
-                  fact === "01"
-                    ? { backgroundColor: "var(--gray-300)" }
-                    : undefined
-                }
+            {FACTS.map(({ id, minVerbosity, text }) => (
+              <li
+                key={id}
+                className={verbosity >= minVerbosity ? "" : styles.factsHide}
               >
-                Began learning first program language, Python, in May of 2020.
-              </button>
-            </li>
-            <li className={verbosity >= 30 ? "" : styles.factsHide}>
-              <button
-                className={styles.factButton}
-                id="02"
-                onClick={handleClick}
-                style={
-                  fact === "02"
-                    ? { backgroundColor: "var(--gray-300)" }
-                    : undefined
-                }
-              >
-                Studied web development and software engineering while working
-                in QA.
-              </button>
-            </li>
-            <li className={verbosity >= 35 ? "" : styles.factsHide}>
-              <button
-                className={styles.factButton}
-                id="03"
-                onClick={handleClick}
-                style={
-                  fact === "03"
-                    ? { backgroundColor: "var(--gray-300)" }
-                    : undefined
-                }
-              >
-                Deep interest in emerging technologies and tools.
-              </button>
-            </li>
-            <li className={verbosity >= 40 ? "" : styles.factsHide}>
-              <button
-                className={styles.factButton}
-                id="04"
-                onClick={handleClick}
-                style={
-                  fact === "04"
-                    ? { backgroundColor: "var(--gray-300)" }
-                    : undefined
-                }
-              >
-                Other passions include fitness, reading and writing, video
-                games, and general self-improvement.
-              </button>
-            </li>
+                <button
+                  type="button"
+                  className={styles.factButton}
+                  id={id}
+                  onClick={handleClick}
+                  style={
+                    fact === id
+                      ? { backgroundColor: "var(--gray-300)" }
+                      : undefined
+                  }
+                >
+                  {text}
+                </button>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
