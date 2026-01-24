@@ -81,5 +81,3 @@ function Bio({ verbosity }) {
 }
 
 export default Bio;
-
-//fix classNames
