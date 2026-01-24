@@ -16,7 +16,6 @@ function About() {
     <img
       src="/assets/images/zipper-mouth-emoji.png"
       className={styles.emoji}
-      name="zipped mouth emoji"
       alt="zipped mouth emoji"
     />
   );
