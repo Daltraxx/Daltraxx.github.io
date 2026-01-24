@@ -40,15 +40,14 @@ function Contact() {
           message me on LinkedIn
         </a>
         <p>or</p>
-        <a
+        <button
+          type="button"
           className={`${transform ? styles.coolLink : styles.contactLink}`}
-          href="#!"
           onClick={handleEmail}
           id="contact-link-header"
-          aria-label="email button"
         >
           send me an email
-        </a>
+        </button>
       </section>
     </section>
   );
