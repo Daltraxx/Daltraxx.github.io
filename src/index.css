@@ -1,4 +1,5 @@
 :root {
+  --white: hsla(0, 0%, 100%, 1); /*#FFFFFF*/
   --primary-blue-900: hsla(212, 51%, 9%, 1); /*#0b1623*/
   --primary-blue-800: hsla(212, 51%, 13%, 1); /*#102032*/
   --primary-blue-700: hsla(212, 51%, 16%, 1); /*#14273e*/
