@@ -71,14 +71,14 @@ function Contact() {
           message me on LinkedIn
         </a>
         <p>or</p>
-        <button
-          type="button"
+        {/* href is generated upon click */}
+        <a
           className={`${transform ? styles.coolLink : styles.contactLink}`}
           onClick={handleEmail}
-          id="contact-link-header"
+          id="contact-email-button"
         >
           send me an email
-        </button>
+        </a>
       </section>
     </section>
   );
