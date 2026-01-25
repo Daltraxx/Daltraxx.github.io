@@ -5,20 +5,20 @@ import handleEmail from "../../../utils/handleEmail";
 
 /**
  * Contact component that displays contact information and interactive links.
- * 
+ *
  * Features a toggle functionality activated by the spacebar key that transforms
  * the visual style of contact links. The component includes links to LinkedIn
  * and an email button.
- * 
+ *
  * @component
  * @returns {JSX.Element} A section containing contact information with styled links
  * that can be toggled between normal and "cool" styles using the spacebar.
- * 
+ *
  * @example
  * return (
  *   <Contact />
  * )
- * 
+ *
  * @description
  * - Listens for spacebar keyup events to toggle link styling
  * - Prevents spacebar toggle when user is interacting with input fields, textareas,
@@ -65,7 +65,7 @@ function Contact() {
         </aside>
         <p>Please</p>
         <a
-          className={`${transform ? styles.coolLink : styles.contactLink}`}
+          className={transform ? styles.coolLink : styles.contactLink}
           href="https://www.linkedin.com/in/dalton-pettus/"
         >
           message me on LinkedIn
@@ -73,7 +73,7 @@ function Contact() {
         <p>or</p>
         {/* href for email is generated upon click */}
         <a
-          className={`${transform ? styles.coolLink : styles.contactLink}`}
+          className={transform ? styles.coolLink : styles.contactLink}
           onClick={handleEmail}
           id="contact-email-button"
         >
