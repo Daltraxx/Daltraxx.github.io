@@ -5,6 +5,22 @@ import QuickFacts from "./QuickFacts/QuickFacts";
 import Bio from "./Bio/Bio";
 import VerbositySlider from "./VerbositySlider/VerbositySlider";
 
+/**
+ * About component that displays information about the user with adjustable verbosity.
+ *
+ * The component renders different content based on a verbosity slider value (0-100):
+ * - At verbosity <= 10: displays zipper-mouth emojis
+ * - At verbosity >= 20: displays QuickFacts component
+ * - At verbosity > 50: displays Bio component
+ *
+ * @component
+ * @returns {JSX.Element} A section containing the About page with dynamic content based on verbosity level
+ *
+ * @example
+ * return (
+ *   <About />
+ * )
+ */
 function About() {
   const [verbosity, setVerbosity] = useState(50);
   const handleChange = ({ target }) => {
