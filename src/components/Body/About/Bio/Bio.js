@@ -3,7 +3,7 @@ import styles from "./Bio.module.css";
 function Bio({ verbosity }) {
   return (
     <section className={styles.bioContainer}>
-      <h3 className={verbosity < 55 ? styles.hide : ""}>Longer Bio</h3>
+      <h3 className={verbosity < 55 ? styles.none : ""}>Longer Bio</h3>
       <section className={styles.bioColContainer}>
         <section className={verbosity < 60 ? styles.none : styles.bioCol}>
           <div className={verbosity < 65 ? styles.none : styles.bioParagraph}>
