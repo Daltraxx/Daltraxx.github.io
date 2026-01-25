@@ -1,35 +1,35 @@
 import React, { useState } from "react";
 import styles from "./QuickFacts.module.css";
 
+const FACTS = [
+  {
+    id: "01",
+    minVerbosity: 25,
+    text: "Began learning first program language, Python, in May of 2020.",
+  },
+  {
+    id: "02",
+    minVerbosity: 30,
+    text: "Studied web development and software engineering while working in QA.",
+  },
+  {
+    id: "03",
+    minVerbosity: 35,
+    text: "Deep interest in emerging technologies and tools.",
+  },
+  {
+    id: "04",
+    minVerbosity: 40,
+    text: "Other passions include fitness, reading and writing, video games, and general self-improvement.",
+  },
+];
+
 function QuickFacts({ verbosity }) {
   const [fact, setFact] = useState(null);
 
   const handleClick = ({ currentTarget }) => {
     setFact(currentTarget.id);
   };
-
-  const FACTS = [
-    {
-      id: "01",
-      minVerbosity: 25,
-      text: "Began learning first program language, Python, in May of 2020.",
-    },
-    {
-      id: "02",
-      minVerbosity: 30,
-      text: "Studied web development and software engineering while working in QA.",
-    },
-    {
-      id: "03",
-      minVerbosity: 35,
-      text: "Deep interest in emerging technologies and tools.",
-    },
-    {
-      id: "04",
-      minVerbosity: 40,
-      text: "Other passions include fitness, reading and writing, video games, and general self-improvement.",
-    },
-  ];
 
   // Render More Information conditionally based on currently selected fact
   const getExtraInfo = () => {
