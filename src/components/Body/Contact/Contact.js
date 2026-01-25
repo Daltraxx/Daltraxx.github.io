@@ -8,7 +8,15 @@ function Contact() {
 
   useEffect(() => {
     const linkTransform = ({ key }) => {
-      if (key === " ") {
+      const activeEl = document.activeElement;
+      const isInteractive =
+        activeEl &&
+        (activeEl.tagName === "INPUT" ||
+          activeEl.tagName === "TEXTAREA" ||
+          activeEl.tagName === "BUTTON" ||
+          activeEl.tagName === "A" ||
+          activeEl.isContentEditable);
+      if (key === " " && !isInteractive) {
         setTransform((prev) => !prev);
       }
     };
