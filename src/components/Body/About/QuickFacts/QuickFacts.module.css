@@ -45,10 +45,14 @@
   font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
-.bulletPointsContainer span:hover {
+.bulletPointsContainer button:hover {
   background-color: var(--gray-300);
   cursor: pointer;
 }
+
+.selectedFact {
+  background-color: var(--gray-300);
+} 
 
 /* BOTTOM/RIGHT SIDE */
 .factsExtraInfoContainer {

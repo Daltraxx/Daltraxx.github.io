@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./QuickFacts.module.css";
+import clsx from "clsx";
 
 const FACTS = [
   {
@@ -101,14 +102,12 @@ function QuickFacts({ verbosity }) {
               >
                 <button
                   type="button"
-                  className={styles.factButton}
+                  className={clsx(
+                    styles.factButton,
+                    fact === id && styles.selectedFact,
+                  )}
                   id={id}
                   onClick={handleClick}
-                  style={
-                    fact === id
-                      ? { backgroundColor: "var(--gray-300)" }
-                      : undefined
-                  }
                 >
                   {text}
                 </button>
