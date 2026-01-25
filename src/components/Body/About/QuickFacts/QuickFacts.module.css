@@ -17,17 +17,6 @@
   pointer-events: none;
 }
 
-.factButton {
-  background: none;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  color: inherit;
-  text-align: left;
-  vertical-align: top;
-}
-
 /* TOP/LEFT SIDE */
 .bulletPointsContainer h3 {
   text-align: center;
@@ -46,7 +35,19 @@
   font-size: clamp(1rem, 2.5vw, 1.2rem);
 }
 
-.bulletPointsContainer button:hover {
+.factButton {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+.factButton:hover,
+.factButton:focus-visible {
   background-color: var(--gray-300);
   cursor: pointer;
 }
