@@ -14,7 +14,6 @@
 
 .factsHide {
   visibility: hidden;
-  pointer-events: none;
 }
 
 /* TOP/LEFT SIDE */
@@ -120,7 +119,7 @@
   }
 
   .factsHalf {
-    width: inherit;
+    width: auto;
   }
 
   .bulletPointsContainer,
