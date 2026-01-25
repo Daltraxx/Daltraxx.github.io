@@ -108,6 +108,7 @@ function QuickFacts({ verbosity }) {
                   )}
                   id={id}
                   onClick={handleClick}
+                  aria-pressed={fact === id}
                 >
                   {text}
                 </button>
