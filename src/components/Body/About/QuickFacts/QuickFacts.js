@@ -119,11 +119,7 @@ function QuickFacts({ verbosity }) {
 
       {/* EXTRA INFO SECTION */}
       <section
-        className={
-          verbosity >= 50
-            ? styles.factsHalf
-            : `${styles.factsHalf} ${styles.factsHide}`
-        }
+        className={clsx(styles.factsHalf, verbosity < 50 && styles.factsHide)}
       >
         <div className={styles.factsExtraInfoContainer}>
           <h3>More Information</h3>
