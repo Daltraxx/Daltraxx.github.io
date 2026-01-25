@@ -54,7 +54,7 @@
 
 .selectedFact {
   background-color: var(--gray-300);
-} 
+}
 
 /* BOTTOM/RIGHT SIDE */
 .factsExtraInfoContainer {
@@ -118,17 +118,13 @@
   .factsContainer {
     gap: 4rem;
   }
-  
+
   .factsHalf {
     width: inherit;
   }
 
-  .bulletPointsContainer {
-    width: 30rem;
-  }
-
+  .bulletPointsContainer,
   .factsExtraInfoContainer {
     width: 30rem;
-    max-width: 33rem;
   }
 }
