@@ -46,11 +46,7 @@
 }
 
 .factButton:hover,
-.factButton:focus-visible {
-  background-color: var(--gray-300);
-  cursor: pointer;
-}
-
+.factButton:focus-visible,
 .selectedFact {
   background-color: var(--gray-300);
 }
