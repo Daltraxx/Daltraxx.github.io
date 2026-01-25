@@ -12,7 +12,7 @@ function Bio({ verbosity }) {
               California. I grew to love fitness and sports, but was also very
               much a nerd with a passion for immersive stories and worlds, often
               losing myself in books, games, and other media. I excelled in
-              school and enjoyed learning outseide of the classroom as well,
+              school and enjoyed learning outside of the classroom as well,
               especially when it came to history and physics.
             </p>
           </div>
@@ -20,7 +20,7 @@ function Bio({ verbosity }) {
             <p>
               Despite some interest in engineering as a profession, I had from a
               young age dreamt of becoming a Navy SEAL. It seemed the ultimate
-              test a person could put themselves through, an irresistable
+              test a person could put themselves through, an irresistible
               challenge of the kind I have a penchant for. However, for better
               or worse, at some point during my time in university I became
               disillusioned with the idea.
