@@ -1,5 +1,24 @@
 import styles from "./Bio.module.css";
 
+/**
+ * Renders a biographical section with content that progressively reveals more detail based on verbosity level.
+ *
+ * The component displays a personal biography divided into multiple columns and paragraphs,
+ * with each section appearing only when the verbosity threshold is met or exceeded.
+ *
+ * Verbosity thresholds:
+ * - 55: Shows "Longer Bio" heading
+ * - 65: Shows first column with early life and education
+ * - 70: Adds information about career aspirations
+ * - 80: Shows second column with post-graduation career path
+ * - 85: Adds information about discovering software development
+ * - 95: Shows third column with programming education journey
+ * - 100: Adds most recent career transition details
+ *
+ * @param {Object} props - Component properties
+ * @param {number} props.verbosity - Controls how much biographical content is displayed (0-100)
+ * @returns {JSX.Element} A section element containing the biographical content
+ */
 function Bio({ verbosity }) {
   return (
     <section className={styles.bioContainer}>
