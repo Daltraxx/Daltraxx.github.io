@@ -103,10 +103,6 @@
     justify-content: center;
   }
 
-  .factsHalf {
-    width: 50%;
-  }
-
   .factsExtraInfoContainer {
     width: 80%;
     min-height: 24rem;
@@ -119,12 +115,20 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .factsContainer {
+    gap: 4rem;
+  }
+  
+  .factsHalf {
+    width: inherit;
+  }
+
   .bulletPointsContainer {
-    width: 60%;
+    width: 30rem;
   }
 
   .factsExtraInfoContainer {
-    width: 60%;
+    width: 30rem;
     max-width: 33rem;
   }
 }
