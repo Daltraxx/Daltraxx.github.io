@@ -67,7 +67,6 @@ function Contact() {
         <a
           className={`${transform ? styles.coolLink : styles.contactLink}`}
           href="https://www.linkedin.com/in/dalton-pettus/"
-          aria-label="LinkedIn link"
         >
           message me on LinkedIn
         </a>
