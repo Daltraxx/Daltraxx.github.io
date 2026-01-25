@@ -25,6 +25,24 @@ const FACTS = [
   },
 ];
 
+/**
+ * QuickFacts component displays a list of bullet points about the developer
+ * and shows detailed information when a bullet point is selected.
+ *
+ * The component renders two sections:
+ * 1. A list of clickable bullet points that can be filtered by verbosity level
+ * 2. An "More Information" section that displays detailed content based on the selected fact
+ *
+ * @component
+ * @param {Object} props - Component props
+ * @param {number} props.verbosity - Controls which facts are visible based on their minimum verbosity requirement.
+ *                                   Higher values show more facts. Also controls visibility of the extra info section (hidden below 50).
+ *
+ * @returns {JSX.Element} A section containing bullet points and expandable detailed information
+ *
+ * @example
+ * <QuickFacts verbosity={75} />
+ */
 function QuickFacts({ verbosity }) {
   const [fact, setFact] = useState(null);
 
