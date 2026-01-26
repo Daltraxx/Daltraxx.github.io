@@ -173,6 +173,7 @@ const skills = [
         id: 'cplusplus-skill',
         proficiency: 'experienced'
     },
-  */];
+  */
+];
 
 export default skills;
