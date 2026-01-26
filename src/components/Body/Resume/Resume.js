@@ -71,11 +71,11 @@ function Resume() {
       >
         <h3>Statement</h3>
         <p>
-          Creative and detail-obsessed software engineer with a passion for
-          mastering emergent technologies and tools, including AI and machine
-          learning. Proven ability in creating and implementing successful front
-          and back-end web applications. I love building things and challenging
-          myself along the way.
+          An endlessly curious, ambitious full-stack software engineer
+          passionate about learning and building. Instrumental in serving any
+          person or organization looking to meet their project or development
+          goals. Excited by hard problems. Work with someone who loves what they
+          do.
         </p>
       </section>
       <section className={`${styles.resumeSection} ${styles.flexRow}`}>
