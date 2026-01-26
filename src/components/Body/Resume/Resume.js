@@ -92,11 +92,10 @@ function Resume() {
             <section className={styles.educationDescription}>
               <p>
                 Just one stop in a lifelong journey of education and growth. I
-                learned how to research with proficiency and gained a resolute
-                confidence in my ability to figure out a solution to any problem
-                or obstacle one can encounter - no matter its complexity - which
-                continues to this day. I earnestly believe that this is of the
-                most impactful assurances once can have.
+                learned how to research with proficiency and gained an absolute
+                confidence in my ability to finds solutions to any problem, a
+                certainty which continues to this day. There is not a more impactful
+                asset or assurance that one can have.
               </p>
             </section>
           </div>
