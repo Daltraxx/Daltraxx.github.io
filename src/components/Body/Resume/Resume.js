@@ -3,6 +3,27 @@ import styles from "./Resume.module.css";
 import workExperience from "./resources/work-experience";
 import skills from "../../../resources/skills";
 
+/**
+ * Resume component that displays a professional resume with skills, education, and work experience.
+ *
+ * This component renders a complete resume page including:
+ * - A professional statement section
+ * - Skills section with icons (mapped from skills array)
+ * - Education section highlighting University of San Diego
+ * - Work experience section with job details and bullet points (mapped from workExperience array)
+ *
+ * @component
+ * @returns {JSX.Element} A section containing the complete resume layout with multiple subsections
+ *
+ * @requires skills - Array of skill objects with properties: id, name, src
+ * @requires workExperience - Array of job objects with properties: title, company, dates, description, notes
+ * @requires styles - CSS module containing styling classes for the resume layout
+ *
+ * @example
+ * return (
+ *   <Resume />
+ * )
+ */
 function Resume() {
   //map skills object array to JSX
   const skillsJSX = skills.map((skill) => {
