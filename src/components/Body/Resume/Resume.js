@@ -93,7 +93,7 @@ function Resume() {
               <p>
                 Just one stop in a lifelong journey of education and growth. I
                 learned how to research with proficiency and gained an absolute
-                confidence in my ability to finds solutions to any problem, a
+                confidence in my ability to find solutions to any problem, a
                 certainty which continues to this day. There is not a more impactful
                 asset or assurance that one can have.
               </p>
