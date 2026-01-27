@@ -48,7 +48,7 @@ const workExperience = [
       "Built workflow and data organization bases using Airtable and Trello from nearly the ground up",
       "Was challenged and grew greatly in a leadership capacity",
       "Built automated tests using TestProject.io",
-      "Wrote first for-work scripts to automate required tasks for testing and personnel assignment",
+      "Wrote scripts to automate required tasks for testing and personnel assignment",
     ],
   },
   {
