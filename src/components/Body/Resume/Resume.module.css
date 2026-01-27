@@ -86,34 +86,6 @@
   line-height: 2rem;
 }
 
-.codecademyCertifications ul {
-  padding-left: 0;
-}
-
-.codecademyCertifications ul li {
-  margin: 0.75rem 0;
-}
-
-.codecademyCertifications ul li:first-child {
-  margin: 0.5rem 0;
-}
-
-.codecademyCertifications a {
-  color: var(--primary-blue-700);
-  font-weight: 500;
-  text-decoration: underline;
-}
-
-.codecademyCertifications a:hover,
-.codecademyCertifications a:focus {
-  color: var(--accent-orange-600-sat);
-}
-
-.codecademyCertifications a:active {
-  color: var(--accent-orange-700-sat);
-  padding-left: 2rem;
-}
-
 /*Work Experience section*/
 .job {
   margin: 0.5rem 3rem;
