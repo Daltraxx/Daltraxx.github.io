@@ -53,12 +53,14 @@ function Resume() {
           <p className={styles.dateRange}>{job.dates}</p>
           <p className={styles.jobDescription}>{job.description}</p>
         </section>
-        <h5 className={styles.jobBulletPointsHeader}>Bullet Points</h5>
-        <ul className={styles.jobBulletPoints}>
-          {job.notes.map((note, index) => (
-            <li key={`workNote${index}`}>{note}</li>
-          ))}
-        </ul>
+        <section className={styles.jobBulletPointsSection}>
+          <h5 className={styles.jobBulletPointsHeader}>Bullet Points</h5>
+          <ul className={styles.jobBulletPoints}>
+            {job.notes.map((note, index) => (
+              <li key={`workNote${index}`}>{note}</li>
+            ))}
+          </ul>
+        </section>
       </section>
     );
   });
