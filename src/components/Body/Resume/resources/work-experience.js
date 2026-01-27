@@ -23,7 +23,7 @@
  */
 const workExperience = [
   {
-    title: "Software Developer and IT Consultant",
+    title: "Software Developer and Consultant",
     company: "Contract Work",
     dates: "Jul 2025 - Present",
     description: `As a software developer and IT consultant, I have found and implemented 
