@@ -1,4 +1,4 @@
-/*General page styles*/
+/* GENERAL PAGE STYLES */
 .flexColumn {
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
   padding: 0.3rem;
 }
 
-/*Statement section*/
+/* STATEMENT */
 .statementHeader h3 {
   margin-top: 0;
 }
@@ -37,7 +37,7 @@
   margin: 0.75rem 3rem;
 }
 
-/*Skills section*/
+/* SKILLS */
 .skill {
   flex-basis: 20%;
   margin: 0 2.5rem;
@@ -60,33 +60,7 @@
   height: auto;
 }
 
-/*Education section*/
-.educationThird {
-  width: max(30%, 35rem);
-  margin: 0 1.2rem;
-}
-
-.educationThird h4 {
-  color: var(--accent-blue-900);
-  font-size: 1.2rem;
-}
-
-.educationDateRange {
-  margin: 0 0;
-  color: var(--accent-orange-700-sat);
-  font-weight: 600;
-}
-
-.educationOutcome {
-  color: var(--accent-orange-700-sat);
-  font-weight: 600;
-}
-
-.educationDescription {
-  line-height: 2rem;
-}
-
-/*Work Experience section*/
+/* WORK EXPERIENCE */
 .job {
   margin: 0.5rem 3rem;
   width: 70%;
@@ -123,6 +97,32 @@
   margin: 0.6rem 0;
   text-align: start;
   color: var(--accent-orange-900);
+}
+
+/* EDUCATION */
+.educationThird {
+  width: max(30%, 35rem);
+  margin: 0 1.2rem;
+}
+
+.educationThird h4 {
+  color: var(--accent-blue-900);
+  font-size: 1.2rem;
+}
+
+.educationDateRange {
+  margin: 0 0;
+  color: var(--accent-orange-700-sat);
+  font-weight: 600;
+}
+
+.educationOutcome {
+  color: var(--accent-orange-700-sat);
+  font-weight: 600;
+}
+
+.educationDescription {
+  line-height: 2rem;
 }
 
 @media only screen and (min-width: 501px) {
