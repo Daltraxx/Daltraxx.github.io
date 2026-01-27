@@ -60,18 +60,6 @@
   height: auto;
 }
 
-@media only screen and (min-width: 501px) {
-  .skill h4 {
-    width: auto;
-  }
-}
-
-@media only screen and (min-width: 1059px) {
-  .skill {
-    margin: 1rem 1rem;
-  }
-}
-
 /*Education section*/
 .educationThird {
   width: max(30%, 35rem);
@@ -126,12 +114,6 @@
   padding-left: 2rem;
 }
 
-@media only screen and (min-width: 525px) {
-  .codecademyCertifications ul li {
-    margin: 0.5rem 0;
-  }
-}
-
 /*Work Experience section*/
 .job {
   margin: 0.5rem 3rem;
@@ -169,6 +151,24 @@
   margin: 0.6rem 0;
   text-align: start;
   color: var(--accent-orange-900);
+}
+
+@media only screen and (min-width: 525px) {
+  .codecademyCertifications ul li {
+    margin: 0.5rem 0;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  .skill h4 {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1059px) {
+  .skill {
+    margin: 1rem 1rem;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
