@@ -1,53 +1,50 @@
 //create array of objects to contain work experience for use in Resume
 
 const workExperience = [
-    {
-        title: 'QA Lead',
-        company: 'Robot Cache',
-        dates: 'Jul 2021 - Jan 2024',
-        description: 
-            `Working in QA at Robot Cache was my most challenging and satisfying employment to date. 
+  {
+    title: "Software Developer and IT Consultant",
+    company: "Contract Work",
+    dates: "Jul 2025 - Present",
+    description: `As a software developer and IT consultant, I have found and implemented full-stack solutions tailored to clients qualitative and economic needs. 
+            It has by far been the most rewarding work of my career, while also offering flexibility for me to explore new technologies and frameworks.
+            I always deliver high-quality, extendable, and accessible products, for which clients have rewarded me by continuing to request my services as future needs arise.`,
+    notes: [
+      "Developed and deployed full-stack web applications using Next.js and PostgreSQL",
+      "Integrated products with CMS platforms such as Prismic to allow clients to easily manage content",
+      "Ensured accessibility compliance with WCAG 2.1 standards",
+      "Incorporated SEO best practices to enhance online visibility",
+    ],
+  },
+  {
+    title: "QA Lead",
+    company: "Robot Cache",
+    dates: "Jul 2021 - Jan 2024",
+    description: `Working in QA at Robot Cache was my most challenging and rewarding employment to date. 
             I was promoted to QA Lead despite my relative lack of experience, and learning how to effectively manage the time and resources of my department was a novel undertaking.
             My time was largely spent interpreting and responding to the demands of the company and our evolving products, and working with my team to meet those demands.`,
-        notes: [
-            "Driving force in establishing and sculpting Standard Operating Procedures", 
-            "Built workflow and data organization bases using Airtable and Trello from nearly the ground up", 
-            "Was challenged and grew greatly in a leadership capacity", 
-            "Built automated tests using TestProject.io",
-            "Wrote first for-work scripts to automate required tasks for testing and personnel assignment"
-        ]
-    },
-    {
-        title: 'QA Analyst and IT',
-        company: 'Aira Tech Corp',
-        dates: 'Dec 2018 - Feb 2020',
-        description: 
-            `This was my first occupation in a tech company, and a major period of personal development as a result.
+    notes: [
+      "Driving force in establishing and sculpting Standard Operating Procedures",
+      "Built workflow and data organization bases using Airtable and Trello from nearly the ground up",
+      "Was challenged and grew greatly in a leadership capacity",
+      "Built automated tests using TestProject.io",
+      "Wrote first for-work scripts to automate required tasks for testing and personnel assignment",
+    ],
+  },
+  {
+    title: "QA Analyst and IT",
+    company: "Aira Tech Corp",
+    dates: "Dec 2018 - Feb 2020",
+    description: `This was my first occupation in a tech company, and a major period of personal development as a result.
             I joined with relatively meager IT experience, but quickly grew comfortable working with software in a professional capacity.
             My primary responsibilities involved the software setup and QA of products before they were shipped to clientele, 
             as well as the office's technical setup and the troubleshooting of any issues that arose.`,
-        notes: [
-            "Acquired essential troubleshooting skills",
-            "Became comfortable using the command line and executing scripts",
-            "Received frequent commendations for problem solving skills and ability to learn rapidly",
-            "At times utilized to connect with high-profile partners and provide demos"
-        ]
-    },
-    {
-        title: 'Paralegal',
-        company: 'Powell Immigration Law',
-        dates: 'Nov 2017 - Dec 2018',
-        description: 
-            `As the attorney's sole paralegal, I was immediately saddled with vast responsibilities regarding nearly all that concerned the day-to-day operations of the office.
-            These included frequent communication with clients and related departments of the government, the writing and preparation of dense and nuanced visa applications,
-            and the building and management of the office's website and social media presence.`,
-        notes: [
-            "Was granted a great deal of independence to manage an expansive suite of responsibilities",
-            "Built and frequently updated the office website using SquareSpace",
-            "Wrote blogs for publishing on the office's website and promoted the office on social media",
-            "Worked with SEO and Google Analytics to maximize online presence"
-        ]
-    }
+    notes: [
+      "Acquired essential troubleshooting skills",
+      "Became comfortable using the command line and executing scripts",
+      "Received frequent commendations for problem solving skills and ability to learn rapidly",
+      "At times utilized to connect with high-profile partners and provide demos",
+    ],
+  },
 ];
 
 export default workExperience;
