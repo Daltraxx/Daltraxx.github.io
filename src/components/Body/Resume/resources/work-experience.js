@@ -1,5 +1,26 @@
-//create array of objects to contain work experience for use in Resume
-
+/**
+ * Array of work experience entries for resume display.
+ * Each entry contains details about a professional position including title, company, dates, description, and notable achievements.
+ *
+ * @type {Array<{title: string, company: string, dates: string, description: string, notes: Array<string>}>}
+ *
+ * @property {string} title - The job title or position held
+ * @property {string} company - The name of the company or organization
+ * @property {string} dates - The employment period in "MMM YYYY - MMM YYYY" or "MMM YYYY - Present" format
+ * @property {string} description - A detailed description of the role, responsibilities, and key learnings
+ * @property {Array<string>} notes - An array of bullet points highlighting specific achievements, responsibilities, and skills developed
+ *
+ * @example
+ * // Access the most recent position
+ * const currentJob = workExperience[0];
+ * console.log(currentJob.title); // "Software Developer and IT Consultant"
+ *
+ * @example
+ * // Iterate through all positions
+ * workExperience.forEach(job => {
+ *   console.log(`${job.title} at ${job.company}`);
+ * });
+ */
 const workExperience = [
   {
     title: "Software Developer and IT Consultant",
