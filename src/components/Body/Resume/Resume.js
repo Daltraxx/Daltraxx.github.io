@@ -83,6 +83,10 @@ function Resume() {
         {skillsJSX}
       </section>
       <section className={`${styles.resumeSection} ${styles.flexRow}`}>
+        <h3>Work Experience</h3>
+        {workExperienceJSX}
+      </section>
+      <section className={`${styles.resumeSection} ${styles.flexRow}`}>
         <h3>Education</h3>
         <section className={styles.educationThird}>
           <div className={`${styles.universitySanDiego} ${styles.flexColumn}`}>
@@ -94,16 +98,12 @@ function Resume() {
                 Just one stop in a lifelong journey of education and growth. I
                 learned how to research with proficiency and gained an absolute
                 confidence in my ability to find solutions to any problem, a
-                certainty which continues to this day. There is not a more impactful
-                asset or assurance that one can have.
+                certainty which continues to this day. There is not a more
+                impactful asset or assurance that one can have.
               </p>
             </section>
           </div>
         </section>
-      </section>
-      <section className={`${styles.resumeSection} ${styles.flexRow}`}>
-        <h3>Work Experience</h3>
-        {workExperienceJSX}
       </section>
     </section>
   );
