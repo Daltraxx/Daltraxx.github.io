@@ -69,7 +69,7 @@ const workExperience = [
       "Acquired essential troubleshooting skills",
       "Became comfortable using the command line and executing scripts",
       "Received frequent commendations for problem solving skills and ability to learn rapidly",
-      "At times utilized to connect with high-profile partners and provide demos",
+      "Uniquely trusted to engage with high-profile partners and provide demonstrations",
     ],
   },
 ];
