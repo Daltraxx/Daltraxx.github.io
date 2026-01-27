@@ -1,189 +1,183 @@
 /*General page styles*/
 .flexColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexRow {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flexRow h3 {
-    width: 100%;
+  width: 100%;
 }
 
 .resumeSection {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .resumeSection h3 {
-    width: 100%;
-    background-color: var(--primary-blue-500);
-    color: var(--gray-100);
-    padding: .3rem;
+  width: 100%;
+  background-color: var(--primary-blue-500);
+  color: var(--gray-100);
+  padding: 0.3rem;
 }
-
-
 
 /*Statement section*/
 .statementHeader h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .statementHeader p {
-    margin: .75rem 3rem;
+  margin: 0.75rem 3rem;
 }
 
 /*Skills section*/
 .skill {
-    flex-basis: 20%;
-    margin: 1rem 1rem;
+  flex-basis: 20%;
+  margin: 0 2.5rem;
 }
 
 .skill h4 {
-    background-color: var(--accent-blue-700);
-    color: var(--accent-orange-500-sat);
-    border-radius: 6px;
-    min-width: 10rem;
+  background-color: var(--accent-blue-700);
+  color: var(--accent-orange-500-sat);
+  border-radius: 6px;
+  min-width: 10rem;
+  width: 50%;
 }
 
 .skill img {
-    height: 3.8888rem;
-    margin-bottom: .5rem;
+  height: 3.8888rem;
+  margin-bottom: 0.5rem;
 }
 
-/* .skillDescription {
-    display: flex;
-    height: 10rem;
-    align-items: center;
-} */
-
-@media only screen and (max-width: 1058px) {
-    .skill {
-        margin: 0 2.5rem;
-    }
-
-    .skillDescription {
-        height: auto;
-    }
+.skillDescription {
+  height: auto;
 }
 
-@media only screen and (max-width: 500px) {
-    .skill h4 {
-        width: 50%;
-    }
+@media only screen and (min-width: 501px) {
+  .skill h4 {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1059px) {
+  .skill {
+    margin: 1rem 1rem;
+  }
 }
 
 /*Education section*/
 .educationThird {
-    width: max(30%, 35rem);
-    margin: 0 1.2rem;
+  width: max(30%, 35rem);
+  margin: 0 1.2rem;
 }
 
 .educationThird h4 {
-    color: var(--accent-blue-900);
-    font-size: 1.2rem;
+  color: var(--accent-blue-900);
+  font-size: 1.2rem;
 }
 
 .educationDateRange {
-    margin: 0 0;
-    color: var(--accent-orange-700-sat);
-    font-weight: 600;
+  margin: 0 0;
+  color: var(--accent-orange-700-sat);
+  font-weight: 600;
 }
 
 .educationOutcome {
-    color: var(--accent-orange-700-sat);
-    font-weight: 600;
+  color: var(--accent-orange-700-sat);
+  font-weight: 600;
 }
 
 .educationDescription {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
-
 .codecademyCertifications ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .codecademyCertifications ul li {
-    margin: .5rem 0;
+  margin: 0.75rem 0;
+}
+
+.codecademyCertifications ul li:first-child {
+  margin: 0.5rem 0;
 }
 
 .codecademyCertifications a {
-    color: var(--primary-blue-700);
-    font-weight: 500;
-    text-decoration: underline;
+  color: var(--primary-blue-700);
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 .codecademyCertifications a:hover,
 .codecademyCertifications a:focus {
-    color: var(--accent-orange-600-sat);
+  color: var(--accent-orange-600-sat);
 }
 
 .codecademyCertifications a:active {
-    color: var(--accent-orange-700-sat);
-    padding-left: 2rem;
+  color: var(--accent-orange-700-sat);
+  padding-left: 2rem;
 }
 
-@media only screen and (max-width: 524px) {
-    .codecademyCertifications ul li:not(:first-child) {
-        margin: .75rem 0;
-    }  
+@media only screen and (min-width: 525px) {
+  .codecademyCertifications ul li {
+    margin: 0.5rem 0;
+  }
 }
 
 /*Work Experience section*/
-
 .job {
-    width: 30rem;
-    margin: 0 3rem;
+  margin: 0.5rem 3rem;
+  width: 70%;
 }
 
 .jobInfo {
-    height: 25rem;
+  height: auto;
 }
 
 .jobTitle {
-    color: var(--primary-blue-700)
+  color: var(--primary-blue-700);
 }
 
 .jobCompany {
-    color: var(--accent-orange-700-sat);
-    font-weight: 600;
+  color: var(--accent-orange-700-sat);
+  font-weight: 600;
 }
 
 .jobDescription {
-    line-height: 1.75rem;
+  line-height: 1.75rem;
 }
 
 .jobBulletPointsHeader {
-    text-transform: uppercase;
-    color: var(--accent-orange-700);
+  text-transform: uppercase;
+  color: var(--accent-orange-700);
 }
 
 .jobBulletPoints {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .jobBulletPoints li {
-    list-style-type: disc;
-    margin: .6rem 0;
-    text-align: start;
-    color: var(--accent-orange-900)
+  list-style-type: disc;
+  margin: 0.6rem 0;
+  text-align: start;
+  color: var(--accent-orange-900);
 }
 
-@media only screen and (max-width: 1024px) {
-    .job {
-        margin: .5rem 3rem;
-        width: 70%;
-    }
+@media only screen and (min-width: 1025px) {
+  .job {
+    width: 30rem;
+    margin: 0 3rem;
+  }
 
-    .jobInfo {
-        height: auto;
-    }
+  .jobInfo {
+    height: 25rem;
+  }
 }
-
