@@ -23,14 +23,6 @@ const projectsData = [
             During the course of the project I learned about and paid close attention to the pleasant and functional displaying of information, 
             adapting to predicted user actions like automatically requerying when the sort option is changed,
             and ensuring the site is responsive to multiple screen dimensions.`,
-        /*
-        bullets: [
-            "Queries Yelp API based on user input with search parameters and sort options",
-            "Anticipates certain user interactions, like requerying previous search if sort is changed",
-            "Renders and presents businesses and their info in an organized and appealing way",
-            "Responsive and accessible"
-            ],
-        */
         github: 'https://github.com/Daltraxx/ravenous',
         image: '/assets/images/ravenous-project.png',
         technologies: ['React', 'Yelp API']
