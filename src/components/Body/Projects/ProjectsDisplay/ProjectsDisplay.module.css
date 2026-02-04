@@ -41,13 +41,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 86%;
+    gap: 1rem;
 }
 
 .titleInfo h3 {
     color: var(--gray-100);
     font-size: 2rem;
-    margin-top: 4rem;
     max-width: 98%;
 }
 
@@ -59,8 +58,6 @@
 
 .titleInfo ul {
     padding-left: 0;
-    height: 28%;
-    margin-bottom: 2.4rem;
 }
 
 .titleInfo ul li {
