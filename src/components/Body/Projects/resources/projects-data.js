@@ -7,7 +7,7 @@ const projectsData = [
     github: "https://github.com/Daltraxx/graced-and-golden",
     url: "https://www.gracedandgolden.com/",
     image: "/assets/images/santee-pickleballers-project.png",
-    technologies: ["Next.js", "React", "MongoDB"],
+    technologies: ["Next.js", "React", "PostgreSQL", "Prismic Headless CMS"],
   },
   {
     name: "Dalton Pettus Portfolio Site",
