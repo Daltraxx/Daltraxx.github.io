@@ -11,9 +11,9 @@ function ProjectsDisplay({ projectsData }) {
         >
           <div className={styles.shader}>
             <div className={styles.titleInfo}>
-              <h3>{project.name}</h3>
-              <h4>Technologies Used:</h4>
-              <ul>
+              <h3 className={styles.projectName}>{project.name}</h3>
+              <h4 className={styles.technologiesUsed}>Technologies Used:</h4>
+              <ul className={styles.technologiesList}>
                 {project.technologies.map((tech) => (
                   <li key={tech}>{tech}</li>
                 ))}
@@ -24,6 +24,7 @@ function ProjectsDisplay({ projectsData }) {
                 rel="noopener noreferrer"
                 aria-label={`View ${project.name} on GitHub`}
                 referrerPolicy="no-referrer"
+                className={styles.projectLink}
               >
                 View on GitHub
               </a>
@@ -34,6 +35,7 @@ function ProjectsDisplay({ projectsData }) {
                   rel="noopener noreferrer"
                   aria-label={`Visit ${project.name} website`}
                   referrerPolicy="no-referrer"
+                  className={styles.projectLink}
                 >
                   Visit Website
                 </a>

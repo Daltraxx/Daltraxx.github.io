@@ -45,27 +45,27 @@
     max-width: 80%;
 }
 
-.titleInfo h3 {
+.projectName {
     color: var(--gray-100);
     font-size: clamp(2rem, 5vw, 2.5rem);
 }
 
-.titleInfo h4 {
+.technologiesUsed {
     color: var(--gray-100);
     font-size: clamp(1.5rem, 4vw, 1.8rem);
     margin: 0 0 .5rem;
 }
 
-.titleInfo ul {
+.technologiesList {
     padding-left: 0;
 }
 
-.titleInfo ul li {
+.technologiesList li {
     color: var(--gray-100);
     font-size: 1.4rem;
 }
 
-.titleInfo a {
+.projectLink {
     border: 1px solid hsla(360, 100%, 100%, .9);
     background-color: hsla(360, 100%, 100%, .6);
     text-shadow: none;
@@ -76,12 +76,12 @@
     width: 10rem;
 }
 
-.titleInfo a:hover,
-.titleInfo a:focus {
+.projectLink:hover,
+.projectLink:focus {
     background-color: hsla(360, 100%, 100%, .9);
 }
 
-.titleInfo a:active {
+.projectLink:active {
     background-color: hsla(360, 100%, 100%, .4);
     transform: translate(0, 3px);
 }
