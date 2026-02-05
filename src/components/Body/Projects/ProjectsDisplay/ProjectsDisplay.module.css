@@ -42,12 +42,12 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    max-width: 80%;
 }
 
 .titleInfo h3 {
     color: var(--gray-100);
     font-size: clamp(2rem, 5vw, 2.5rem);
-    max-width: 98%;
 }
 
 .titleInfo h4 {
