@@ -16,7 +16,7 @@ function ProjectsDisplay({ projectsData }) {
                 <h4>Technologies Used:</h4>
                 <ul>
                   {project.technologies.map((tech) => (
-                    <li key={`${tech}`}>{tech}</li>
+                    <li key={tech}>{tech}</li>
                   ))}
                 </ul>
                 <a
