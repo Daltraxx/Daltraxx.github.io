@@ -4,7 +4,7 @@ const projectsData = [
   {
     name: "Graced & Golden",
     description: `A simple pickleball club webpage where users may register and meet with others, communicating and planning times to gather for their favorite activity. [in development]`,
-    github: "https://github.com/Daltraxx/santee-pickleball-site",
+    github: "https://github.com/Daltraxx/graced-and-golden",
     url: "https://www.gracedandgolden.com/",
     image: "/assets/images/santee-pickleballers-project.png",
     technologies: ["Next.js", "React", "MongoDB"],
