@@ -22,10 +22,11 @@
     background-size: cover;
     border-radius: .4rem;
     width: 96%;
-    height: 37.5rem;
+    min-height: 37.5rem;
 }
 
 .shader {
+    min-height: 37.5rem;
     height: 100%;
     width: 100%;
     border-radius: .4rem;
@@ -43,6 +44,7 @@
     justify-content: center;
     gap: 1rem;
     max-width: 80%;
+    padding: 1rem;
 }
 
 .projectName {
