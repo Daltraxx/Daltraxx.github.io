@@ -10,7 +10,7 @@ function ProjectsDisplay({ projectsData }) {
           style={{ backgroundImage: `url(${project.image})` }}
         >
           <div className={styles.shader}>
-            <div className={styles.titleInfo}>
+            <div className={styles.projectMainInfoContainer}>
               <h3 className={styles.projectName}>{project.name}</h3>
               <h4 className={styles.technologiesUsed}>Technologies Used:</h4>
               <ul className={styles.technologiesList}>
