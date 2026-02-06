@@ -3,7 +3,12 @@
 const projectsData = [
   {
     name: "Graced & Golden",
-    description: `A simple pickleball club webpage where users may register and meet with others, communicating and planning times to gather for their favorite activity. [in development]`,
+    description: `Built using the Next.js framework and Prismic as a headless CMS, this web application was 
+            built to meet all my client's stylistic preferences such that it could stand out among competitors
+            in their industry, including complex layouts and animations. It includes custom forms hooked up to
+            Mailgun via server actions to help customers connect through a slick and intuitive UI, and is 
+            all built with best practices regarding SEO, front and back-end validation, and project 
+            structure. Achieved near-perfect scores on all Lighthouse Report Metrics on all pages.`,
     github: "https://github.com/Daltraxx/graced-and-golden",
     url: "https://www.gracedandgolden.com/",
     image: "/assets/images/graced-and-golden.webp",
