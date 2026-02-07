@@ -8,7 +8,7 @@ const projectsData = [
             in their industry, including complex layouts and animations. It includes custom forms hooked up to
             Mailgun via server actions to help customers connect through a slick and intuitive UI, and is 
             all built utilizing best practices regarding SEO, front and back-end validation, and project 
-            structure. A mailing list is managed via Supabase and a emailing service. It achieved near-perfect scores on all Lighthouse Report Metrics on all pages.`,
+            structure. A mailing list is managed via Supabase and an emailing service. It achieved near-perfect scores on all Lighthouse Report Metrics on all pages.`,
     github: "https://github.com/Daltraxx/graced-and-golden",
     url: "https://www.gracedandgolden.com/",
     image: "/assets/images/graced-and-golden.webp",
