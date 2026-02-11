@@ -104,7 +104,7 @@ function Bio({ verbosity }) {
                     development, even finding some success in it as I was
                     promoted to lead. But building was what I wanted to spend my
                     days doing, and in 2024 I left my position to pursue a
-                    career as a software developer full-time. Two years worth of
+                    career as a software developer full-time. Over two years worth of
                     improved skills, personal projects, and client work later, I
                     can now say I get to spend every day doing what I love.
                   </p>
