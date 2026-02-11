@@ -43,11 +43,10 @@ const projectsData = [
   },
   {
     name: "Dalton Pettus Portfolio Site",
-    description: `It is worth placing this very site here because of the variety of skills involved in making it. Built with React and making heavy use of props and hooks,
+    description: `Just a quick description of the site you're on. While I had built many quick and minor projects before, this is one of the first applications of some untrivial complexity that I'd completed and deployed. Well, untrivial back then at least. I've leveled up a lot in the time since, 
+            and updating it now all I want to do rework everything from the ground up, but that will have to wait for another day. Anyways, here's what I wrote here originally: built with React and making heavy use of props and hooks,
             the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
-            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is also written so that its content is easy to update.
-            This project showed me many new paths to explore and dive deeper into, and there is much more to implement and expand upon going forward.
-            I will continue to use this site as a playground for new skills I develop.`,
+            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is written so that its content is easy to update, and I look forward to adding more dumb features as opportunities present themselves.`,
     github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
     image: "/assets/images/dalton-portfolio-site-project.png",
     technologies: ["React"],
