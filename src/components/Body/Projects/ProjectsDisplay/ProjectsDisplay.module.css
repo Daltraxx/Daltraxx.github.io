@@ -1,4 +1,5 @@
 .projectContainer {
+    --min-project-display-height: 37.5rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -22,11 +23,11 @@
     background-size: cover;
     border-radius: .4rem;
     width: 96%;
-    min-height: 37.5rem;
+    min-height: var(--min-project-display-height);
 }
 
 .shader {
-    min-height: 37.5rem;
+    min-height: var(--min-project-display-height);
     height: 100%;
     width: 100%;
     border-radius: .4rem;
