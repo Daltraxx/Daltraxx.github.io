@@ -21,17 +21,6 @@ const projectsData = [
     ],
   },
   {
-    name: "Dalton Pettus Portfolio Site",
-    description: `It is worth placing this very site here because of the variety of skills involved in making it. Built with React and making heavy use of props and hooks,
-            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
-            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is also written so that its content is easy to update.
-            This project showed me many new paths to explore and dive deeper into, and there is much more to implement and expand upon going forward.
-            I will continue to use this site as a playground for new skills I develop.`,
-    github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
-    image: "/assets/images/dalton-portfolio-site-project.png",
-    technologies: ["React"],
-  },
-  {
     name: "Ravenous",
     description: `In this project I built a React app which uses the Yelp API to search and display results based on the business name and location entered. 
             It is also able to take in different sort parameters with the options of "Best Match", "Highest Rated", or "Most Reviewed".
@@ -51,6 +40,17 @@ const projectsData = [
     github: "https://github.com/Daltraxx/life-rpg-project-site",
     image: "/assets/images/life-rpg-project.png",
     technologies: ["Next.js", "React", "MongoDB"],
+  },
+  {
+    name: "Dalton Pettus Portfolio Site",
+    description: `It is worth placing this very site here because of the variety of skills involved in making it. Built with React and making heavy use of props and hooks,
+            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
+            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is also written so that its content is easy to update.
+            This project showed me many new paths to explore and dive deeper into, and there is much more to implement and expand upon going forward.
+            I will continue to use this site as a playground for new skills I develop.`,
+    github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
+    image: "/assets/images/dalton-portfolio-site-project.png",
+    technologies: ["React"],
   },
 ];
 
