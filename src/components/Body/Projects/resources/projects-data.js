@@ -21,12 +21,13 @@ const projectsData = [
     ],
   },
   {
-    name: "LifeRPG",
-    description: `A company webpage for LifeRPG, a site and application where users may report on their daily habits and task completion to level up and gain rewards for their character.
-            [in development]`,
+    name: "lifeRPG",
+    description: `By far my favorite and most sophisticated project to date, LifeRPG is an application where users  define personal attributes they wish to hone and regular tasks ("quests") to earn experience points. 
+            These quests level both individual attributes and overall player level. The leveling system rewards consistent quest completion to encourage habit formation.
+            By emulating the feedback loop of RPGs, LifeRPG helps users feel more rewarded when accomplishing daily productivity goals. [in active development, not yet deployed]`,
     github: "https://github.com/Daltraxx/life-rpg-project-site",
     image: "/assets/images/life-rpg-project.png",
-    technologies: ["Next.js", "React", "MongoDB"],
+    technologies: ["Next.js", "React", "PostgreSQL / Supabase"],
   },
   {
     name: "Storybooks",
