@@ -21,6 +21,14 @@ const projectsData = [
     ],
   },
   {
+    name: "LifeRPG",
+    description: `A company webpage for LifeRPG, a site and application where users may report on their daily habits and task completion to level up and gain rewards for their character.
+            [in development]`,
+    github: "https://github.com/Daltraxx/life-rpg-project-site",
+    image: "/assets/images/life-rpg-project.png",
+    technologies: ["Next.js", "React", "MongoDB"],
+  },
+  {
     name: "Storybooks",
     description: `Storybooks is a webapp where users can sign in using their Google accounts, share stories, and view stories shared by other users. 
             A server-side rendered app with an MVC architecture, it is built with Express and Node.js on the back end, MongoDB for the database, and Handlebars for templating.
@@ -28,7 +36,14 @@ const projectsData = [
             The app is designed to be responsive and user-friendly, with a focus on community engagement and storytelling.`,
     github: "https://github.com/Daltraxx/storybooks",
     image: "/assets/images/storybooks-project.webp",
-    technologies: ["Express/Node.js", "MongoDB", "Mongoose", "Handlebars", "Passport/Google OAuth", "Materialize CSS"],
+    technologies: [
+      "Express/Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Handlebars",
+      "Passport/Google OAuth",
+      "Materialize CSS",
+    ],
   },
   {
     name: "Ravenous",
@@ -42,14 +57,6 @@ const projectsData = [
     github: "https://github.com/Daltraxx/ravenous",
     image: "/assets/images/ravenous-project.png",
     technologies: ["React", "Yelp API"],
-  },
-  {
-    name: "Life RPG Company Webpage",
-    description: `A company webpage for LifeRPG, a site and application where users may report on their daily habits and task completion to level up and gain rewards for their character.
-            [in development]`,
-    github: "https://github.com/Daltraxx/life-rpg-project-site",
-    image: "/assets/images/life-rpg-project.png",
-    technologies: ["Next.js", "React", "MongoDB"],
   },
   {
     name: "Dalton Pettus Portfolio Site",
