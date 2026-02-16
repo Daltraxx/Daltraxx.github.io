@@ -48,13 +48,13 @@ const projectsData = [
   },
   {
     name: "Ravenous",
-    description: `In this project I built a React app which uses the Yelp API to search and display results based on the business name and location entered. 
+    description: `A React app which uses the Yelp API to search and display results based on the business name and location entered. 
             It is also able to take in different sort parameters with the options of "Best Match", "Highest Rated", or "Most Reviewed".
             Each search result displays organized information about the business.
             When one is clicked, a tab is opened with the business's Google Map location.
-            During the course of the project I learned about and paid close attention to the pleasant and functional displaying of information, 
+            During the course of the project I paid close attention to the pleasant and functional displaying of information, 
             adapting to predicted user actions like automatically requerying when the sort option is changed,
-            and ensuring the site is responsive to multiple screen dimensions.`,
+            and follows best practices in responsive design.`,
     github: "https://github.com/Daltraxx/ravenous",
     image: "/assets/images/ravenous-project.png",
     technologies: ["React", "Yelp API"],
