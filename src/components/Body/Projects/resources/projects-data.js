@@ -27,7 +27,7 @@ const projectsData = [
             By emulating the feedback loop of RPGs, LifeRPG helps users feel more rewarded when accomplishing daily productivity goals. [in active development, not yet deployed]`,
     github: "https://github.com/Daltraxx/life-rpg-project-site",
     image: "/assets/images/liferpg-project.webp",
-    technologies: ["Next.js", "React", "PostgreSQL / Supabase"],
+    technologies: ["Next.js", "React", "PostgreSQL / Supabase", "Supabase Auth"],
   },
   {
     name: "Storybooks",
@@ -38,11 +38,11 @@ const projectsData = [
     github: "https://github.com/Daltraxx/storybooks",
     image: "/assets/images/storybooks-project.webp",
     technologies: [
-      "Express/Node.js",
+      "Express / Node.js",
       "MongoDB",
       "Mongoose",
       "Handlebars",
-      "Passport/Google OAuth",
+      "Passport / Google OAuth",
       "Materialize CSS",
     ],
   },
