@@ -27,7 +27,12 @@ const projectsData = [
             By emulating the feedback loop of RPGs, LifeRPG helps users feel more rewarded when accomplishing daily productivity goals. [in active development, not yet deployed]`,
     github: "https://github.com/Daltraxx/life-rpg-project-site",
     image: "/assets/images/liferpg-project.webp",
-    technologies: ["Next.js", "React", "PostgreSQL / Supabase", "Supabase Auth"],
+    technologies: [
+      "Next.js",
+      "React",
+      "PostgreSQL / Supabase",
+      "Supabase Auth",
+    ],
   },
   {
     name: "Storybooks",
@@ -47,6 +52,16 @@ const projectsData = [
     ],
   },
   {
+    name: "Dalton Pettus Portfolio Site",
+    description: `Just a quick description of the site you're on. While I had built many quick and minor projects before, this is one of the first applications of some untrivial complexity that I'd completed and deployed. Well, untrivial back then at least. I've leveled up a lot in the time since, 
+            and updating it now all I want to do is rework everything from the ground up, but that will have to wait for another day. Anyways, here's what I wrote here originally: built with React and making heavy use of props and hooks,
+            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
+            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is written so that its content is easy to update, and I look forward to adding more dumb features as opportunities present themselves.`,
+    github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
+    image: "/assets/images/dalton-portfolio-site-project.png",
+    technologies: ["React"],
+  },
+  {
     name: "Ravenous",
     description: `A React app which uses the Yelp API to search and display results based on the business name and location entered. 
             It is also able to take in different sort parameters with the options of "Best Match", "Highest Rated", or "Most Reviewed".
@@ -58,16 +73,6 @@ const projectsData = [
     github: "https://github.com/Daltraxx/ravenous",
     image: "/assets/images/ravenous-project.png",
     technologies: ["React", "Yelp API"],
-  },
-  {
-    name: "Dalton Pettus Portfolio Site",
-    description: `Just a quick description of the site you're on. While I had built many quick and minor projects before, this is one of the first applications of some untrivial complexity that I'd completed and deployed. Well, untrivial back then at least. I've leveled up a lot in the time since, 
-            and updating it now all I want to do is rework everything from the ground up, but that will have to wait for another day. Anyways, here's what I wrote here originally: built with React and making heavy use of props and hooks,
-            the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
-            and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is written so that its content is easy to update, and I look forward to adding more dumb features as opportunities present themselves.`,
-    github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
-    image: "/assets/images/dalton-portfolio-site-project.png",
-    technologies: ["React"],
   },
 ];
 
