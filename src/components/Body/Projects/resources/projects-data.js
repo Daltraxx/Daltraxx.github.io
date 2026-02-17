@@ -33,7 +33,7 @@ const projectsData = [
     name: "Storybooks",
     description: `Storybooks is a webapp where users can sign in using their Google accounts, share stories, and view stories shared by other users. 
             A server-side rendered app with an MVC architecture, it is built with Express and Node.js on the back end, MongoDB for the database, and Handlebars for templating.
-            Authentication is implemented with passport using Google OAuth, and a rich text editor for story creation.
+            Authentication is implemented with Passport using Google OAuth, and a rich text editor for story creation.
             The app is designed to be responsive and user-friendly, with a focus on community engagement and storytelling.`,
     github: "https://github.com/Daltraxx/storybooks",
     image: "/assets/images/storybooks-project.webp",
