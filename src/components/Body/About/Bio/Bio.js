@@ -25,35 +25,30 @@ function Bio({ verbosity }) {
       {verbosity >= 55 && <h3>Longer Bio</h3>}
       {verbosity >= 65 && (
         <section className={styles.bioColContainer}>
-          {verbosity >= 65 && (
-            <section className={styles.bioCol}>
-              {verbosity >= 65 && (
-                <div className={styles.bioParagraph}>
-                  <p>
-                    I was born in 1994 and grew up in Santee within larger San
-                    Diego, California. I grew to love fitness and sports, but
-                    was also very much a nerd with a passion for immersive
-                    stories and worlds, often losing myself in books, games, and
-                    other media. I excelled in school and enjoyed learning
-                    outside of the classroom as well, especially when it came to
-                    history and physics.
-                  </p>
-                </div>
-              )}
-              {verbosity >= 70 && (
-                <div className={styles.bioParagraph}>
-                  <p>
-                    Despite some interest in engineering as a profession, I had
-                    from a young age dreamt of becoming a Navy SEAL. It seemed
-                    the ultimate test a person could put themselves through, an
-                    irresistible challenge of the kind I have a penchant for.
-                    However, for better or worse, at some point during my time
-                    in university I became disillusioned with the idea.
-                  </p>
-                </div>
-              )}
-            </section>
-          )}
+          <section className={styles.bioCol}>
+            <div className={styles.bioParagraph}>
+              <p>
+                I was born in 1994 and grew up in Santee within larger San
+                Diego, California. I grew to love fitness and sports, but was
+                also very much a nerd with a passion for immersive stories and
+                worlds, often losing myself in books, games, and other media. I
+                excelled in school and enjoyed learning outside of the classroom
+                as well, especially when it came to history and physics.
+              </p>
+            </div>
+            {verbosity >= 70 && (
+              <div className={styles.bioParagraph}>
+                <p>
+                  Despite some interest in engineering as a profession, I had
+                  from a young age dreamt of becoming a Navy SEAL. It seemed the
+                  ultimate test a person could put themselves through, an
+                  irresistible challenge of the kind I have a penchant for.
+                  However, for better or worse, at some point during my time in
+                  university I became disillusioned with the idea.
+                </p>
+              </div>
+            )}
+          </section>
           {verbosity >= 80 && (
             <section className={styles.bioCol}>
               {verbosity >= 80 && (
@@ -104,9 +99,10 @@ function Bio({ verbosity }) {
                     development, even finding some success in it as I was
                     promoted to lead. But building was what I wanted to spend my
                     days doing, and in 2024 I left my position to pursue a
-                    career as a software developer full-time. Over two years worth of
-                    improved skills, personal projects, and client work later, I
-                    can now say I get to spend every day doing what I love.
+                    career as a software developer full-time. Over two years
+                    worth of improved skills, personal projects, and client work
+                    later, I can now say I get to spend every day doing what I
+                    love.
                   </p>
                 </div>
               )}
