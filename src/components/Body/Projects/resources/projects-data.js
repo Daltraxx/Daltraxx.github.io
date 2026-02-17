@@ -54,7 +54,7 @@ const projectsData = [
             When one is clicked, a tab is opened with the business's Google Map location.
             During the course of the project I paid close attention to the pleasant and functional displaying of information, 
             adapting to predicted user actions like automatically requerying when the sort option is changed,
-            and follows best practices in responsive design.`,
+            and followed best practices in responsive design.`,
     github: "https://github.com/Daltraxx/ravenous",
     image: "/assets/images/ravenous-project.png",
     technologies: ["React", "Yelp API"],
