@@ -7,21 +7,58 @@ const FACTS = [
     id: "01",
     minVerbosity: 25,
     text: "Began learning first program language, Python, in May of 2020.",
+    extraInfo: `I began learning Python as I was studying economics, but quickly
+            found myself enthralled with programming's logical nature and the
+            act of building things that could be used by myself and others. I
+            enjoyed making things in a way that felt smooth and intuitive, with
+            tackling difficult problems and seeing everything come together into
+            a working whole. I knew then that this is what I wanted to spend my
+            life doing.`,
   },
   {
     id: "02",
     minVerbosity: 30,
     text: "Studied web development and software engineering while working in QA.",
+    extraInfo: `While working in QA, I took online courses, built projects, and
+            vigorously studied computer science, web development, software
+            engineering, anything that I felt would get me closer to my goal. I
+            grew professionally as I was promoted to lead, participated in
+            sprints, and collaborated with developers, but I knew that my true
+            passion lay in the building and fixing, not just the finding of
+            problems.`,
   },
   {
     id: "03",
     minVerbosity: 35,
     text: "Deep interest in emerging technologies and tools.",
+    extraInfo: `I always want to work towards being within the vanguard of my field,
+            exploring new technologies and pushing them forward. Much of this
+            stems from my admiration of past inventors and innovators, from
+            Babbage and Lovelace to the pioneers of the computing and internet
+            revolutions. One inherently always feels behind while working in
+            this field, and frankly, I love that about it. It's never boring.
+            There's always more to learn.`,
   },
   {
     id: "04",
     minVerbosity: 40,
     text: "Other passions include fitness, reading and writing, video games, and general self-improvement.",
+    extraInfo: `Personal development and self-actualization are overarching
+            obsessions of mine. An avid follower of routine, I schedule everyday
+            with intention. I never want to grow stagnant or "comfortable". As a
+            result, I love to challenge myself in every way that I can.
+            Tangentially, I have a lifelong passion for stories told through any
+            medium. Building things oneself and admiring the craft of others are
+            two of the most rewarding experiences in existence.`,
+  },
+  {
+    id: "05",
+    minVerbosity: 45,
+    text: "Genuinely enjoys Leetcode problems.",
+    extraInfo: `A lot of people in this field seem to dislike Leetcode and the prevalence of algorithmic coding interviews,
+            and honestly I understand the complaints. However, I enjoy coding riddles in the same way I enjoy crossword puzzles or sudoku,
+            or even more so. They're fun and I can almost feel new neuronal connections forming as I do them in a way that's very satisfying.
+            Are they the best way to measure a candidate's potential? I don't know. But I like doing them.`,
   },
 ];
 
@@ -54,53 +91,15 @@ function QuickFacts({ verbosity }) {
   const getExtraInfo = () => {
     switch (fact) {
       case "01":
-        return (
-          <p>
-            I began learning Python as I was studying economics, but quickly
-            found myself enthralled with programming's logical nature and the
-            act of building things that could be used by myself and others. I
-            enjoyed making things in a way that felt smooth and intuitive, with
-            tackling difficult problems and seeing everything come together into
-            a working whole. I knew then that this is what I wanted to spend my
-            life doing.
-          </p>
-        );
+        return <p>{FACTS[0].extraInfo}</p>;
       case "02":
-        return (
-          <p>
-            While working in QA, I took online courses, built projects, and
-            vigorously studied computer science, web development, software
-            engineering, anything that I felt would get me closer to my goal. I
-            grew professionally as I was promoted to lead, participated in
-            sprints, and collaborated with developers, but I knew that my true
-            passion lay in the building and fixing, not just the finding of
-            problems.
-          </p>
-        );
+        return <p>{FACTS[1].extraInfo}</p>;
       case "03":
-        return (
-          <p>
-            I always want to work towards being within the vanguard of my field,
-            exploring new technologies and pushing them forward. Much of this
-            stems from my admiration of past inventors and innovators, from
-            Babbage and Lovelace to the pioneers of the computing and internet
-            revolutions. One inherently always feels behind while working in
-            this field, and frankly, I love that about it. It's never boring.
-            There's always more to learn.
-          </p>
-        );
+        return <p>{FACTS[2].extraInfo}</p>;
       case "04":
-        return (
-          <p>
-            Personal development and self-actualization are overarching
-            obsessions of mine. An avid follower of routine, I schedule everyday
-            with intention. I never want to grow stagnant or "comfortable". As a
-            result, I love to challenge myself in every way that I can.
-            Tangentially, I have a lifelong passion for stories told through any
-            medium. Building things oneself and admiring the craft of others are
-            two of the most rewarding experiences in existence.
-          </p>
-        );
+        return <p>{FACTS[3].extraInfo}</p>;
+      case "05":
+        return <p>{FACTS[4].extraInfo}</p>;
       default:
         return <p>Activate a bullet point to display more information!</p>;
     }
