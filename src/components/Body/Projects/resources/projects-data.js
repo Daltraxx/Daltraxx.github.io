@@ -58,7 +58,7 @@ const projectsData = [
             the app features multiple pages and dynamic interactions. It is built to be responsive and accessible. I especially enjoyed exploring skeuomorphic touches for many of the buttons,
             and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is written so that its content is easy to update, and I look forward to adding more dumb features as opportunities present themselves.`,
     github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
-    image: "/assets/images/dalton-portfolio-site-project.png",
+    image: "/assets/images/portfolio-project.webp",
     technologies: ["React"],
   },
   {
