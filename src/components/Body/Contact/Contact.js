@@ -57,8 +57,7 @@ function Contact() {
       <h2 className="page-header">Contact</h2>
       <section className={styles.contactMain}>
         <p className={styles.contactIntro}>
-          I am open to inquiries regarding anything from individual projects up
-          to full-time employment. Chats are also welcome.
+          Whether you have a professional inquiry or just want to chat, my inbox is open.
         </p>
         <aside className={styles.spacebarTip}>
           (press the spacebar for cooler buttons)
