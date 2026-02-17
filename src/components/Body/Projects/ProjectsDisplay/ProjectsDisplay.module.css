@@ -23,11 +23,11 @@
     background-size: cover;
     border-radius: .4rem;
     width: 96%;
-    min-height: var(--min-project-display-height);
+    min-height: var(--min-project-display-height, 37.5rem);
 }
 
 .shader {
-    min-height: var(--min-project-display-height);
+    min-height: var(--min-project-display-height, 37.5rem);
     height: 100%;
     width: 100%;
     border-radius: .4rem;
