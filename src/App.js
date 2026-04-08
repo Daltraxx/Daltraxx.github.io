@@ -3,14 +3,16 @@ import { Helmet } from 'react-helmet-async';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
-import Header from './components/Header/Header';
 import About from './components/Body/About/About';
 import Resume from './components/Body/Resume/Resume';
 import Projects from './components/Body/Projects/Projects';
 import Contact from './components/Body/Contact/Contact';
-import Footer from './components/Footer/Footer';
 import personJsonLd from './lib/jsonLd';
 import { Routes, Route } from 'react-router';
+
+// TODO: Delete these once react-router is fully implemented and tested
+import Header from "./components/MainLayout/Header/Header";
+import Footer from "./components/MainLayout/Footer/Footer";
 
 function App() {
   const [page, setPage] = useState("landing");

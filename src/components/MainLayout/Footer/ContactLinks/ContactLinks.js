@@ -1,7 +1,6 @@
-import React from 'react';
 import styles from './ContactLinks.module.css';
 
-import handleEmail from '../../../utils/handleEmail';
+import handleEmail from '../../../../utils/handleEmail';
 
 function ContactLinks() {
 

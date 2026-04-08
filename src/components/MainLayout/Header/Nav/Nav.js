@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import styles from './Nav.module.css';
-import navItems from '../../../resources/navItems';
+import navItems from '../../../../resources/navItems';
 
 
 function Nav({ handlePageChange, currentPage }) {
