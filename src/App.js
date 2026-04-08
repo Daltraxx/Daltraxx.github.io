@@ -2,7 +2,6 @@ import { useState, useMemo, useEffect, useCallback } from 'react';
 import { Helmet } from 'react-helmet-async';
 import styles from './App.module.css';
 import LandingPage from './components/LandingPage/LandingPage';
-import SkillCarousel from './components/LandingPage/SkillCarousel/SkillCarousel';
 import About from './components/Body/About/About';
 import Resume from './components/Body/Resume/Resume';
 import Projects from './components/Body/Projects/Projects';
