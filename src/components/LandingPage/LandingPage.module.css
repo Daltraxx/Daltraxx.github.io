@@ -1,3 +1,21 @@
+.landingPageBody {
+    display: flex;
+    flex-direction: column;
+    /* Fallback first, then modern units for mobile correctness */
+    min-height: 100vh;
+    min-height: 100dvh;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    /* Provide gentle, responsive top breathing room */
+    padding-block-start: clamp(0, 5vh, 3rem);
+}
+
 .heading {
     /* Fluid type from 2rem to 4rem; roughly ~533px–1600px with a 16px root */
     font-size: clamp(2rem, 3vw + 1rem, 4rem);

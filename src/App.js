@@ -63,14 +63,7 @@ function App() {
         <script type="application/ld+json">{ldJson}</script>
       </Helmet>
       {page === "landing" ? (
-        <div className={styles.landingPageBody}>
-          <header className={styles.header}>
-            <LandingPage handlePageChange={handlePageChange} />
-          </header>
-          <main>
-            <SkillCarousel handlePageChange={handlePageChange} />
-          </main>
-        </div>
+        <>{/* Removed in process of implementing react-router */}</>
       ) : (
         <>
           <Header handlePageChange={handlePageChange} currentPage={page} />
