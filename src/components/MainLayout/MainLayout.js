@@ -1,13 +1,14 @@
-import styles from "./MainLayout.module.css";
+import styles from "./styles.module.css";
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import { Outlet } from "react-router";
 
 export default function MainLayout() { 
   return (
     <>
       <Header />
       <main className={styles.main}>
-        {/* Main content goes here */}
+        <Outlet />
       </main>
       <Footer />
     </>
