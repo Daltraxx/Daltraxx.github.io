@@ -10,6 +10,7 @@ import Projects from './components/Body/Projects/Projects';
 import Contact from './components/Body/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import personJsonLd from './lib/jsonLd';
+import { Routes, Route } from 'react-router';
 
 function App() {
   const [page, setPage] = useState("landing");
@@ -62,6 +63,28 @@ function App() {
       <Helmet>
         <script type="application/ld+json">{ldJson}</script>
       </Helmet>
+      <Routes>
+        <Route
+          path="/"
+          element={<LandingPage handlePageChange={handlePageChange} />}
+        />
+        <Route
+          path="/about"
+          element={<About />}
+        />
+        <Route
+          path="/resume"
+          element={<Resume />}
+        />
+        <Route
+          path="/projects"
+          element={<Projects />}
+        />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+      </Routes>
       {page === "landing" ? (
         <>{/* Removed in process of implementing react-router */}</>
       ) : (
