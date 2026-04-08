@@ -3,7 +3,7 @@ import { useState, useId, useRef, useLayoutEffect } from "react";
 import navItems from "../../../resources/navItems";
 import { Link } from "react-router";
 
-function LandingPageNav({ handlePageChange }) {
+function LandingPageNav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuId = useId();
 
@@ -38,19 +38,16 @@ function LandingPageNav({ handlePageChange }) {
       >
         {navItems.map(({ id, label }, index) => (
           <li key={id}>
-            <a
-              href="#"
+            <Link
+              to={`/${id}`}
               className={
                 index < navItems.length / 2
                   ? styles.leftNavButton
                   : styles.rightNavButton
               }
-              onClick={handlePageChange}
-              data-page={id}
-              role="button"
             >
               {label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
