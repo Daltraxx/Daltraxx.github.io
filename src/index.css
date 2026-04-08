@@ -71,7 +71,6 @@ body {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background-color: var(--primary-blue-700);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
@@ -85,7 +84,8 @@ h1 {
 .page-header { /*All main h2 page headers*/
   color: var(--primary-blue-700);
   text-align: center;
-  margin: 2rem;
+  margin: 0;
+  padding: 2rem 0;
 } 
 
 ul {

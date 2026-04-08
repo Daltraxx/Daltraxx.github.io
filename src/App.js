@@ -32,12 +32,12 @@ function App() {
   }, []);
 
   // Change site background color depending on the current page
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      document.body.style.backgroundColor =
-        page !== "landing" ? "var(--gray-100)" : "var(--primary-blue-700)";
-    }
-  }, [page]);
+  // useEffect(() => {
+  //   if (typeof document !== "undefined") {
+  //     document.body.style.backgroundColor =
+  //       page !== "landing" ? "var(--gray-100)" : "var(--primary-blue-700)";
+  //   }
+  // }, [page]);
 
   //render correct page
   const getBody = (page) => {

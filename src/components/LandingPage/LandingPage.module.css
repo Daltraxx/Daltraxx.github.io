@@ -1,6 +1,7 @@
 .landingPageBody {
     display: flex;
     flex-direction: column;
+    background-color: var(--primary-blue-700);
     /* Fallback first, then modern units for mobile correctness */
     min-height: 100vh;
     min-height: 100dvh;
