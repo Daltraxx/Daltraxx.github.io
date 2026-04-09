@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import MainLayout from "./components/MainLayout/MainLayout";
 import personJsonLd from "./lib/jsonLd";
@@ -11,8 +11,6 @@ import Projects from "./components/Body/Projects/Projects";
 import Contact from "./components/Body/Contact/Contact";
 
 function App() {
-  const [page, setPage] = useState("landing");
-
   const ldJson = useMemo(
     () => JSON.stringify(personJsonLd).replace(/</g, "\\u003c"),
     [],
