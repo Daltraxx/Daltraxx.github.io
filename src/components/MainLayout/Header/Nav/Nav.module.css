@@ -56,7 +56,7 @@
     color: var(--gray-100);
 }
 
-.navButton:not(.current):focus {
+.navButton:not(.current):focus-visible {
     background-color: var(--accent-red-300);
 }
 
