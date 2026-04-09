@@ -43,14 +43,12 @@
 /*maintain different color for current page*/
 .navButton.current {
     background-color: var(--accent-orange-500-sat);
-}
-
-.navButton:hover {
     color: var(--gray-100);
 }
 
 .navButton:not(.current):hover {
     background-color: var(--accent-red-300);
+    color: var(--gray-100);
 }
 
 
