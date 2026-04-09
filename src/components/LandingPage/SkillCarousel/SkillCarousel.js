@@ -4,7 +4,7 @@ import skills from "../../../resources/skills";
 import clsx from "clsx";
 import { Link } from "react-router";
 
-function SkillCarousel({ handlePageChange, className = "" }) {
+function SkillCarousel({ className }) {
 
   const skillIconDisplay = skills.map((skill) => (
     <div className={styles.iconContainer} key={skill.id}>
