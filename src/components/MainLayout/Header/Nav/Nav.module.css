@@ -52,7 +52,7 @@
 }
 
 
-.navButton:focus {
+.navButton:focus-visible {
     color: var(--gray-100);
 }
 
