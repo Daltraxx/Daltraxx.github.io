@@ -15,14 +15,14 @@ function ContactLinks() {
   );
 
   const emailLink = (
-    <a
-      href="#!"
+    <button
+      type="button"
       className={styles.contactButton}
       onClick={handleEmail}
       id="contact-link-footer"
     >
       Email
-    </a>
+    </button>
   );
 
   return (
