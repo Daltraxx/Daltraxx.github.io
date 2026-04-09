@@ -3,7 +3,7 @@ import styles from "./Nav.module.css";
 import navItems from "../../../../resources/navItems";
 import { NavLink } from "react-router";
 
-function Nav({ handlePageChange, currentPage }) {
+function Nav() {
   return (
     <nav className={styles.navContainer} aria-label="Primary">
       <ul>
