@@ -63,13 +63,8 @@
 
 /*Skeuomorphic movement when clicking*/
 .navContainer .navButton:active {
-    border-top: 3px solid var(--primary-blue-700);
-    border-right: 1px solid var(--primary-blue-700);
-    border-left: 3px solid var(--primary-blue-700);
-    border-bottom: 3px solid var(--primary-blue-700);
-}
-.navContainer li:last-child .navButton:active {
-    border-right: 3px solid var(--primary-blue-700);
+    transform: translateY(1px);
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navButton:not(.current):active {
