@@ -34,7 +34,7 @@
 }
 
 .socialLinksContainer a:active {
-  border: 1px solid var(--primary-blue-700);
+  border: 1px solid transparent;
   background-color: var(--accent-blue-700);
   color: var(--accent-orange-500);
   text-decoration: none;
