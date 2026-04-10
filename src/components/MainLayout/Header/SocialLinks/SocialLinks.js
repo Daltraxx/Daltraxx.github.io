@@ -24,7 +24,7 @@ function SocialLinks({ className }) {
           >
             LinkedIn
           </a>
-        </li>{" "}
+        </li>
       </ul>
     );
 }
