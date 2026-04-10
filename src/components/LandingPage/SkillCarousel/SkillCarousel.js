@@ -10,7 +10,7 @@ function SkillCarousel({ className }) {
     <div className={styles.iconContainer} key={skill.id}>
       <Link
         to="/resume"
-        aria-label="Navigate to Resume page"
+        aria-label={`View ${skill.name} on Resume page`}
         className={styles.iconLink}
       >
         <img
