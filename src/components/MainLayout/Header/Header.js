@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <div className={styles.headingContainer}>
-        <div className={styles.headingSideDiv}></div>
+        <div className={styles.headingSideDiv} aria-hidden="true"></div>
         <div className={styles.headingText}>
           <h1>
             <a href="/">Dalton Pettus</a>
