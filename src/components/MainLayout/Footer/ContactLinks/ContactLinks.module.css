@@ -21,7 +21,7 @@
 }
 
 .contactButton:hover,
-.contactButton:focus {
+.contactButton:focus-visible {
     background-color: var(--primary-blue-500);
     border: 1px solid var(--accent-orange-500-sat);
 }
