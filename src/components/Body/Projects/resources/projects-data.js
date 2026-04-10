@@ -59,7 +59,7 @@ const projectsData = [
             and managing state to dynamically render some of the pages with fun if unnecessary interactions. It is written so that its content is easy to update, and I look forward to adding more dumb features as opportunities present themselves.`,
     github: "https://github.com/Daltraxx/dalton-pettus-portfolio-site",
     image: "/assets/images/portfolio-project.webp",
-    technologies: ["React", "React Router" ],
+    technologies: ["React", "React Router"],
   },
   {
     name: "Ravenous",
