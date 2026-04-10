@@ -1,7 +1,7 @@
 import Nav from "./Nav/Nav";
 import SocialLinks from "./SocialLinks/SocialLinks";
 import styles from "./Header.module.css";
-import { Link } from "react-router"
+import { Link } from "react-router";
 
 function Header() {
   return (
