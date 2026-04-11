@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "./Contact.module.css";
 
 import handleEmail from "../../../utils/handleEmail";
@@ -72,6 +72,7 @@ function Contact() {
         <p>or</p>
         {/* href for email is generated upon click */}
         <a
+          href="#!"
           className={transform ? styles.coolLink : styles.contactLink}
           onClick={handleEmail}
           id="contact-email-button"

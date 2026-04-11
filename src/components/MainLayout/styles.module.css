@@ -1,0 +1,7 @@
+.main {
+  padding-block-end: 2rem; /* controls spacing between main and footer */
+  background-color: var(--gray-100);
+  min-height: calc(
+    100vh - 14.92rem
+  ); /* full viewport height minus header/footer */
+}

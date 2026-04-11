@@ -19,15 +19,13 @@
 @media only screen and (min-width: 425px) {
     .headingContainer {
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .headingSideDiv {
         display: flex;
         justify-content: flex-end;
-        width: 10%;
-        margin: 0 0.3rem 0 0;
+        flex: 0 0 10%;
+        margin-inline-end: 0.3rem;
     }
 
     .socialLinks {
