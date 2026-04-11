@@ -26,7 +26,7 @@ function ContactLinks() {
   );
 
   return (
-    <section className={styles.contactLinksSection}>
+    <section className={styles.contactLinksSection} aria-label="Contact links">
       <ul>
         <li>{linkedInLink}</li>
         <li>{emailLink}</li>
