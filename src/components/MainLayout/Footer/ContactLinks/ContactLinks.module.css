@@ -17,7 +17,7 @@
     width: 100%;
     color: var(--accent-orange-500-sat);
     text-align: center;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .contactButton:hover,
