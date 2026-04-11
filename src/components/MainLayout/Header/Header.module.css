@@ -24,7 +24,7 @@
     .headingSideDiv {
         display: flex;
         justify-content: flex-end;
-        width: 10%;
+        flex: 0 0 10%;
         margin-inline-end: 0.3rem;
     }
 
