@@ -10,11 +10,11 @@ function LandingPage() {
           <a href="/">Dalton Pettus</a>
         </h1>
         <p className={styles.shortDescription}>
-          An endlessly curious, ambitious full-stack software engineer
-          passionate about learning and building. Instrumental in serving any
-          person or organization looking to meet their project or development
-          goals. Excited by hard problems. Work with someone who loves what they
-          do.
+          Full Stack Engineer with over two years professional experience
+          building business-crucial applications with Next.js, React,
+          Typescript, Node.js, PostgreSQL and other modern tools. Strong
+          end-to-end ownership from database design and application logic to
+          crafting exceptional UX. Loves hard problems.
         </p>
         <LandingPageNav />
       </header>
