@@ -23,9 +23,9 @@
  */
 const workExperience = [
   {
-    title: "Software Developer and Consultant",
-    company: "Contract Work",
-    dates: "Jul 2025 - Present",
+    title: "Graced and Golden",
+    company: "Full Stack Software Engineer",
+    dates: "April 2025 - Present",
     description: `As a software developer and IT consultant, I have found and implemented 
             full-stack solutions tailored to clients' qualitative and economic needs. 
             It has by far been the most rewarding work of my career, while also offering flexibility
@@ -33,14 +33,16 @@ const workExperience = [
             I always deliver high-quality, extendable, and accessible products, for which clients
             have rewarded me by continuing to request my services as future needs arise.`,
     notes: [
-      "Developed and deployed full-stack web applications using Next.js and PostgreSQL",
-      "Integrated products with CMS platforms such as Prismic to allow clients to easily manage content",
-      "Ensured accessibility compliance with WCAG 2.1 standards",
-      "Incorporated SEO best practices to enhance online visibility",
+      "Architected, fully built, and successfully deployed business site using Next.js, React, and Typescript bringing in 100s of users weekly (400% increase)  with rapid response to mid-development changes",
+      "Reduced cumulative content shift by 70% and optimized with lazy loading to achieve near-instant load times in spite of large images and animations common in industry",
+      "Reduced code complexity massively by utilizing React custom hooks and state/reducer pattern.",
+      "Designed and implemented Newsletter and contact management system using PostgreSQL, Supabase and Brevo with automated mailing actions upon sign-up",
+      "Built web app with full Headless CMS integration with Prismic reducing required developer involvement in marketing-led changes by over 80%",
+      "Improved Lighthouse scores by 25% to near-perfect with full adherence to accessibility standards",
     ],
   },
   {
-    title: "QA Lead",
+    title: "Lead QA Engineer",
     company: "Robot Cache",
     dates: "Jul 2021 - Jan 2024",
     description: `Working in QA at Robot Cache was my most challenging and rewarding employment to date. 
@@ -49,11 +51,11 @@ const workExperience = [
             My time was largely spent interpreting and responding to the demands of the company and our
             evolving products, and working with my team to meet those demands.`,
     notes: [
-      "Driving force in establishing and sculpting Standard Operating Procedures",
-      "Built workflow and data organization bases using Airtable and Trello from nearly the ground up",
-      "Was challenged and grew greatly in a leadership capacity",
+      "Engineered and spearheaded system of database management that greatly reduced manual complexity and improved workflow and analytics productivity",
+      "Wrote Typescript procedures connected to the database to automate task assignments, alerts, and database updates, decreasing manual work assignment by upwards of 80%",
+      "Led communication and collaborated to shape Sprint goals during SCRUM meetings and stand-ups",
       "Built automated tests using TestProject.io",
-      "Wrote scripts to automate required tasks for testing and personnel assignment",
+      "Built workflow and data organization databases using Airtable and Trello from nearly the ground up",
     ],
   },
   {
@@ -66,8 +68,8 @@ const workExperience = [
             before they were shipped to clientele, as well as the office's technical setup and the
             troubleshooting of any issues that arose.`,
     notes: [
-      "Acquired essential troubleshooting skills",
-      "Became comfortable using the command line and executing scripts",
+      "Worked with command line and Python scripts in setting up and testing products, reducing user-reported errors by 25%",
+      "Cut down testing time per hardware by 60% with use of automation scripts",
       "Received frequent commendations for problem solving skills and ability to learn rapidly",
       "Uniquely trusted to engage with high-profile partners and provide demonstrations",
     ],
