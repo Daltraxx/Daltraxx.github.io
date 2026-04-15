@@ -18,14 +18,12 @@ const FACTS = [
   {
     id: "02",
     minVerbosity: 30,
-    text: "Studied web development and software engineering while working in QA.",
-    extraInfo: `While working in QA, I took online courses, built projects, and
-            vigorously studied computer science, web development, software
-            engineering, anything that I felt would get me closer to my goal. I
+    text: "Has been working in the tech industry since 2018.",
+    extraInfo: `I started studying software engineering while working as a QA analyst. I took online courses, built projects, and
+            vigorously studied computer science, web development, DSA, anything that I felt would get me closer to my goal. I
             grew professionally as I was promoted to lead, participated in
-            sprints, and collaborated with developers, but I knew that my true
-            passion lay in the building and fixing, not just the finding of
-            problems.`,
+            sprints, and collaborated with developers, but by far the most fun
+            I had was whenever I had the chance to develop automation scripts for our workflow or anything else that involved code.`,
   },
   {
     id: "03",
