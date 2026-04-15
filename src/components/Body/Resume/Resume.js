@@ -73,11 +73,10 @@ function Resume() {
       >
         <h3>Statement</h3>
         <p>
-          An endlessly curious, ambitious full-stack software engineer
-          passionate about learning and building. Instrumental in serving any
-          person or organization looking to meet their project or development
-          goals. Excited by hard problems. Work with someone who loves what they
-          do.
+          Full Stack Engineer with 2+ years building business-crucial
+          applications with Next.js, React, Typescript, Node.js, PostgreSQL and
+          other modern tools. Strong end-to-end ownership from database design
+          and application logic to crafting exceptional UX.
         </p>
       </section>
       <section className={`${styles.resumeSection} ${styles.flexRow}`}>
