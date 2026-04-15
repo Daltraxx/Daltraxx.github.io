@@ -110,7 +110,7 @@ function QuickFacts({ verbosity }) {
       {/* BULLET POINTS SECTION */}
       <section className={styles.factsHalf}>
         <div className={`bullet-points ${styles.bulletPointsContainer}`}>
-          <h3>The Bullet Points</h3>
+          <h3>Some Random Facts</h3>
           <ul>
             {FACTS.map(({ id, minVerbosity, text }) => (
               <li
