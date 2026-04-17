@@ -10,9 +10,9 @@ function LandingPage() {
           <a href="/">Dalton Pettus</a>
         </h1>
         <p className={styles.shortDescription}>
-          Full Stack Engineer with over two years professional experience
+          Full Stack Engineer with over two years of professional experience
           building business-crucial applications with Next.js, React,
-          Typescript, Node.js, PostgreSQL and other modern tools. Strong
+          TypeScript, Node.js, PostgreSQL and other modern tools. Strong
           end-to-end ownership from database design and application logic to
           crafting exceptional UX. Loves hard problems.
         </p>

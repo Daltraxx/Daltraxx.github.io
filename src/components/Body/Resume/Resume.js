@@ -73,8 +73,8 @@ function Resume() {
       >
         <h3>Statement</h3>
         <p>
-          Full Stack Engineer with 2+ years building business-crucial
-          applications with Next.js, React, Typescript, Node.js, PostgreSQL and
+          Full Stack Engineer with 2+ years building business-critical
+          applications with Next.js, React, TypeScript, Node.js, PostgreSQL and
           other modern tools. Strong end-to-end ownership from database design
           and application logic to crafting exceptional UX.
         </p>
