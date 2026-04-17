@@ -23,14 +23,14 @@
  */
 const workExperience = [
   {
-    title: "Graced and Golden",
-    company: "Full Stack Software Engineer",
+    title: "Full Stack Software Engineer",
+    company: "Graced and Golden",
     dates: "April 2025 - Present",
     description: `In this role I have taken complete ownership of the development and deployment process, ensuring high-quality, efficient, and maintainable code. 
       I have been responsible for the entire lifecycle of our web application, from initial design and architecture to implementation and deployment.
       I continue to implement new features and improve on existing ones, as well as consult on IT decisions so that business logic is translated into an optimal product.`,
     notes: [
-      "Architected, fully built, and successfully deployed business site using Next.js, React, and Typescript bringing in 100s of users weekly (400% increase)  with rapid response to mid-development changes",
+      "Architected, fully built, and successfully deployed business site using Next.js, React, and Typescript bringing in 100s of users weekly (400% increase) with rapid response to mid-development changes",
       "Reduced cumulative content shift by 70% and optimized with lazy loading to achieve near-instant load times in spite of large images and animations common in industry",
       "Reduced code complexity massively by utilizing React custom hooks and state/reducer pattern.",
       "Designed and implemented Newsletter and contact management system using PostgreSQL, Supabase and Brevo with automated mailing actions upon sign-up",
