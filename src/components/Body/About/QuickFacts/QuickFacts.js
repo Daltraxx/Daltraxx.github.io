@@ -20,7 +20,7 @@ const FACTS = [
     minVerbosity: 30,
     text: "Has been working in the tech industry since 2018.",
     extraInfo: `I started studying software engineering while working as a QA analyst. I built projects and
-            vigorously studied computer science, web development, system design, DSA, everything necessary to achieve my goal. I
+            vigorously studied computer science, web development, system design, DSA — everything necessary to achieve my goal. I
             grew professionally as I was promoted to lead, participated in
             sprints, and collaborated with developers, but by far the most fun
             I had was whenever I had the chance to develop automation scripts for our workflow or anything else that involved code.`,
