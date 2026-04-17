@@ -26,12 +26,9 @@ const workExperience = [
     title: "Graced and Golden",
     company: "Full Stack Software Engineer",
     dates: "April 2025 - Present",
-    description: `As a software developer and IT consultant, I have found and implemented 
-            full-stack solutions tailored to clients' qualitative and economic needs. 
-            It has by far been the most rewarding work of my career, while also offering flexibility
-            for me to explore new technologies and frameworks.
-            I always deliver high-quality, extendable, and accessible products, for which clients
-            have rewarded me by continuing to request my services as future needs arise.`,
+    description: `In this role I have taken complete ownership of the development and deployment process, ensuring high-quality, efficient, and maintainable code. 
+      I have been responsible for the entire lifecycle of our web application, from initial design and architecture to implementation and deployment.
+      I continue to implement new features and improve on existing ones, as well as consult on IT decisions so that business logic is translated into an optimal product.`,
     notes: [
       "Architected, fully built, and successfully deployed business site using Next.js, React, and Typescript bringing in 100s of users weekly (400% increase)  with rapid response to mid-development changes",
       "Reduced cumulative content shift by 70% and optimized with lazy loading to achieve near-instant load times in spite of large images and animations common in industry",
