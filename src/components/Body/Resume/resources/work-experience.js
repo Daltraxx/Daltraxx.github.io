@@ -42,11 +42,9 @@ const workExperience = [
     title: "Lead QA Engineer",
     company: "Robot Cache",
     dates: "Jul 2021 - Jan 2024",
-    description: `Working in QA at Robot Cache was my most challenging and rewarding employment to date. 
-            I was promoted to QA Lead despite my relative lack of experience, and learning how to effectively
-            manage the time and resources of my department was a novel undertaking.
-            My time was largely spent interpreting and responding to the demands of the company and our
-            evolving products, and working with my team to meet those demands.`,
+    description: `After only a year I was promoted to QA Lead despite my relatively limited experience, 
+          Our product and the demands on our team were rapidly evolving, requiring me to quickly adapt and think on my feet to ensure we always met the needs of the company.
+          I also took opportunities to automate and streamline our processes, greatly reducing manual tasks through scripts and database actions that I designed and implemented.`,
     notes: [
       "Engineered and spearheaded system of database management that greatly reduced manual complexity and improved workflow and analytics productivity",
       "Wrote Typescript procedures connected to the database to automate task assignments, alerts, and database updates, decreasing manual work assignment by upwards of 80%",
