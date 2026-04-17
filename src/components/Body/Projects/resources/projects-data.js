@@ -22,7 +22,9 @@ const projectsData = [
   },
   {
     name: "LifeRPG",
-    description: `By far my favorite and most sophisticated project to date, LifeRPG is an application where users define personal attributes they wish to hone and regular tasks ("quests") to earn experience points. 
+    description: `A Full Stack Web Application built using Typescript, Next.js, and React, and utilizing PostgreSQL with Supabase for user data and other metrics.
+            It is constructed with an intuitive UI and complex database interactions to implement a dashboard where authenticated users can track scheduled tasks and level up based on defined metrics.
+            LifeRPG is an application where users define personal attributes they wish to hone and regular tasks ("quests") to earn experience points. 
             These quests level both individual attributes and overall player level. The leveling system rewards consistent quest completion to encourage habit formation.
             By emulating the feedback loop of RPGs, LifeRPG helps users feel more rewarded when accomplishing daily productivity goals. [in active development, not yet deployed]`,
     github: "https://github.com/Daltraxx/life-rpg-project-site",
