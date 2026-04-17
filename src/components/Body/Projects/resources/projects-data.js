@@ -4,7 +4,7 @@ const projectsData = [
   {
     name: "Graced & Golden",
     description: `Using the Next.js framework with Prismic as a headless CMS, this web application was personally designed and built
-             to meet all my client's stylistic preferences such that it could stand out among competitors
+            to meet all my client's stylistic preferences such that it could stand out among competitors
             in their industry, including complex layouts and animations. It includes custom forms hooked up to
             Mailgun via server actions to help customers connect through a slick and intuitive UI, and is 
             all built utilizing best practices regarding SEO, front and back-end validation, and project 
