@@ -28,7 +28,7 @@ const projectsData = [
             These quests level both individual attributes and overall player level. The leveling system rewards consistent quest completion to encourage habit formation.
             By emulating the feedback loop of RPGs, LifeRPG helps users feel more rewarded when accomplishing daily productivity goals. [in active development, alpha version is deployed and available to view]`,
     github: "https://github.com/Daltraxx/life-rpg-project-site",
-    url: "https://life-331zk9myh-daltraxxs-projects.vercel.app/",
+    url: "https://life-rpg-red.vercel.app/",
     image: "/assets/images/liferpg-project.webp",
     technologies: [
       "Next.js",
